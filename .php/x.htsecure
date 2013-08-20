@@ -1,0 +1,8 @@
+##
+## basic auth
+##
+AuthType Basic
+AuthName "/acs php information"
+AuthBasicProvider external
+AuthExternal auth-system
+Require user acs webadmin
