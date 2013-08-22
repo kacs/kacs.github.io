@@ -1,0 +1,4 @@
+# Use PHP5.4 Single php.ini as default
+# AddHandler application/x-httpd-php54s .php
+
+# Redirect 301 / http://wmich.edu/acs/
