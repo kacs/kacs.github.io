@@ -19,6 +19,9 @@
     float: right;
     margin: 12px;
 }
+#events address {
+    margin-left: 35px;
+}
 
 /* Shows logos of donors on main page */
 .slideshow {
@@ -46,6 +49,14 @@
 
 #dance-photos {
     margin-bottom: 50px;
+}
+#more-button {
+    position: relative;
+    float: right;
+    margin-top: -38px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    z-index: 7;
 }
 
 /* Basic jQuery Slider essential styles */
@@ -91,4 +102,16 @@ ol.bjqs-markers li a:hover{
 
 p.bjqs-caption{
     background: rgba(255,255,255,0.5);
+}
+
+/* Elements of dance photos grid */
+.eod-grid {
+    margin-left: 5px;
+}
+.eod-grid img {
+    width: 188px;
+    height: 119px;
+}
+.eod-grid td {
+    padding: 5px;
 }

@@ -8,23 +8,60 @@
 	<h3 class="DarkRed" style="font-variant: small-caps">KACS News</h3>
 	<p>
 	  The <strong>Local Sections Activity Committee (LSAC) </strong>gave KACS a glowing review. Read more <a href="images/KACS Review by LSAC 2012.doc">here</a>.</p>
+	<p>Pictures by <a href="http://www.familyphotodj.com/">DB Photography</a></p>
 	<div id="dance-photos">
 	  <ul class="bjqs">
-	    <li><img src="images/eod01.jpg" /></li>
-	    <li><img src="images/eod02.jpg" /></li>
-	    <li><img src="images/eod03.jpg" /></li>
-	    <li><img src="images/eod04.jpg" /></li>
-	    <li><img src="images/eod05.jpg" /></li>
-	    <li><img src="images/eod06.jpg" /></li>
-	    <li><img src="images/eod07.jpg" /></li>
-	    <li><img src="images/eod08.jpg" /></li>
-	    <li><img src="images/eod09.jpg" /></li>
-	    <li><img src="images/eod10.jpg" /></li>
-	    <li><img src="images/eod11.jpg" /></li>
-	    <li><img src="images/eod12.jpg" /></li>
-	    <li><img src="images/eod13.jpg" /></li>
+	    <li>
+	      <a href="elements-of-dance/photos.php"
+		 title="click for more photos">
+		<img src="images/eod02-mdpi.jpg" />
+	      </a>
+	    </li>
+	    <li>
+	      <a href="elements-of-dance/photos.php"
+		 title="click for more photos">
+		<img src="images/eod09-mdpi.jpg" />
+	      </a>
+	    </li>
+	    <li>
+	      <a href="elements-of-dance/photos.php"
+		 title="click for more photos">
+		<img src="images/eod18-mdpi.jpg" />
+	      </a>
+	    </li>
+	    <li>
+	      <a href="elements-of-dance/photos.php"
+		 title="click for more photos">
+		<img src="images/eod20-mdpi.jpg" />
+	      </a>
+	    </li>
+	    <li>
+	      <a href="elements-of-dance/photos.php"
+		 title="click for more photos">
+		<img src="images/eod01-mdpi.jpg" />
+	      </a>
+	    </li>
+	    <li>
+	      <a href="elements-of-dance/photos.php"
+		 title="click for more photos">
+		<img src="images/eod08-mdpi.jpg" />
+	      </a>
+	    </li>
+	    <li>
+	      <a href="elements-of-dance/photos.php"
+		 title="click for more photos">
+		<img src="images/eod12-mdpi.jpg" />
+	      </a>
+	    </li>
+	    <li>
+	      <a href="elements-of-dance/photos.php"
+		 title="click for more photos">
+		<img src="images/eod19-mdpi.jpg" />
+	      </a>
+	    </li>
 	  </ul>
 	</div>
+	<p id="more-button"><a href="elements-of-dance/photos.php">More pictures</a></p>
 	<h4 class="DarkRed">Thanks to our donors!</h4>
 	<div id="slideshow">
 	  <img src="images/donor-kalsec.png" alt="Kalsec logo" />
@@ -86,17 +123,18 @@
       </td>
     </tr>
     <tr>
-      <td><h2><strong>Upcoming KACS Events: </strong></h2>
+      <td id="events"><h2><strong>Upcoming KACS Events: </strong></h2>
 	<table width="550" border="2" cellspacing="3" cellpadding="3" bgcolor="#FFFFFF">
 	  <tr>
-	    <td height="50"><p><strong>We are taking a brief summer break and look forward to seeing you in September.<br>
-		</strong><br>
-		Science Cafe: Hortucultural Chemistry, tentatively scheduled for the week of Septemnter 16, more details TBA
-	      </p>
-	      <p><br>
-	    </p></td>
+	    <td height="50">
+	      <p><strong>Science Cafe: Horticultural Chemistry</strong> with Dr. Gus Guzinski<br /></p>
+	      <p>Tuesday, September 17th at Wedel&rsquo;s:</p>
+	      <address>5020 Texas Drive<br />Kalamazoo<br />269-345-1195</address>
+	      More details TBA.
+	    </td>
 	  </tr>
-      </table></td>
+	</table>
+      </td>
     </tr>
     <tr>
       <td><h2>Special Announcements:</h2>
