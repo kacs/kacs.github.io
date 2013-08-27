@@ -72,10 +72,20 @@
 	</div>
 	<p class="newsblock">
 	  <img src="images/chemluminary.png" />
-	  <strong>KACS is a ChemLuminary Award finalist</strong>. Join us when  all the recipients will be announced and the presentation of awards will occur at the 246th ACS National Meeting in Indianapolis, IN at <strong>8 PM on Tuesday, September 10, at The Westin Indianapolis Hotel.</strong> Our <strong>&quot;Chemistry and Culture: Elements of Dance&quot;</strong> event (11/9/12) at the Kalamazoo Institute of Arts is a finalist for the ChemLuminary Award in the category of &quot;Most Innovative Activity or Program&quot;. We thank all the donors and volunteers who helped us make this event a success (179 attendees).
+	  <strong>KACS is a ChemLuminary Award finalist</strong>. Join
+	  us when all the recipients will be announced and the
+	  presentation of awards will occur at the 246th ACS National
+	  Meeting in Indianapolis, IN at <strong>8 PM on Tuesday,
+	  September 10, at The Westin Indianapolis Hotel.</strong>
+	  Our <strong>&quot;Chemistry and Culture: Elements of
+	  Dance&quot;</strong> event (11/9/12) at the Kalamazoo
+	  Institute of Arts is a finalist for the ChemLuminary Award
+	  in the category of &quot;Most Innovative Activity or
+	  Program&quot;. We thank all the donors and volunteers who
+	  helped us make this event a success (179 attendees).
   	</p>
 	<ul>
-	  <li><a href="Activities/2012/elements%20of%20dance/Dance.htm">Chemistry and Culture: Elements of Dance</a></li>
+	  <li><a href="elements-of-dance/">Chemistry and Culture: Elements of Dance</a></li>
 	  <li><a href="images/elements_of_dance_report.pdf">Elements of Dance Report [PDF]</a></li>
 	</ul>
       </td>
@@ -84,7 +94,11 @@
     <tr>
       <td>
 	<h3 style="font-variant: small-caps;">Mission Statement:</h3>
-	<p>We are a dynamic and visionary organization committed to improving people&rsquo;s lives in our community through the transforming power of chemistry.&nbsp; We strive to advance the broader chemistry enterprise and its practitioners for the benefit of Kalamazoo, Allegan and Van Buren counties.</p>
+	<p>We are a dynamic and visionary organization committed to
+	improving people&rsquo;s lives in our community through the
+	transforming power of chemistry.&nbsp; We strive to advance
+	the broader chemistry enterprise and its practitioners for the
+	benefit of Kalamazoo, Allegan and Van Buren counties.</p>
       </td>
     </tr>
 
