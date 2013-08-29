@@ -7,6 +7,10 @@
     <?php include 'base.php' ?>
     <meta name="description" content="We are a dynamic and visionary organization committed to improving people&rsquo;s lives in our community through the transforming power of chemistry.  We strive to advance the broader chemistry enterprise and its practitioners for the benefit of Kalamazoo, Allegan and Van Buren counties." />
 
+    <!-- Favicon -->
+    <link rel="shortcut icon"
+	  href="favicon.ico" />
+
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="assets/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="assets/bjqs/bjqs.css" />
