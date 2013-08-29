@@ -8,7 +8,7 @@
     display: inline-block;
     vertical-align: middle;
 }
-.logo, .logo:hover {
+.logo-text, .logo-text:hover {
     text-decoration: none;
     color: white;
 }

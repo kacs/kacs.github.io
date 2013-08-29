@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+  {% include head.html %}
+
+  <!-- <body> -->
+  <!--   <div class="row header"> -->
+  <!--     <div class="col-sm-9"> -->
+  <!-- 	<h1 class="logo"> -->
+  <!-- 	  KACS -->
+  <!-- 	</h1> -->
+  <!-- 	<h2 class="subtitle"> -->
+  <!-- 	  Kalamazoo Section of the American Chemical Society -->
+  <!-- 	</h2> -->
+  <!--     </div> -->
+  <!--     <div class="col-sm-3"> -->
+  <!-- 	<img src="images/ACSlogo_August_2011.jpg"> -->
+  <!--     </div> -->
+  <!--   </div> -->
+
+<body>
+
+{% include header.html %}
+
+<div class="row">
+  {% include menu.html %}
+
+  <div class="col-xs-8">
+    {{ content }}
+  </div>
+</div>
+
+{% include footer.html %}
+
+</body>
+
+</html>
