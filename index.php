@@ -5,15 +5,6 @@
   <table border="1" cellspacing="1" cellpadding="6" class="feed">
     <tr>
 
-      <td>
-	<h3>WMU Ice Cream Social</h3>
-	<p>The WMU <em>Chemistry Graduate Student Assocaition</em>
-	and <em>Chem Club</em> are hosting an ice cream social
-	on <strong>Wednesday September 4th at 3:00pm</strong>. More
-	details <a href="images/wmu-ice-cream-social.jpg">here</a></p>
-      </td>
-    </tr>
-
     <tr>
       <td class="DarkRed">
 	<h3 class="DarkRed">Elements of Dance Update</h3>
@@ -151,6 +142,18 @@
       <td id="events"><h2><strong>Upcoming KACS Events: </strong></h2>
 	<table width="550" border="2" cellspacing="3" cellpadding="3" bgcolor="#FFFFFF">
 	  <tr>
+	    <td>
+	      <h4>WMU Ice Cream Social</h4>
+	      <p>The WMU <em>Chemistry Graduate Student
+		Association</em> and <em>Chem Club</em> are hosting an
+		ice cream social on <strong>Wednesday September 4th at
+		3:00pm</strong> in the WMU chemistry building.</p>
+	      <p>
+		More details <a href="images/wmu-ice-cream-social.jpg">here</a>
+	      </p>
+	    </td>
+	  </tr>
+
 	    <td height="50">
 	      <p><strong>Science Cafe: Horticultural Chemistry</strong> with Dr. Gus Guzinski<br /></p>
 	      <p>Tuesday, September 17th at Wedel&rsquo;s:</p>
@@ -158,6 +161,7 @@
 	      More details TBA.
 	    </td>
 	  </tr>
+
 	</table>
       </td>
     </tr>
