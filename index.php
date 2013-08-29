@@ -2,10 +2,21 @@
 <?php include "menu.php"; ?>
 
 <td height="0" colspan="2" valign="top" bgcolor="#F0F0F0">
-  <table border="1" cellspacing="1" cellpadding="6">
+  <table border="1" cellspacing="1" cellpadding="6" class="feed">
+    <tr>
+
+      <td>
+	<h3>WMU Ice Cream Social</h3>
+	<p>The WMU <em>Chemistry Graduate Student Assocaition</em>
+	and <em>Chem Club</em> are hosting an ice cream social
+	on <strong>Wednesday September 4th at 3:00pm</strong>. More
+	details <a href="images/wmu-ice-cream-social.jpg">here</a></p>
+      </td>
+    </tr>
+
     <tr>
       <td class="DarkRed">
-	<h3 class="DarkRed" style="font-variant: small-caps">KACS News</h3>
+	<h3 class="DarkRed">Elements of Dance Update</h3>
 	<p>
 	  The <strong>Local Sections Activity Committee (LSAC) </strong>gave KACS a glowing review. Read more <a href="images/KACS Review by LSAC 2012.doc">here</a>.</p>
 	<p>Pictures by <a href="http://www.familyphotodj.com/">DB Photography</a></p>

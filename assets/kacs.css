@@ -23,6 +23,11 @@
     margin-left: 35px;
 }
 
+/* Main index page news feed */
+.feed h3 {
+    font-variant: small-caps;
+}
+
 /* Shows logos of donors on main page */
 .slideshow {
     position: relative;
