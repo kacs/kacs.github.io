@@ -2,12 +2,6 @@
     background-color: #003366;
     color: white;
 }
-.header img {
-    margin-top: auto;
-    margin-bottom: auto;
-    display: inline-block;
-    vertical-align: middle;
-}
 .logo-text, .logo-text:hover {
     text-decoration: none;
     color: white;
