@@ -11,6 +11,9 @@
 	<p>
 	  The <strong>Local Sections Activity Committee (LSAC) </strong>gave KACS a glowing review. Read more <a href="images/KACS Review by LSAC 2012.doc">here</a>.</p>
 	<p>Pictures by <a href="http://www.familyphotodj.com/">DB Photography</a></p>
+<table>
+<tr>
+<td width="590px;">
 	<div id="dance-photos">
 	  <ul class="bjqs">
 	    <li>
@@ -62,18 +65,22 @@
 	      </a>
 	    </li>
 	  </ul>
-	</div>
-	<p id="more-button"><a href="elements-of-dance/photos.php">More pictures</a></p>
-	<h4 class="DarkRed">Thanks to our donors!</h4>
-	<div id="slideshow">
-	  <img src="images/donor-kalsec.png" alt="Kalsec logo" />
-	  <img src="images/donor-vwr.png" alt="VWR logo" />
-	  <img src="images/donor-wmu.png" alt="WMU BTR logo" />
-	  <img src="images/donor-aas.png" alt="AAS logo" />
-	  <img src="images/donor-aldrich.png" alt="Aldrich logo" />
-	</div>
+	  <p id="more-button"><a href="elements-of-dance/photos.php">More pictures</a></p>
+</td>
+<td width="325px" style="vertical-align: top;">
+	    <h4 class="DarkRed" style="text-align: center">Thanks to our donors!</h4>
+	    <div id="slideshow">
+	      <img src="images/donor-kalsec.png" alt="Kalsec logo" />
+	      <img src="images/donor-vwr.png" alt="VWR logo" />
+	      <img src="images/donor-wmu.png" alt="WMU BTR logo" />
+	      <img src="images/donor-aas.png" alt="AAS logo" />
+	      <img src="images/donor-aldrich.png" alt="Aldrich logo" />
+	    </div>
+	  <img src="images/chemluminary.png" style="margin-left: 70px; margin-top: 40px"/>
+</td>
+</tr>
+</table>
 	<p class="newsblock">
-	  <img src="images/chemluminary.png" />
 	  <strong>KACS is a ChemLuminary Award finalist</strong>. Join
 	  us when all the recipients will be announced and the
 	  presentation of awards will occur at the 246th ACS National

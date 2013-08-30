@@ -90,10 +90,10 @@
 	  setInterval( "slideSwitch()", interval );
 
       $('#dance-photos').bjqs({
-        'height' : 370,
-        'width' : 584,
-        'responsive' : true,
-      'animtype': 'slide',
+	  'height' : 370,
+          'width' : 584,
+          'responsive' : true,
+	  'animtype': 'slide',
     });
       });
 
@@ -116,7 +116,7 @@
   <!--   </div> -->
 
   <body>
-    <table width="850" border="0" cellspacing="2" cellpadding="0">
+    <table width="1200" border="0" cellspacing="2" cellpadding="0">
       <tr>
 	<td colspan="3" bgcolor="#FFFFFF">
 	  <table width="100%" border="0" cellpadding="7" cellspacing="0">
