@@ -1,10 +1,19 @@
 .header {
-    background-color: #003366;
-    color: white;
+    /* background-color: #003366; */
+    color: #6699cc;
+}
+.header h3 {
+    margin-top: 0px;
+}
+.header p {
+    font-size: small;
+}
+#logo {
+    width: 100%;
 }
 .logo-text, .logo-text:hover {
     text-decoration: none;
-    color: white;
+    /* color: white; */
 }
 .newsblock {
     text-align: justify;

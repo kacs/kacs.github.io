@@ -1,7 +1,8 @@
 name: Kalamazoo ACS
 markdown: redcarpet
 pygments: true
-url: http://kaylee.artiosonline.com/~mwolf/kacs/_site/
+url: http://kaylee.artiosonline.com:4000/
+# url: http://kaylee.artiosonline.com/~mwolf/kacs/_site/
 
 # for bootstrap col-xs-8 style classes
 device: xs
