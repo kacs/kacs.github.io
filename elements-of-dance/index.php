@@ -40,21 +40,36 @@
 	  and learn first-hand if our Section is declared the winner in
 	  this category!
 	</p>
+	<h5 align="center">
+	  <a href="images/elements_of_dance_report.pdf"
+	     title="Report of Chemistry and Culture: Elements of Dance">
+	    Elements of Dance Report [PDF]
+	  </a>
+	</h5>
+	<h5 align="center">
+	  <a href="elements-of-dance/photos.php">Click here for more photos</a>
+	</h5>
 	<h6 align="center">
-	  <img src="images/eod03-mdpi.jpg" width="350" height="222px"><br />
-          Left to right: Chemistry instructors and their dance partners. Dr. James Guzinski (retired from Kalsec) with Jenny Grunberg, a Kalamazoo dentist, Dr. Elke Schoffers with Art Downey, a professional dance instructor. Photo by DB Photography
+	  <img src="images/eod03-mdpi.jpg" width="350"
+          height="222px"><br />
+	  Left to right: Chemistry instructors and their dance
+	  partners. Dr. James Guzinski (retired from Kalsec) with
+	  Jenny Grunberg, a Kalamazoo dentist, Dr. Elke Schoffers with
+	  Art Downey, a professional dance instructor. Photo by DB
+	  Photography
 	</h6>
-	<h6 align="center">Guzinski and Schoffers (WMU Department of Chemistry) performed showcase dances with their partners at &quot;Elements of Dance&quot; on November 9, 2012 at the Kalamazoo Institute of Arts and also taught a Salsa lesson. The event drew a total of 179 people, including 63 local chemists along with ballroom dancers and spectators.
+	<h6 align="center">
+	  Guzinski and Schoffers (WMU Department of Chemistry)
+	  performed showcase dances with their partners at
+	  &quot;Elements of Dance&quot; on November 9, 2012 at the
+	  Kalamazoo Institute of Arts and also taught a Salsa
+	  lesson. The event drew a total of 179 people, including 63
+	  local chemists along with ballroom dancers and spectators.
 	</h6>
 	<h6 align="center">
 	  Congratulations to Evan Dalke, a WMU graphic design student,
 	  who won a cash prize after submitting the winning T-shirt
-	  graphic, which was also printed in
-	  the <a href="2012ElementsOfDance_Program.pdf">event
-	    program</a>.
-	</h6>
-	<h6 align="center">
-	  <a href="elements-of-dance/photos.php">Click here for more photos</a>
+	  graphic.
 	</h6>
 	<p align="center">-----------------------</p>
 	<h1 align="center"><em>Old Event Announcement</em></h1>
