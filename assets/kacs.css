@@ -1,5 +1,4 @@
 .header {
-    /* background-color: #003366; */
     color: #6699cc;
 }
 .header h3 {
@@ -13,7 +12,6 @@
 }
 .logo-text, .logo-text:hover {
     text-decoration: none;
-    /* color: white; */
 }
 .newsblock {
     text-align: justify;
@@ -29,6 +27,12 @@
 /* Main index page news feed */
 .feed h3 {
     font-variant: small-caps;
+}
+
+/* Outdent the first line with respect to the rest */
+.outdent {
+    text-indent: -30px;
+    margin-left: 30px;
 }
 
 /* Shows logos of donors on main page */

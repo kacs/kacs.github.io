@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+  {% include head.html %}
+
+<body>
+
+<div class="container">
+
+  {% include header.html %}
+
+  {% include menu.html %}
+
+  <div class="row">
+    <div class="col-xs-12">
+      <h2>{{ page.heading }}</h2>
+      {% if page.author.size == 1 %}
+      <h4>By <em>{{ page.author }}</em></h4>
+      {% elsif page.author.size > 1 %}
+      <h4>By
+	{% for author in page.author %}{% if forloop.first %}<em>{{author}}</em>{% elsif forloop.last %} and <em>{{ author }}</em>{% else %}, <em>{{ author }}</em>{% endif %}{% endfor %}.
+      </h4>
+      {% endif %}
+
+      <!-- Event info -->
+      <dl>
+	{% if page.location %}
+	<!-- Event Location -->
+	<dt>Location</dt>
+	{% for line in page.location %}
+	<dd>{{ line }}</dd>
+	{% endfor %}
+	{% endif %}
+
+	{% if page.schedule.size == 1 %}
+	<!-- Event start time -->
+	</dl>
+        <p>{{ page.schedule }}</p>
+	<dl>
+	{% elsif page.schedule.size > 1 %}
+	<dt>Schedule</dt>
+	{% for point in page.schedule %}
+	<dd class="outdent">
+	  {{ point }}
+	</dd>
+	{% endfor %}
+	{% endif %}
+
+	{% if page.cost %}
+	<dt>Cost</dt>
+	<dd>{{ page.cost }}</dd>
+	{% endif %}
+      </dl>
+
+      {{ content }}
+    </div>
+  </div>
+
+  {% include footer.html %}
+
+</div>
+
+</body>
+
+</html>
