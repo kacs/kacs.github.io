@@ -161,11 +161,25 @@
 	    </td>
 	  </tr>
 
+	  <tr>
 	    <td height="50">
-	      <p><strong>Science Cafe: Horticultural Chemistry</strong> with Dr. Gus Guzinski<br /></p>
-	      <p>Tuesday, September 17th at Wedel&rsquo;s:</p>
+	      <p><h4>Science Cafe: Horticultural Chemistry</h4> with Dr. Gus Guzinski<br /></p>
+	      <p><strong>Tuesday, September 17th</strong> at Wedel&rsquo;s:</p>
 	      <address>5020 Texas Drive<br />Kalamazoo<br />269-345-1195</address>
-	      More details TBA.
+	      Open to the public. More details
+	      <a href="assets/colors-in-flowers-flyer.pdf">here</a>
+	    </td>
+	  </tr>
+
+	  <tr>
+	    <td>
+	      <h4>Kalamazoo Sci-Mix Poster Session: <br />Sustainable Science - Recycle a Poster (Sponsored by Zoetis)</h4>
+	      <p>
+		<strong>Tuesday, October 8, 2013</strong>, 5-9 PM at <em>Bell's Eccentric Cafe</em>, 355 E. Kalamazoo Ave, downtown Kalamazoo, 269-382-5712. More details here.
+	      </p>
+	      <p>
+		More details <a href="assets/scimix-poster-flyer-2013-10-08.pdf">here</a>
+	      </p>
 	    </td>
 	  </tr>
 
