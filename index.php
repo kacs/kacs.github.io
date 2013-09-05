@@ -124,17 +124,49 @@
 	<table width="555" border="1">
 	  <tr>
 	    <td width="374" bgcolor="#FFFFFF">
-	      <p><strong>July 2013 <a href="kalchemnews/2013/KACS_Newsletter_2013_7.pdf">Newsletter</a> (pdf)<br />
-		  <br />
-		</strong>In it, you will learn about: </p>
-	      <p>- whom to contact to be part of the <strong>&quot;Chemistry Day at the Museum&quot;</strong> - we need to hear from you now, please<br>
-		- why you should reserve<strong> September 10, 2013</strong> for a <strong>special party</strong><br>
-		- this years KACS awardees<br>
-		- how you can help plan for the <strong>joint regional meeting in 2015</strong><br>
-		- the most recent Sudoku puzzle<br>
-		<br />
-		This and much more can be found in your <strong>July Newsletter</strong>. Our <strong>Newsletter Archive</strong> can be found <a href="kalchem.htm">here</a>.<br>
-	      </p>
+
+    <p>
+      <strong>September 2013 <a href="kalchemnews/newsletter-2013-09-08.pdf">
+	  Newsletter</a> [pdf]
+      </strong>
+    </p>
+
+    <p>
+      In it, you will learn about:
+    </p>
+    <ul>
+      <li>
+	why the KACS is a <strong>ChemLuminary Finalist</strong>
+      </li>
+      <li>
+	Upcoming events:
+	<ul>
+	  <li><strong>Science Café:</strong> Horticultural Chemistry</li>
+	  <li><strong>Sci-Mix Poster Session</strong></li>
+	</ul>
+      </li>
+      <li>
+	how to help with <strong>chemistry day at the museum</strong>
+      </li>
+      <li>
+	new additions to the KACS volunteer staff
+      </li>
+      <li>
+	the most recent Sudoku puzzle
+      </li>
+    </ul>
+    <p>
+      This and much more can be found in your <strong>September
+      Newsletter</strong>. Our <strong>Newsletter Archive</strong> can
+      be found <a href="kalchem.htm">here</a>.
+    </p>
+
+
+
+
+
+
+
 	    </td>
 	    <td width="165" height="312" bgcolor="#FFFFFF"><p align="center">Best wishes from your <br>
 		KACS Chair<br>

@@ -2,7 +2,7 @@
 
 <html>
   <head>
-    <meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+    <meta http-equiv="content-type" content="text/html;charset=utf8">
     <title>Kalamazoo ACS</title>
     <?php include 'base.php' ?>
     <meta name="description" content="We are a dynamic and visionary organization committed to improving people&rsquo;s lives in our community through the transforming power of chemistry.  We strive to advance the broader chemistry enterprise and its practitioners for the benefit of Kalamazoo, Allegan and Van Buren counties." />
