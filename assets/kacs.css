@@ -1,12 +1,14 @@
 .header {
-    background-color: #003366;
-    color: white;
+    color: #6699cc;
 }
-.header img {
-    margin-top: auto;
-    margin-bottom: auto;
-    display: inline-block;
-    vertical-align: middle;
+.header h3 {
+    margin-top: 0px;
+}
+.header p {
+    font-size: small;
+}
+#logo {
+    width: 100%;
 }
 .logo, .logo:hover {
     text-decoration: none;
@@ -26,6 +28,12 @@
 /* Main index page news feed */
 .feed h3 {
     font-variant: small-caps;
+}
+
+/* Outdent the first line with respect to the rest */
+.outdent {
+    text-indent: -30px;
+    margin-left: 30px;
 }
 
 /* Shows logos of donors on main page */
@@ -59,6 +67,7 @@
     position: relative;
     float: right;
     margin-top: 10px;
+    /* margin-top: -38px; */
     margin-bottom: 20px;
     margin-right: 20px;
     z-index: 7;

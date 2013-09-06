@@ -1,0 +1,47 @@
+<!-- Navigation Menu -->
+<nav class="nav navbar-default" role="navigation">
+  <!-- Collapse button and (maybe) logo -->
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle"
+	    data-toggle="collapse" data-target=".navbar-ex1-collapse">
+      <span class="sr-only">Toggle Navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+  </div>
+
+  <!-- Actual menu items -->
+  <div class="collapse navbar-collapse navbar-ex1-collapse">
+    <ul class="nav navbar-nav">
+      <li>
+	<a href="{{ site.url }}/">
+	  <i class="glyphicon glyphicon-home"></i>
+	  News
+	</a>
+      </li>
+      <li><a href="{{ site.url }}/events/">Events</a></li>
+      {% assign newsletter = site.categories.newsletter.first %}
+      <li><a href="{{ site.url }}{{ newsletter.url }}">Newsletter</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Student Chapters</a></li>
+      <li><a href="#">Contact Us</a></li>
+    </ul>
+    <ul class="nav navbar-nav visible-xs">
+      <li class="visible-xs"><!-- Small screen facebook icon -->
+	<a href="https://www.facebook.com/ACSKalamazoo">
+	  <img src="images/facebook.png" width="27" height="27" />
+	  Facebook
+	</a>
+      </li>
+    </ul>
+    <!-- Larger screen facebook icon -->
+    <ul class="nav navbar-nav pull-right hidden-xs">
+      <li>
+	<a href="https://www.facebook.com/ACSKalamazoo">
+	  <img src="images/facebook.png" width="27" height="27" />
+	</a>
+      </li>
+    </ul>
+  </div>
+</nav>
