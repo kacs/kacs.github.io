@@ -1,0 +1,24 @@
+---
+title: Minutes of Executive Committee Meetings
+layout: page
+---
+
+<h2>Minutes  of KACS Executive Committee Meetings</h2>
+<ul>
+  {% for meeting in site.categories.minutes %}
+  <li>
+    <a href="{{ meeting.url }}">{{ meeting.date | date: "%B %Y" }}</a>
+  </li>
+  {% endfor %}
+
+<!-- Old static minutes -->
+  <!-- <li> -->
+  <!--   <a href="{{ site.url }}/Executive%20Committee/Minutes/2013/2013-02_minutes_KACS.pdf">February 2013</a> -->
+  <!-- </li> -->
+  <li>
+    <a href="{{ site.url }}/Executive%20Committee/Minutes/2013/2013-01_minutes_KACS.pdf">January 2013</a>
+  </li>
+  <li>
+    <a href="{{ site.url }}/Executive%20Committee/Minutes/Minutes_archive.htm">ARCHIVE of Minutes</a>
+  </li>
+</ul>

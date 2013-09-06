@@ -1,0 +1,113 @@
+---
+location: Hunan Gardens on West Main Street, 6:35 pm
+category: minutes
+layout: minutes
+---
+
+Members Present: John Engelmann (JE), Lydia Hines (LH), James Kiddle
+(JK), Noah Masika (NM), John Miller (JM), Carolyn Pugh (CP), Elke
+Schoffers (ES), Doug Williams (DW)
+
+1. **Secretary’s Report**
+   1. *Review of February minutes* (DW) – Minutes were approved by Executive Committee.
+2. **Treasurer’s Report (JM)**
+  1. *Treasurers Report* - JM reported low activity during the month of
+February. The President’s Challenge to recruit new members generated
+$60. ES recruited 4 new members and LH recruited 2 new
+members. Expenses for reimbursement include JE for the Leadership
+Conference and ES from “Boost Your Career” event.
+  2. *Investment Fund / Checking Account update* – JM reported low activity and informed the EC that 
+it is not known when the Local Section allotment funds from ACS are expected to be distributed. 
+Upcoming expenses include Project SEED, LH travel expenses to National ACS Meeting and a Nature 
+Center table rental for Earth Day.
+3. **Communications Chair (DW)**
+  1. *Web site report* – DW distributed a report from David Bolliet (DB). Website activity has been low
+and the newsletter only generated 11 visits. DW reported that DB is receiving error messages from 
+email communications due to member contact information not being current. ES asked DB to 
+generate a list of members that have emails bouncing back and members will be contacted via 
+another method to update or remove contact information.
+  2. *Facebook page* – Generating approximately 15 visits per day. DB posts events and related
+information to the page and notifications are sent to people who have “liked” the page. 
+4. **Western Michigan University and Kalamazoo College Chemistry Student Organizations**
+  1. *Kalamazoo College* (TS) – Student organization helped organize the Science Café in February. 
+  2. *WMU Chem Club* (MZ) – Brianna Hyder informed ES that the Chem Club was participating in a demo event today.
+  3. *WMU Chemistry Grad Student Association* (AH) – No report.
+  4. *NOBCChE* (NM) – NM representing NOBCChE reported that two
+professional development programs will take place for undergraduate
+and graduate students. A speaker will present on graduate school
+application process and industry opportunities after graduation for
+undergraduates.  A speaker for the graduate students will present on
+post-doc opportunities. KACS will announce this public event, which
+will take place within the next two weeks. Clara Adams is currently
+seeking a speaker and NM will communicate details to ES.
+5. **Old Business**
+  1. Special meeting to discuss bylaws and mission statement (JE) – JE will call 
+everyone during spring to schedule a meeting.
+  2. Review of February Science Café at K-College on Wednesday, Feb 20, (ES)
+– ES reported the event went well. Attendance was 23 people and ES thanked JE
+for a great presentation.
+  3. Preview of March Presenter Al Hazari on Tue, Mar 26, 5-7 pm (LH) – Al
+Hazari is presenting “Chemistry in Comics” at WMU. LH distributed information to K-12 teachers in the area and Brad Portis (Gull Lake High School) has 
+recommended it to his students. She also sent information to MLive/Kalamazoo
+Gazette. Pizza will be provided and ES is going to make a flyer for distribution. 
+Area science educators can potentially visit with Al during his visit to Kalamazoo. 
+  4. Do-Dah Parade (JC) – postpone to April meeting.
+  5. 2015 Great Lakes & Central Joint Regional meeting (LH) – LH reported that
+she has not received feedback from the co-hosting West Michigan Local Section
+(Central Region). She will contact that Section’s councilor(s), Mark Thomson, at 
+the national meeting. To date two KACS members have volunteered to be Program
+Co-Chair and Exhibits Co-Chair. In order for the meeting to take place, the major 
+details (i.e. location, dates) will need to be determined by the end of 2013.
+6. **New Business**
+  1. Education Committee Update
+    1. Identification of outstanding HS teachers (JK) – There are
+currently 37 HS chemistry teachers in the area. JK reported that the
+current process for identifying teachers is not straightforward.
+Teachers are nominated by their principal and fill out paperwork to
+be considered for the award. Nominations from principals are not
+an issue and the same teachers are re-nominated every year. The
+combined paperwork takes up 5 pages for the instructions and
+questionnaire and appears to be a major stumbling block. The form
+was created years ago by the Education Committee and needs to be
+updated and streamlined. ES will draft a one-page application form
+and teachers can potentially nominate themselves and submit a letter
+of recommendation from the principal with their application. ES
+will contact Don Schreiber for copies of the current nomination
+materials and process.
+    2. Awards Reception and Project SEED update (JK, LH, ES) – The
+Science Symposium will take place on Tuesday, April 30th at WMU.
+Awards reception will take place on Monday, May 20th at WMU.
+    3. ES received project SEED and chemistry Olympiad information;
+both should be forwarded to the Education Committee
+  2. Climate Change Grant Application titled “KACS / WMU Climate Science
+Collaboration for the Training of Community Leaders” (ES) – ACS President
+Shakhashiri created a grant program regarding climate science. ES distributed a
+proposal that was submitted and drafted by members of the EC and members of the
+“WMU Interdisciplinary Climate Change Study Group”. JM summarized that the
+proposal will provide information to people involved with outreach in various
+communities. Faith communities, Boy and Girl Scouts and high school and middle
+school teachers are targeted. Half-day workshops will take place for each group
+and a tool kit will be provided as well as demonstrations on how to use the materials in the kit. A meeting 6 months after the initial meeting will take place to 
+assess the process. The budget is approximately $3000.
+  3. Chemists Celebrate Earth Day (MZ) – no report
+  4. F.O.R.M.S. Annual Report, Event Reports, Comment Forms (ES) – ES and
+LH submitted the Annual Report in time.
+  5. Manuscript to “Nachrichten aus der Chemie” (ES) – Authored by ES and
+submitted with an April publishing date. The dance event combining chemistry
+and culture was the topic of the paper.
+  6. Next PR Email – timing and content of newsletter or email announcement TBD,
+combined with Facebook and website updates(all) – Announce Al Hazari’s talk,
+Science Symposium date, Earth Day, reports from past events and an update on the 
+Climate Change grant proposal.
+  7. Next EC meeting: Wednesday, April 3rd
+7. **Additions**
+Currently, there is a Mini Science Café grant ($300) available through ACS and its 
+application is due on Friday, March 22nd with a description of how funds would be spent. 
+Possible topics include astrochemistry with the Kalamazoo’s astronomical society, a 
+chemistry and cooking event in conjunction with Kalsec, or horticultural chemistry and the 
+chemistry of the color of flowers and flower breeding at a local garden store.
+LH reported that a new formula is currently under consideration for allocating Local 
+Section funds. With 458 members KACS is classified as a medium-small section. 
+An Earth Day Concert is scheduled for April 20, Saturday, at the Oshtemo Branch of the 
+Kalamazoo Public Library. LH has offered to display CCED materials at that venue. We 
+wait for a response from the Library staff.

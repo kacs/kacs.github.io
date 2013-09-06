@@ -1,0 +1,15 @@
+{% include header_old.html %}
+
+<tr height="0">
+  {% include menu_old.html %}
+
+  <td height="0" colspan="2" valign="top" bgcolor="#F0F0F0">
+    <h1>Minutes of the KACS Executive Committee Meeting</h1>
+    <h4>{{ page.date | date: "%d %B %Y" }}</h4>
+    <p>at {{ page.location }}
+  {{ content }}
+  </td>
+</tr>
+</table>
+
+{% include footer_old.html %}
