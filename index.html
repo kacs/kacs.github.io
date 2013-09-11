@@ -12,8 +12,7 @@ layout: page
 	<p>
 	  The <strong>Local Sections Activity Committee
 	  (LSAC) </strong>gave KACS a glowing review. Read
-	  more <a href="images/KACS Review by LSAC
-	  2012.doc">here</a>.</p>
+	  more <a href="images/KACS Review by LSAC 2012.doc">here</a>.</p>
 	<p>
 	  Pictures by
 	  <a href="http://www.familyphotodj.com/">DB Photography</a>
@@ -127,13 +126,14 @@ layout: page
       </table></td>
     </tr>
     <tr>
+      {% assign newsletter = site.categories.newsletter.first %}
       <td><h2>Current KACS Newsletter:</h2>
 	<table width="555" border="1">
 	  <tr>
 	    <td width="374" bgcolor="#FFFFFF">
 
 	      <p>
-		<strong>September 2013 <a href="{{ site.url }}/kalchemnews/newsletter-2013-09-06.pdf">
+		<strong> {{ newsletter.date | date: "%B %Y" }} <a href="{{ site.url }}/kalchemnews/newsletter-{{ newsletter.date | date: "%Y-%m-%d" }}.pdf">
 		    Newsletter</a> [pdf]
 		</strong>
 	      </p>
@@ -141,23 +141,7 @@ layout: page
 	      <p>
 		In it, you will learn about:
 	      </p>
-	      <ul>
-		<li>
-		  why you should join the party in Indianpolis on <strong>Tuesday Sept 10th</strong>
-		</li>
-		<li>
-		  how you can <strong>help your local section</strong>
-		</li>
-		<li>
-		  the upcoming <strong>Sci-Mix poster session</strong> and <strong>Science Café</strong>
-		</li>
-		<li>
-		  new additions to the KACS personnel
-		</li>
-		<li>
-		  the most recent Sudoku puzzle
-		</li>
-	      </ul>
+	      {{ newsletter.excerpt }}
 	      <p>
 		This and much more can be found in your <strong>September
 		  Newsletter</strong>. Our <strong>Newsletter Archive</strong> can

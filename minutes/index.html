@@ -6,12 +6,21 @@ layout: page
 <h2>Minutes  of KACS Executive Committee Meetings</h2>
 <ul>
   {% for meeting in site.categories.minutes %}
+  {% capture post_year %}{{ meeting.date | date: "%Y"}}{% endcapture %}
+  {% if post_year != curr_year %}
+</ul>
+<h4>{{ post_year }}</h4>
+<ul>
+  {% capture curr_year %}{{ post_year }}{% endcapture %}
+  {% endif %}
   <li>
     <a href="{{ meeting.url }}">{{ meeting.date | date: "%B %Y" }}</a>
   </li>
   {% endfor %}
+</ul>
 
 <!-- Old static minutes -->
+<ul>
   <li>
     <a href="{{ site.url }}/Executive%20Committee/Minutes/Minutes_archive.htm">ARCHIVE of Minutes</a>
   </li>

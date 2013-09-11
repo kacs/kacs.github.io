@@ -1,6 +1,7 @@
 name: Kalamazoo ACS
 markdown: redcarpet
 pygments: true
+excerpt_separator: <!-- more -->
 url: http://kaylee.artiosonline.com:4000
 
 exclude: [makefile, README.md]
