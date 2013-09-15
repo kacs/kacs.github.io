@@ -4,20 +4,32 @@ layout: page
 ---
 
 <h2>Minutes  of KACS Executive Committee Meetings</h2>
-<ul>
-  {% for meeting in site.categories.minutes %}
-  {% capture post_year %}{{ meeting.date | date: "%Y"}}{% endcapture %}
-  {% if post_year != curr_year %}
-</ul>
-<h4>{{ post_year }}</h4>
-<ul>
-  {% capture curr_year %}{{ post_year }}{% endcapture %}
+      {% for meeting in site.categories.minutes %}
+      {% capture post_year %}{{ meeting.date | date: "%Y"}}{% endcapture %}
+      {% if post_year != curr_year %}
+      {% capture column %}{% cycle 'one', 'two', 'three' %}{% endcapture %}
+      {% if forloop.index != 1 %}
+    </ul>
+  </div>
+{% if column == 'one' %}
+</div>
+{% endif %}
+{% endif %}
+{% if column == 'one' %}
+<div class="row">
   {% endif %}
-  <li>
-    <a href="{{ meeting.url }}">{{ meeting.date | date: "%B %Y" }}</a>
-  </li>
-  {% endfor %}
-</ul>
+  <div class="col-{{ site.device }}-4"
+    <h4>{{ post_year }}</h4>
+    <ul>
+      {% capture curr_year %}{{ post_year }}{% endcapture %}
+      {% endif %}
+      <li>
+	<a href="{{ meeting.url }}">{{ meeting.date | date: "%B %Y" }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
 
 <!-- Old static minutes -->
 <ul>

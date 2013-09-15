@@ -7,6 +7,9 @@
 .header p {
     font-size: small;
 }
+hr {
+    border-top-color: rgb(125, 125, 125);
+}
 #logo {
     width: 100%;
 }
@@ -128,4 +131,9 @@ p.bjqs-caption{
 }
 .eod-grid td {
     padding: 5px;
+}
+
+/* Executive committee minutes */
+.minutes h1 {
+    font-size: 20px;
 }
