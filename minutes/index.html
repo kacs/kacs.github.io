@@ -24,16 +24,17 @@ layout: page
       {% capture curr_year %}{{ post_year }}{% endcapture %}
       {% endif %}
       <li>
-	<a href="{{ meeting.url }}">{{ meeting.date | date: "%B %Y" }}</a>
+	{% if meeting.format == 'pdf' %}
+	<a href="{{ site.url }}/minutes/{{ meeting.date | date: "%Y-%m-%d-minutes.pdf" }}">
+	  {{ meeting.date | date: "%B %Y" }} [PDF]
+	</a>
+	{% else %}
+	<a href="{{ meeting.url }}">
+	  {{ meeting.date | date: "%B %Y" }}
+	</a>
+	{% endif %}
       </li>
       {% endfor %}
     </ul>
   </div>
 </div>
-
-<!-- Old static minutes -->
-<ul>
-  <li>
-    <a href="{{ site.url }}/Executive%20Committee/Minutes/Minutes_archive.htm">ARCHIVE of Minutes</a>
-  </li>
-</ul>
