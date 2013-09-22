@@ -76,6 +76,14 @@ hr {
     z-index: 7;
 }
 
+/* Change headers of main content to be smaller */
+.content h1 {
+    font-size: x-large;
+}
+.content h2 {
+    font-size: large;
+}
+
 /* Basic jQuery Slider essential styles */
 
 ul.bjqs{position:relative; list-style:none;padding:0;margin:0;overflow:hidden; display:none;}
