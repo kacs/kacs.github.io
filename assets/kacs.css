@@ -84,6 +84,11 @@ hr {
     font-size: large;
 }
 
+/* Grids get some extra space after each row */
+.row.grid {
+    margin: 10px;
+}
+
 /* Basic jQuery Slider essential styles */
 
 ul.bjqs{position:relative; list-style:none;padding:0;margin:0;overflow:hidden; display:none;}
