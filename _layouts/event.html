@@ -19,7 +19,7 @@
       <dl>
 	{% if page.location %}
 	<!-- Event Location -->
-	<dt>Location</dt>
+	<dt>Location:</dt>
 	{% for line in page.location %}
 	<dd>{{ line }}</dd>
 	{% endfor %}
@@ -27,9 +27,9 @@
 
 	{% if page.schedule.size == 1 %}
 	<!-- Event start time -->
-	</dl>
-        <p>{{ page.schedule }}</p>
-	<dl>
+      </dl>
+      <p>{{ page.schedule }}</p>
+      <dl>
 	{% elsif page.schedule.size > 1 %}
 	<dt>Schedule</dt>
 	{% for point in page.schedule %}
@@ -51,7 +51,7 @@
 
 </td>
 
-  {% include footer_old.html %}
+{% include footer_old.html %}
 
 <!-- </div> -->
 

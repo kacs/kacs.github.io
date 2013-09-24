@@ -7,9 +7,7 @@ layout: page
 <ul>
   {% for event in site.categories.event %}
   <li>
-    <a href="{{ site.url }}{{ event.url }}">
-      {{ event.heading }}
-    </a>
+    <a href="{{ site.url }}{{ event.url }}">{{ event.heading }}</a>
     {{ event.date | date_to_long_string }}
   </li>
   {% endfor %}
@@ -17,14 +15,6 @@ layout: page
 
 </ul>
 <ul>
-  <li>
-    <a href="{{ site.url }}/Reports/2012/2012 CGSA Report for NCW.pdf">
-      CGSA Report for NCW 2012</a>
-  </li>
-  <li>
-    <a href="{{ site.url }}/Reports/2012/Report on 2012 NCWeek.pdf">
-      Report on KACS National Chemistry Week (NCW) 2012</a>
-  </li>
   <li>
     Chemistry Day a the Museum: &ldquo;Nanotechnology &ndash; The
     Smallest BIG Idea in Science&rdquo;, October 13, 2012<br>
