@@ -3,97 +3,44 @@ title: Newsletters
 layout: page
 ---
 
-  <h2>KACS Newsletters</h2>
+<h1>KACS Newsletters</h1>
 
-  <h3>Current Newsletter</h3>
-  <ul>
+<h2>Current Newsletter</h2>
+{% assign current = site.categories.newsletter.first %}
+<ul>
+  <li>
+    {% if current.format == 'pdf' %}
+    <a href="{{ site.url }}/newsletters/{{ current.date | date: "kacs-newsletter-%Y-%m-%d.pdf" }}">
+      {{ current.date | date: "%B %Y" }} [PDF]
+    </a>
+    {% else %}
+    <a href="{{ current.url }}">
+      {{ current.date | date: "%B %Y" }}
+    </a>
+    {% endif %}
+  </li>
+</ul>
 
-    <li>
-      <a href="{{ site.url }}/kalchemnews/newsletter-2013-09-06.pdf">
-	September 2013
-      </a>
-    </li>
-  </ul>
-
-  <h3>2013</h3>
-  <ul>
-
-    <li>
-      <a href="{{ site.url }}/kalchemnews/newsletter-2013-09-06.pdf">
-	September 2013
-      </a>
-    </li>
-
-    <li>
-      <a href="{{ site.url }}/kalchemnews/2013/KACS_Newsletter_2013_7.pdf">
-	July 2013
-      </a>
-    </li>
-
-    <li>
-      <a href="{{ site.url }}/kalchemnews/2013/KACS_Newsletter_2013_5.pdf">
-	May 2013
-      </a>
-    </li>
-
-    <li>
-      <a href="{{ site.url }}/kalchemnews/2013/KACS_Newsletter_2013_2.pdf">
-	April 2013
-      </a>
-    </li>
-
-    <li>
-      <a href="{{ site.url }}/kalchemnews/2013/KACS_Newsletter_2013_1.pdf">
-	January 2013
-      </a>
-    </li>
-
-  </ul>
-
-  <h3>2012</h3>
-
-  <ul>
-    <li>
-      <a href="{{ site.url }}/kalchemnews/2012/KACS_Newsletter_2012_7.pdf">
-	December 2012
-      </a>
-    </li>
-
-    <li>
-      <a href="{{ site.url }}/kalchemnews/2012/KACS_Newsletter_2012_6.pdf">
-	November 2012
-      </a>
-    </li>
-
-    <li>
-      <a href="{{ site.url }}/kalchemnews/2012/KACS_Newsletter_2012_5.pdf">
-	September 2012</a>
-    </li>
-
-    <li>
-      <a href="{{ site.url }}/kalchemnews/2012/KACS_Newsletter_2012_4.pdf">
-	June 2012
-      </a>
-    </li>
-
-    <li>
-      <a href="{{ site.url }}/kalchemnews/2012/KACS_Newsletter_2012_3.pdf">
-	April 2012
-      </a>
-    </li>
-
-    <li>
-      <a href="{{ site.url }}/kalchemnews/2012/KACS_Newsletter_2012_2.pdf">
-	March 2012
-      </a>
-    </li>
-
-    <li>
-      <a href="{{ site.url }}/kalchemnews/2012/KACS_Newsletter_2012_1.pdf">
-	February 2012
-      </a>
-    </li>
-
-  </ul>
-
-  <p><a href="{{ site.url }}/kalchemnews/kalchem_archive.htm">Newsletter Archive</a></p>
+{% for newsletter in site.categories.newsletter %}
+{% capture post_year %}{{ newsletter.date | date: "%Y"}}{% endcapture %}
+{% if post_year != curr_year %}
+{% if forloop.index != 1 %}
+</ul>
+{% endif %}
+<h2>{{ post_year }}</h2>
+<ul>
+  {% capture curr_year %}{{ post_year }}{% endcapture %}
+  {% endif %}
+  <li>
+    {% if newsletter.format == 'pdf' %}
+    <a href="{{ site.url }}/newsletters/{{ newsletter.date | date: "kacs-newsletter-%Y-%m-%d.pdf" }}">
+      {{ newsletter.date | date: "%B %Y" }} [PDF]
+    </a>
+    {% else %}
+    <a href="{{ newsletter.url }}">
+      {{ newsletter.date | date: "%B %Y" }}
+    </a>
+    {% endif %}
+  </li>
+  {% endfor %}
+</ul>
