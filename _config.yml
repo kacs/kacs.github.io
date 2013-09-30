@@ -2,7 +2,13 @@ name: Kalamazoo ACS
 markdown: redcarpet
 pygments: true
 excerpt_separator: <!-- more -->
+
+# URL and path data for various links and redirects
+path: ""
 url: http://kaylee.artiosonline.com:4000
+# Apache paths
+# path: /~mwolf/kacs
+# url: http://kaylee.artiosonline.com/~mwolf/kacs
 
 exclude: [makefile, README.md]
 

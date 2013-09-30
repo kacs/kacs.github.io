@@ -1,4 +1,11 @@
+---
+---
 # Use PHP5.4 Single php.ini as default
 # AddHandler application/x-httpd-php54s .php
 
-# Redirect 301 / http://wmich.edu/acs/
+RewriteEngine on
+RewriteBase {{ site.path }}/
+
+# Redirect newsletters from old directory
+RewriteRule kalchemnews/newsletter-2013-09-06\.pdf$ newsletters/kacs-newsletter-2013-09-06.pdf
+RewriteRule kalchemnews(/.*)?$ newsletters$1 [PT]
