@@ -1,8 +1,17 @@
-.header {
-    color: #6699cc;
+.menu-old { /* Remove after upgrading menus */
+    /* background-color: rgb(255, 204, 51); */
+    /* border-right: solid 1px; */
 }
-.header h3 {
-    margin-top: 0px;
+.content-old { /* Remove after upgrading menus */
+    /* padding-left: 0px; */
+    padding-right: 0px;
+    border-left-style: solid;
+    border-width: 1px;
+    border-color: grey;
+}
+
+.header {
+    color: rgb(0, 75, 154);
 }
 .header p {
     font-size: small;
@@ -31,6 +40,11 @@ hr {
 /* Main index page news feed */
 .feed h3 {
     font-variant: small-caps;
+}
+.feed > tbody > tr {
+    border-style: solid none;
+    border-color: grey;
+    border-width: 1px;
 }
 
 /* Outdent the first line with respect to the rest */

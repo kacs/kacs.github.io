@@ -1,14 +1,23 @@
-{% include header_old.html %}
+<!DOCTYPE html>
+<html>
 
-<tr height="0">
-  {% include menu_old.html %}
+{% include head.html %}
 
-  <!-- <div class="row"> -->
-  <!--   <div class="col-xs-12"> -->
-  <!--   </div> -->
-  <!-- </div> -->
-  <td height="0" colspan="2" valign="top" bgcolor="#F0F0F0" class="content">
-  {{ content }}
-  </td>
-</tr>
-</table>
+<body>
+
+<div class="container">
+  {% include header.html %}
+
+  <div class="row">
+    {% include menu_old.html %}
+
+    <div class="col-{{ site.device }}-10 content-old">
+      {{ content }}
+    </div>
+  </div>
+
+<!-- </div class="container> -->
+</div>
+
+</body>
+</html>

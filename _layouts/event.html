@@ -1,11 +1,18 @@
-{% include header_old.html %}
+<!DOCTYPE html>
+<html>
 
-{% include menu_old.html %}
+{% include head.html %}
 
-<td height="0" colspan="2" valign="top" bgcolor="#F0F0F0">
+<body>
+
+<div class="container">
+  {% include header.html %}
 
   <div class="row">
-    <div class="col-xs-12">
+
+    {% include menu_old.html %}
+
+    <div class="col-{{ site.device }}-10 content-old">
       <h2>{{ page.heading }}</h2>
       {% if page.author.size == 1 %}
       <h4>By <em>{{ page.author }}</em></h4>
@@ -48,13 +55,8 @@
       {{ content }}
     </div>
   </div>
+<!-- </div class="container"> -->
+</div>
 
-</td>
-
-{% include footer_old.html %}
-
-<!-- </div> -->
-
-<!-- </body> -->
-
-<!-- </html> -->
+</body>
+</html>

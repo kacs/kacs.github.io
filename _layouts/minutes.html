@@ -1,34 +1,44 @@
-{% include header_old.html %}
+<!DOCTYPE html>
+<html>
 
-<tr height="0">
-  {% include menu_old.html %}
+{% include head.html %}
 
-  <td height="0" colspan="2" valign="top" bgcolor="#F0F0F0">
-    <h1>Minutes of the KACS Executive Committee Meeting</h1>
+<body>
+<div class="container">
+  {% include header.html %}
 
-    <!-- Meeting meta info -->
-    <p>{{ page.date | date: "%d %B %Y" }}{% if page.location %} at {{ page.location }}.{% endif %}</p>
-    <p>{% if page.time %}Meeting called to order at {{ page.time }}.{% endif %}</p>
-    Members present:
-    <ul>
-      {% for member in page.roll-call %}
-      <li>{{ member }}</li>
-      {% endfor %}
-    </ul>
+  <div class="row">
+    {% include menu_old.html %}
 
-    <hr />
+    <div class="col-{{ site.device }}-10 content-old">
+      <h1>Minutes of the KACS Executive Committee Meeting</h1>
 
-    <!-- Meeting content -->
-    <div class="minutes">
-      {{ content }}
+      <!-- Meeting meta info -->
+      <p>{{ page.date | date: "%d %B %Y" }}{% if page.location %} at {{ page.location }}.{% endif %}</p>
+      <p>{% if page.time %}Meeting called to order at {{ page.time }}.{% endif %}</p>
+      Members present:
+      <ul>
+	{% for member in page.roll-call %}
+	<li>{{ member }}</li>
+	{% endfor %}
+      </ul>
+
+      <hr />
+
+      <!-- Meeting content -->
+      <div class="minutes">
+	{{ content }}
+      </div>
+
+      <!-- author -->
+      {% if page.author %}
+      <p>Minutes recorded by {{ page.author }}</p>
+      {% endif %}
     </div>
+  </div>
 
-    <!-- author -->
-    {% if page.author %}
-    <p>Minutes recorded by {{ page.author }}</p>
-    {% endif %}
-  </td>
-</tr>
-</table>
+<!-- </div cass="container"> -->
+</div>
 
-{% include footer_old.html %}
+</body>
+</html>

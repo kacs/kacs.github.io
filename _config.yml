@@ -7,4 +7,4 @@ url: http://kaylee.artiosonline.com:4000
 exclude: [makefile, README.md]
 
 # for bootstrap col-xs-8 style classes
-device: xs
+device: md
