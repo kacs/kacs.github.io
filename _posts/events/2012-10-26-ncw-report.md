@@ -48,14 +48,28 @@ through the whole afternoon there was delight registered in everyone’s
 face during the event, and on the way out participants left with
 questions about the timing of our **next** activity! [The planned theme
 for NCW 2013 is “Energy: Now and Forever”]
-
-![Fun with dry ice]({{ site.url }}/images/2012-10-26-ncw-dry-ice.jpg "Guests playing with dry ice")
-
-Fun with Dry Ice – Bubbles (photo by Elena C. Hines)
-
-![Exploring Fabrication]({{ site.url }}/images/2012-10-26-ncw-gummy-capsules.jpg "Guests creating gummy candy using chemistry")
-
-Exploring Fabrication – Gummy Capsules (photo by Elena C. Hines)
+<div class="row">
+  <div class="col-{{ site.device }}-8">
+    <p>
+      <img src="{{ site.url }}/images/2012-10-26-ncw-dry-ice.jpg"
+	   class="img-responsive"
+	   alt="Fun with dry ice"
+	   title="Guest playing with dry ice"
+	   />
+      Fun with Dry Ice – Bubbles (photo by Elena C. Hines)
+    </p>
+  </div>
+  <div class="col-{{ site.device }}-4">
+    <p>
+      <img src="{{ site.url }}/images/2012-10-26-ncw-gummy-capsules.jpg"
+	   class="img-responsive"
+	   alt="Exploring Fabrication"
+	   title="Guests creating gummy candy using chemistry"
+	   />
+      Exploring Fabrication – Gummy Capsules (photo by Elena C. Hines)
+    </p>
+  </div>
+</div>
 
 Four members of the Chemistry Graduate Student Association from
 Western Michigan University assisted with refurbishing efforts at a
@@ -68,16 +82,40 @@ positive messages about chemistry; its major thrust is the improvement
 of the public’s impression of the role chemistry and chemists play in
 every aspect of our way of life and its quality – in the matters of
 health, materials, energy, technology, and the environment.
+<div class="row">
+  <div class="col-{{ site.device }}-8 col-{{ site.device }}-offset-2">
+    <p>
+      <img src="{{ site.url }}/images/2012-10-26-ncw-placemat.jpg"
+	   class="img-responsive"
+	   alt="Pacemat"
+	   title="This year's National Chemistry Week placemat"
+	   />
+    </p>
+  </div>
+</div>
 
-![Placemat]({{ site.url }}/images/2012-10-26-ncw-placemat.jpg "This year's National Chemistry Week Placemat")
-
-Placemat for NCW 2012
-
-Illustrated Poem Entries:
-
-- Shown first: Cassie Kiewiet , Grade 11, Heritage Christian Academy, Rebecca Suman, teacher; Donald and Rhonda Kiewiet parents
-- Shown second: Kalli Banks, Grade 8, Kazoo School, Janice Russo, teacher; Fred Banks, parent
-
-![Illustrated Poem]({{ site.url }}/images/2012-10-26-ncw-poem-1.jpg "Illustrated poem by Cassie Kiewiet")
-
-![Illustrated Poem]({{ site.url }}/images/2012-10-26-ncw-poem-2.jpg "Illustrated poem by Kalli Banks")
+<h3>Illustrated Poem Entries:</h3>
+<div class="row">
+  <div class="col-{{ site.device }}-6">
+    <p>
+      Cassie Kiewiet, Grade 11, Heritage Christian Academy, Rebecca
+      Suman, teacher; Donald and Rhonda Kiewiet parents
+      <img src="{{ site.url }}/images/2012-10-26-ncw-poem-1.jpg"
+	   class="img-responsive"
+	   alt="Illustrated Poem"
+	   title="Cassie Kiewiet, Grade 11, Heritage Christian Academy"
+	   />
+    </p>
+  </div>
+  <div class="col-{{ site.device }}-6">
+    <p>
+      Kalli Banks, Grade 8, Kazoo School, Janice Russo, teacher; Fred
+      Banks, parent
+      <img src="{{ site.url }}/images/2012-10-26-ncw-poem-2.jpg"
+	   class="img-responsive"
+	   alt="Illustrated Poem"
+	   title="Kalli Banks, Grade 8, Kazoo School"
+	   />
+    </p>
+  </div>
+</div>

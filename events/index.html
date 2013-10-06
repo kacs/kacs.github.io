@@ -3,9 +3,17 @@ title: Past Events
 layout: page
 ---
 
-<h2>KACS Past Events</h2>
+<h1>KACS Events</h1>
+{% for event in site.categories.event %}
+{% capture post_year %}{{ event.date | date: "%Y"}}{% endcapture %}
+{% if post_year != curr_year %}
+{% if forloop.index != 1 %}
+</ul>
+{% endif %}
+<h2>{{ post_year }}</h2>
 <ul>
-  {% for event in site.categories.event %}
+  {% capture curr_year %}{{ post_year }}{% endcapture %}
+  {% endif %}
   <li>
     <a href="{{ site.url }}{{ event.url }}">{{ event.heading }}</a>
     {{ event.date | date_to_long_string }}
@@ -13,56 +21,8 @@ layout: page
   {% endfor %}
 </ul>
 
-</ul>
+<h2>2011</h2>
 <ul>
-  <li>
-    Chemistry Day a the Museum: &ldquo;Nanotechnology &ndash; The
-    Smallest BIG Idea in Science&rdquo;, October 13, 2012<br>
-    <a href="http://archive.org/details/MNLCelebratingChemistry10-01-12.mpg">
-      Monday Night Live TV program with Sherine Obare and Gellert Mezei.
-    </a>
-  </li>
-  <li>
-    <a href="{{ site.url }}/Activities/2012/SEED Report 2012.pdf">Project SEED report 2012</a>
-  </li>
-  <li>
-    <a href="{{ site.url }}/Activities/2012/Meet Greet Allegan June 2012.pdf">
-      June 2012 Allegan Meet and Greet Event with Chemistry Puzzle.
-    </a>
-  </li>
-  <li>
-    <a href="{{ site.url }}/Activities/2012/CGSA_BBQ_Summary.pdf">
-      2012 Chemistry Graduate Student Association Barbeque
-    </a>
-  </li>
-  <li>
-    <a href="{{ site.url }}/Reports/2012/KACS 2012 Awards_39th.pdf">
-      2012 KACS Awards gathering May 21
-    </a>
-  </li>
-  <li>
-    <a href="{{ site.url }}/Reports/2012/KACS 39th HS Science Symposium_2012.pdf">
-      39th annual High School Science Symposium, May 1, 2012
-    </a>
-  </li>
-  <li>
-    <a href="{{ site.url }}/Reports/2012/2012_CCED_report.pdf">
-      KACS Chemists Celebrate Earth Day, 2012
-    </a>
-  </li>
-  <li>
-    March 2012 - Science Caf&eacute;
-    <a href="{{ site.url }}/Science Cafe/cafe2012/3Hondatron.pdf">
-      &quot;Hondatron: An Amateur Electric Car Vehicle Conversion&quot;
-    </a>
-    - Dr. Paul Pancella
-  </li>
-  <li>
-    <a href="{{ site.url }}/Activities/BoostYourCareerUP.pdf">
-      Boost your Career -
-    </a>
-    career panel with representatives held on Tuesday, February 7, 2012.
-  </li>
   <li>
     <a href="{{ site.url }}/Activities/2011_KACS_PUR_Water.pdf">2011 Pennies for PUR Water</a>
   </li>
@@ -130,6 +90,10 @@ layout: page
   <li>
     <a href="{{ site.url }}/Reports/JanMixer01-20-2011.htm">January 2011-KACS mixer</a>
   </li>
+</ul>
+
+<h2>2010</h2>
+<ul>
   <li>
     <a href="{{ site.url }}/Reports/SEED2010.html">2010 SEED Reception</a>
   </li>
@@ -149,6 +113,10 @@ layout: page
       April 2010 Student Mixer with local industry
     </a>
   </li>
+</ul>
+
+<h2>2009</h2>
+<ul>
   <li>
     <a href="{{ site.url }}/Reports/museum09.htm">
       2009 Museum Day Images
@@ -169,11 +137,19 @@ layout: page
       April 2009 - Chemists Celebrate Earth Day
     </a>
   </li>
+</ul>
+
+<h2>2008</h2>
+</ul>
   <li>
     <a href="{{ site.url }}/Reports/Jan08 KACS summary.pdf">
       Activity Summary January 2008
     </a>
   </li>
+</ul>
+
+<h2>2007</h2>
+</ul>
   <li>
     <a href="{{ site.url }}/Reports/Oct 07 Summary KACS Activities.pdf">
       Activity Summary October 2007
