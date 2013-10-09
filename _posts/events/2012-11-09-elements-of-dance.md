@@ -20,15 +20,14 @@ category: event
 	 />
   </div>
   <div class="col-{{ site.device }}-6">
-    <p>
+    <p class="text-center">
       Please note that we are currently planning
       <a href="{{ site.url }}/event/2013/11/01/elements-of-dance.html"
 	 title="Elements of Dance 2013 Event Page">
-	another dance event
-      </a>
+	another dance event</a>
       for 2013 and are looking for sponsors and collaborators.
     </p>
-    <p align="center">
+    <p class="text-center">
       Our event was selected as a finalist for the ChemLuminary Award!
     </p>
   </div>
@@ -39,6 +38,14 @@ category: event
 	 style="margin-top: -60px;"/>
   </div>
 </div>
+
+<p>
+  <a href="{{ site.url }}/event/2013/11/01/elements-of-dance.html">
+    2013 Chemistry & Culture: Elements of Dance
+  </a>
+  with an exhibit on <em>Molecular Foundation of Movement</em>, 7-10
+  PM on Friday 1 November 2013 in the KIA auditorium and lobby.
+</p>
 
 <h2>The Results</h2>
 <p>

@@ -14,6 +14,7 @@
 
     <div class="col-{{ site.device }}-10 content-old">
       <h1>{{ page.heading }}</h1>
+      <h4 class="event-date">{{ page.date | date: "%A %d %B %Y" }}</h4>
       {% if page.author.size == 1 %}
       <h4>By <em>{{ page.author }}</em></h4>
       {% elsif page.author.size > 1 %}
@@ -23,34 +24,44 @@
       {% endif %}
 
       <!-- Event info -->
-      <dl>
+      <div class="row event-details">
 	{% if page.location %}
-	<!-- Event Location -->
-	<dt>Location:</dt>
-	{% for line in page.location %}
-	<dd>{{ line }}</dd>
-	{% endfor %}
+	<div class="col-{{ site.device }}-3">
+	  <!-- Event Location -->
+	  <b>Location</b>
+	  <br />
+	  {% for line in page.location %}
+	  {{ line }}
+	  <br />
+	  {% endfor %}
+	</div>
 	{% endif %}
 
 	{% if page.schedule.size == 1 %}
 	<!-- Event start time -->
-      </dl>
-      <p>{{ page.schedule }}</p>
-      <dl>
-	{% elsif page.schedule.size > 1 %}
-	<dt>Schedule</dt>
-	{% for point in page.schedule %}
-	<dd class="outdent">
+	<div class="col-{{ site.device }}-2">
+	  <p>{{ page.schedule }}</p>
+	  {% elsif page.schedule.size > 1 %}
+	<div class="col-{{ site.device }}-2">
+	  <b>Schedule</b>
+	  <br />
+	  {% for point in page.schedule %}
 	  {{ point }}
-	</dd>
-	{% endfor %}
+	  <br />
+	  {% endfor %}
+	</div>
 	{% endif %}
 
+	<!-- Event cost -->
 	{% if page.cost %}
-	<dt>Cost</dt>
-	<dd>{{ page.cost }}</dd>
+	<div class="col-{{ site.device }}-2">
+	  <b>Cost</b>
+	  <br />
+	  {{ page.cost }}
+	</div>
 	{% endif %}
-      </dl>
+	<!-- </div class="row"> -->
+      </div>
 
       {{ content }}
     </div>
