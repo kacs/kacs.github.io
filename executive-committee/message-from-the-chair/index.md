@@ -37,4 +37,4 @@ Auditorium. The event is free but requires registration.
 We hope that you will continue to check in with us to learn about the
 events we are planning for our fall schedule.
 
-Elke Schoffers (September 22, 2013)
+Elke Schoffers
