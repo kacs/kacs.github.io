@@ -32,6 +32,8 @@ the
   </a>
 </p>
 
+As a community service, we will collect spent batteries for responsible disposal.
+
 Learn about **Energy Conservation** and the **KVCC Wind Turbine** as
 part of this year’s energy theme, in addition to annual favorites like
 **Slime** and **Iron in Cereal**. There will be over 25 different
