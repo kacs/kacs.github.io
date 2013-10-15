@@ -2,6 +2,9 @@
 title: Memorials
 layout: page
 ---
+KACS member for over 55 years and outstanding chemist
+[Jackson Boling Hester Jr.](http://obits.mlive.com/obituaries/kalamazoo/obituary.aspx?n=jackson-boling-hester&pid=167485851&fhid=4571 "Obituary for Jackson Boling Hester Jr.")
+pased away on 2013-10-10 at the age of 80.
 
 [George R. Laure]({{ site.url }}/history/memorial/laure.html "Obituary
 for George R. Laure"), the chair of the Kalamazoo Local Section during

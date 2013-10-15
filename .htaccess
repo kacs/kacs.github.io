@@ -23,3 +23,19 @@ RewriteRule kalchemnews/2013/KACS_Newsletter_2012_2\.pdf$ newsletters/kacs-newsl
 RewriteRule kalchemnews/2013/KACS_Newsletter_2012_5\.pdf$ newsletters/kacs-newsletter-2013-05-17.pdf [R=301]
 RewriteRule kalchemnews/2013/KACS_Newsletter_2012_7\.pdf$ newsletters/kacs-newsletter-2013-07-11.pdf [R=301]
 RewriteRule kalchemnews(/.*)?$ newsletters$1 [PT]
+
+# Headers and caching
+Header unset ETag
+FileETag None
+<FilesMatch "(?i)^.*\.(ico|flv|jpg|jpeg|png|gif|js|css)$">
+Header unset Last-Modified
+Header set Expires "Fri, 21 Dec 2013 00:00:00 GMT"
+Header set Cache-Control "public, no-transform"
+</FilesMatch>
+
+# GZip compression
+<ifModule mod_deflate.c>
+<FilesMatch "\.(js|css)$">
+SetOutputFilter DEFLATE
+</FilesMatch>
+</ifModule>

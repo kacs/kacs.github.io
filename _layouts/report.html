@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body>
+
+<div class="container">
+  {% include header.html %}
+
+  <div class="row">
+    {% include menu_old.html %}
+
+    <div class="col-{{ site.device }}-10 content-old">
+      <h1>{{ page.heading }}</h1>
+      <p>
+	<i>
+	  {% if page.author.size == 1 %}
+	  <h4>By {{ page.author }}</h4>
+	  {% elsif page.author.size > 1 %}
+	  <h4>By
+	    {% for author in page.author %}{% if forloop.first %}<i>{{author}}</i>{% elsif forloop.last %} and <i>{{ author }}</i>{% else %}, <i>{{ author }}</i>{% endif %}{% endfor %}.
+	  </h4>
+	</i>
+      </p>
+      {% endif %}
+      {{ content }}
+    </div>
+  </div>
+
+<!-- </div class="container> -->
+</div>
+
+</body>
+</html>
