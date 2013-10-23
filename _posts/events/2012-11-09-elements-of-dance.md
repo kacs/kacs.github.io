@@ -8,8 +8,8 @@ layout: page
 category: event
 ---
 
-<h1 class="text-center">
-  Chemistry &amp; Culture: &ldquo;Elements of Dance&rdquo;
+<h1>
+  2013 Chemistry &amp; Culture: &ldquo;Elements of Dance&rdquo;
 </h1>
 
 <div class="row">
@@ -21,14 +21,16 @@ category: event
   </div>
   <div class="col-{{ site.device }}-6">
     <p class="text-center">
-      Please note that we are currently planning
-      <a href="{{ site.url }}/event/2013/11/01/elements-of-dance.html"
-	 title="Elements of Dance 2013 Event Page">
-	another dance event</a>
-      for 2013 and are looking for sponsors and collaborators.
-    </p>
-    <p class="text-center">
-      Our event was selected as a finalist for the ChemLuminary Award!
+      Please note that we are inviting the general public, spectators,
+      chemists and ballroom dancers to another Gala on Friday,
+      November 1, 7-10 PM at the Kalamazoo Institute of Arts. KACS
+      wants you to join the
+      <a href="{{ site.url }}/event/2013/11/01/elements-of-dance.html" title="2013 Elements of Dance event page">
+	2013 Chemistry & Culture: Elements of Dance
+      </a>
+      which includes an exhibit on Molecular Foundation of
+      Movement. Last year's event was a big success and you can see
+      highlights outlined below.
     </p>
   </div>
   <div class="col-{{ site.device }}-3">
@@ -39,27 +41,20 @@ category: event
   </div>
 </div>
 
-<p>
-  <a href="{{ site.url }}/event/2013/11/01/elements-of-dance.html">
-    2013 Chemistry & Culture: Elements of Dance
-  </a>
-  with an exhibit on <em>Molecular Foundation of Movement</em>, 7-10
-  PM on Friday 1 November 2013 in the KIA auditorium and lobby.
-</p>
-
-<h2>The Results</h2>
+<h2>2012 Chemistry &amp; Culture: &ldquo;Elements of Dance&rdquo; - The Results</h2>
 <p>
 </p>
 <p>
-  It has been six years since our Section received a
-  ChemLuminary Award [2007 for <em>Best on-going event for
-    National Chemistry Week</em>].&nbsp; This year our
+  The 2012 event was selected as a finalist for
+  the <b>ChemLuminaryAward</b>! It has been six years since our
+  Section received a ChemLuminary Award [2007 for <em>Best on-going
+  event for National Chemistry Week</em>].&nbsp; This year our
   self-nomination has brought us the designation of
-  &ldquo;finalist&rdquo; in the &ldquo;Most
-  Innovative New Activity or Program&rdquo; category. Out of 186
-  Local Sections nationwide, we are thrilled to have been recognized in
-  this category and thank all the donors and volunteers who helped us
-  make this event a success (179 attendees).
+  &ldquo;finalist&rdquo; in the &ldquo;Most Innovative New Activity or
+  Program&rdquo; category. Out of 186 Local Sections nationwide, we
+  are thrilled to have been recognized in this category and thank all
+  the donors and volunteers who helped us make this event a success
+  (179 attendees).
 </p>
 <p>
   <a href="{{ site.url }}/images/elements_of_dance_report.pdf"
@@ -175,9 +170,9 @@ category: event
 </p>
 <hr />
 
-<h2>Old Event Announcement</h2>
+<h2>Old Event Announcement 2012</h2>
 <strong>
-  November 9, 2012, 6:30-9:30 PM<br />
+  9 November 2012 18:30-21:30<br />
   Kalamazoo Institute of Arts
 </strong>
 
@@ -265,30 +260,12 @@ The goals of "Chemistry and Culture are..."
 
 <hr />
 
-<h2>Elements of Dance &ndash;Timeline</h2>
+<h2>2012 Elements of Dance &ndash;Timeline</h2>
 
 <p><strong>Monday, Oct. 22 at 5 PM</strong><br> Deadline for chemistry
   students to register for the &ldquo;Cupid Shuffle&rdquo;
   with <a href="mailto:elke.schoffers@wmich.edu">Dr. Schoffers</a><br />
   <a href="{{ site.url }}/elements-of-dance/ElementsOfDanceCupidShuffle.jpg">
     See flyer for more details.
-  </a>
-</p>
-
-<p>
-  <strong>Monday, Oct. 22 at 5 PM</strong><br /> Deadline for
-  submission of artwork for the <strong>&ldquo;T-Shirt Design
-  Contest&rdquo;<br></strong>to win a cash prize, submit
-  to <a href="mailto:james.guzinski@wmich.edu">Dr. Guzinski</a><br />
-  &nbsp;
-  <a href="{{ site.url  }}/elements-of-dance/TShirtDesignContest.pdf">
-    See flyer for more details.
-  </a>
-</p>
-<p>
-  <strong>Friday 9 November 2013 18:30-21:30</strong><br>
-  <a href="{{ site.url }}/elements-of-dance/ElementsOfDanceFlyer.jpg">
-    Join us for &ldquo;Elements of Dance&rdquo;<br> Kalamazoo
-    Institute of Arts
   </a>
 </p>
