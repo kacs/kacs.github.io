@@ -35,7 +35,7 @@ hr {
     text-decoration: none;
     color: white;
 }
-.newsblock {
+.newsblock,.mission {
     text-align: justify;
 }
 .newsblock img {
