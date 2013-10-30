@@ -36,12 +36,21 @@
 	</div>
 	{% endif %}
 
+	<!-- Event cost -->
+	{% if page.cost %}
+	<div class="col-{{ site.device }}-2">
+	  <b>Cost</b>
+	  <br />
+	  {{ page.cost }}
+	</div>
+	{% endif %}
+
 	{% if page.schedule.size == 1 %}
 	<!-- Event start time -->
-	<div class="col-{{ site.device }}-2">
+	<div class="col-{{ site.device }}-7">
 	  <p>{{ page.schedule }}</p>
 	  {% elsif page.schedule.size > 1 %}
-	<div class="col-{{ site.device }}-2">
+	<div class="col-{{ site.device }}-7">
 	  <b>Schedule</b>
 	  <br />
 	  {% for point in page.schedule %}
@@ -51,14 +60,6 @@
 	</div>
 	{% endif %}
 
-	<!-- Event cost -->
-	{% if page.cost %}
-	<div class="col-{{ site.device }}-2">
-	  <b>Cost</b>
-	  <br />
-	  {{ page.cost }}
-	</div>
-	{% endif %}
 	<!-- </div class="row"> -->
       </div>
 
