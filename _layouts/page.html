@@ -8,10 +8,11 @@
 <div class="container">
   {% include header.html %}
 
-  <div class="row">
-    {% include menu_old.html %}
+  {% include menu.html %}
 
-    <div class="col-{{ site.device }}-10 content-old">
+  <div class="row">
+
+    <div class="col-{{ site.device }}-12">
       {{ content }}
     </div>
   </div>

@@ -8,10 +8,11 @@
 <div class="container">
   {% include header.html %}
 
-  <div class="row">
-    {% include menu_old.html %}
+  {% include menu.html %}
 
-    <div class="col-{{ site.device }}-10 content-old">
+  <div class="row">
+
+    <div class="col-{{ site.device }}-12">
       <h1>{{ page.heading }}</h1>
       <h4 class="event-date">{{ page.date | date: "%A %d %B %Y" }}</h4>
       {% if page.author.size == 1 %}

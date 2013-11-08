@@ -1,3 +1,4 @@
 url: http://kalamazooacs.org
 path: ""
 analytics: true
+debug: 'false'

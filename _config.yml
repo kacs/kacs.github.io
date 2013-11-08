@@ -18,3 +18,6 @@ exclude: [makefile, README.md]
 
 # for bootstrap col-xs-8 style classes
 device: md
+
+# Serve dynamic or pre-compiled content
+debug: 'true'
