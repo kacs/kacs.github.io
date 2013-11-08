@@ -32,6 +32,9 @@
 .facebook-logo img {
   height: 34px;
 }
+.facebook-logo-tablet img {
+  height: 20px;
+}
 .header {
   color: #004b9a;
 }

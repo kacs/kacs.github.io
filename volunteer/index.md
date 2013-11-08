@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: about_page
 title: Volunteer Opportunities
 ---
 

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: about_page
 category: councilor-report
 name: Fall ACS National Meeting
 location: Indianapolis, Indiana

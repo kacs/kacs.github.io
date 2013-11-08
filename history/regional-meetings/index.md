@@ -1,6 +1,6 @@
 ---
 title: Regional Meetings History – their historical development and importance
-layout: page
+layout: about_page
 ---
 
 Regional Meetings History

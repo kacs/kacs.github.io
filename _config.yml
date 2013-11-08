@@ -3,14 +3,14 @@ markdown: redcarpet
 pygments: true
 excerpt_separator: <!-- more -->
 
-# URL and path data for various links and redirects
+# # URL and path data for various links and redirects
 path: ""
 url: http://kaylee.artiosonline.com:4000
-# Apache paths
+# # Apache paths
 # path: /~mwolf/kacs
 # url: http://kaylee.artiosonline.com/~mwolf/kacs
 # url: http://127.0.0.1/~mwolf/kacs
-# Localhost
+# # Localhost
 # path: ""
 # url: http://127.0.0.1:4000
 
@@ -21,3 +21,6 @@ device: md
 
 # Serve dynamic or pre-compiled content
 debug: 'true'
+
+# Name of current KACS chair
+chair: Elke Schoffers

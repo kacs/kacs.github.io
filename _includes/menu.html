@@ -46,49 +46,6 @@
 	<a href="{{ site.url }}{{ newsletter.url }}">Newsletters</a>
       </li>
       <li><a href="{{ site.url }}/about/">About Us</a></li>
-      <!-- Executive Committee -->
-      {% if url_parts[1] == 'executive-committee' %}
-      <li class="dropdown active">
-      {% else %}
-      <li class="dropdown">
-      {% endif %}
-	<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-	  Executive Committee <b class="caret"></b>
-	</a>
-	<!-- About us menu -->
-	<ul class="dropdown-menu">
-	  <li>
-	    <a href="{{ site.url }}/executive-committee/officers/">
-	      Officers
-	    </a>
-	  </li>
-	  <li>
-	    <a href="{{ site.url }}/minutes/">
-	      Minutes
-	    </a>
-	  </li>
-	  <li>
-	    <a href="{{ site.url }}/executive-committee/bylaws/">
-	      Bylaws
-	    </a>
-	  </li>
-	  <li>
-	    <a href="{{ site.url }}/executive-committee/operations-manual/">
-	      Operations Manual
-	    </a>
-	  </li>
-	  <li>
-	    <a href="{{ site.url }}/reports/annual/">
-	      Annual Reports
-	    </a>
-	  </li>
-	  <li>
-	    <a href="{{ site.url }}/reports/councilor/">
-	      Councilor Reports
-	    </a>
-	  </li>
-	</ul>
-      </li>
       <!-- "Student Chapters" menu -->
       <li class="dropdown">
 	<a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -118,11 +75,9 @@
 	</ul>
       </li>
       <li><a href="#">Contact Us</a></li>
-    </ul>
-    <!-- Small screen facebook icon -->
-    <ul class="nav navbar-nav visible-xs">
+      <!-- Small screen facebook icon -->
       <li class="visible-xs">
-	<a href="https://www.facebook.com/ACSKalamazoo">
+	<a href="https://www.facebook.com/ACSKalamazoo" class="facebook-logo-tablet">
 	  <img src="{{ site.url }}/images/facebook.png" />
 	  Facebook
 	</a>

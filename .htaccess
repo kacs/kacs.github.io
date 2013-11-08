@@ -24,6 +24,10 @@ RewriteRule kalchemnews/2013/KACS_Newsletter_2012_5\.pdf$ newsletters/kacs-newsl
 RewriteRule kalchemnews/2013/KACS_Newsletter_2012_7\.pdf$ newsletters/kacs-newsletter-2013-07-11.pdf [R=301]
 RewriteRule kalchemnews(/.*)?$ newsletters$1 [PT]
 
+# Redirect About Us pages
+RewriteRule executive-committee/message-from-the-chair/.* about/
+RewriteRule /minutes/ executive-committee/minutes/
+
 # Headers and caching
 Header unset ETag
 FileETag None
