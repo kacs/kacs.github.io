@@ -18,3 +18,6 @@ exclude: [makefile, README.md]
 
 # for bootstrap col-xs-8 style classes
 device: md
+
+# webmaster e-mail address
+webmaster: mark.wolf.music@gmail.com
