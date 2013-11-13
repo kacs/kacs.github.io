@@ -19,6 +19,7 @@ exclude: [makefile, README.md]
 # for bootstrap col-xs-8 style classes
 device: md
 
+<<<<<<< HEAD
 # Serve dynamic or pre-compiled content
 debug: 'true'
 
@@ -27,3 +28,5 @@ chair: Elke Schoffers
 
 # General inquiries e-mail address
 email: ACSkzoo@gmail.com
+# webmaster e-mail address
+webmaster: mark.wolf.music@gmail.com
