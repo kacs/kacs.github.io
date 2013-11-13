@@ -148,9 +148,8 @@ layout: page
   <div class="col-{{ site.device }}-4 col-{{ site.device }}-offset-1">
     <p>
       <strong>
-	{{ newsletter.date | date: "%B %Y" }}
-	<a href="{{ site.url }}/newsletters/kacs-newsletter-{{ newsletter.date | date: "%Y-%m-%d" }}.pdf">
-	  Newsletter [PDF]
+	<a href="{{ site.url }}{{ newsletter.url }}">
+	  {{ newsletter.date | date: "%B %Y" }} Newsletter
 	</a>
       </strong>
     </p>
@@ -163,7 +162,7 @@ layout: page
       This and much more can be found in your
       <strong>{{ newsletter.date | date: "%B" }} Newsletter</strong>.
       Our <strong>Newsletter Archive</strong> can
-      be found <a href="{{ site.url }}/newsletters/">here</a>.
+      be found <a href="{{ site.url }}{{ newsletter.url }}">here</a>.
     </p>
   </div>
   <div class="col-{{ site.device }}-2">
