@@ -13,34 +13,60 @@
 
   <!-- Newsletter navigation -->
   <div class="row">
-    <div class="col-xs-4">
-      {% assign post = site.categories.newsletter.first %}
-      <h3>Current Issue</h3>
-      <ul>
-	  <li>
-	    <a href="{{ post.url }}">
-	      <em>vol. {{ site.post.vol }} issue {{ post.issue }}</em>
-	      - {{ post.date | date_to_string }}
-	    </a>
-	  </li>
-      </ul>
+    <div class="col-xs-3 sidebar-nav">
+      {% assign current = site.categories.newsletter.first %}
 
-      <h3>Past Issues</h3>
+      {% for newsletter in site.categories.newsletter %}
+      {% capture post_year %}{{ newsletter.date | date: "%Y"}}{% endcapture %}
+      {% if post_year != curr_year %}
+      {% if false %}
+      {# For automatica alignment with closing </ul> #}
       <ul>
-	{% for post in site.categories.newsletter %}
+	{% endif %}
+        {% if forloop.index != 1 %}
+      </ul>
+      {% endif %}
+      <h1>{{ post_year }}</h1>
+      {% capture curr_year %}{{ post_year }}{% endcapture %}
+      <ul>
+	{% endif %}
 	<li>
-	  <a href="{{ post.url }}">
-	    <em>vol. {{ post.vol }}
-	      issue {{ post.issue }}</em>
-	    - {{ post.date | date_to_string }}
+	  {% if newsletter.date == current.date %}
+	  <strong>
+	    <em>vol. {{ newsletter.vol }} issue {{ newsletter.issue }}</em>
+	    - {{ newsletter.date | date: "%b %Y" }}
+	  </strong>
+	  {% elsif newsletter.format == 'pdf' %}
+	  <a href="{{ site.url }}/newsletter/{{ newsletter.date | date: "%Y-%m-%d-minutes.pdf" }}">
+	    <em>vol. {{ newsletter.vol }} issue {{ newsletter.issue }}</em>
+	    - {{ newsletter.date | date: "%b %Y" }} [PDF]
 	  </a>
+	  {% else %}
+	  <a href="{{ newsletter.url }}">
+	    <em>vol. {{ newsletter.vol }} issue {{ newsletter.issue }}</em>
+	    - {{ newsletter.date | date: "%b %Y" }}
+	  </a>
+	  {% endif %}
 	</li>
 	{% endfor %}
       </ul>
     </div>
 
-    <div class="col-xs-8">
-      {{ content }}
+
+    <div class="col-xs-9">
+      <h1>{{ current.date | date: "%B %Y" }} Newsletter</h1>
+      <div class="newsletter-content">
+	<h1>Highlights</h1>
+	{{ content }}
+      </div>
+      <p>
+	Do you have
+	<strong>questions, comments, or a desire to contribute</strong>
+	to the newsletter? Send an e-mail to
+	<a href="mailto:{{ site.email }}?subject=Newsletter">
+	  {{ site.email }}
+	</a>.
+      </p>
     </div>
   </div>
 

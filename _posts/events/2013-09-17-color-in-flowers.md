@@ -35,7 +35,7 @@ category: event
     color in other flowers.
   </div>
   <div class="col-{{site.device}}-6">
-    <img src="{{site.ur}}/images/horticulture-photo.jpg"
+    <img src="{{site.ur}}/images/horticulture/plant.jpg"
 	 style="width: 300px" />
   </div>
 </div>

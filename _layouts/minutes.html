@@ -7,10 +7,14 @@
 <div class="container">
   {% include header.html %}
 
-  <div class="row">
-    {% include menu_old.html %}
+  {% include menu.html %}
 
-    <div class="col-{{ site.device }}-10 content-old">
+  <div class="row">
+
+    <!-- Sidebar nagivation -->
+    {% include sidebar_nav.html %}
+
+    <div class="col-{{ site.device }}-9">
       <h1>Minutes of the KACS Executive Committee Meeting</h1>
 
       <!-- Meeting meta info -->
