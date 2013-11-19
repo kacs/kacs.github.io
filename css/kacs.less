@@ -19,9 +19,10 @@
     border-color: grey;
 }
 
-/* ul { */
-/*     list-style-image: url('/images/molecule-bullet.png'); */
-/* } */
+ul {
+    /* list-style-image: url('/images/molecule-bullet.png'); */
+    list-style-type: circle;
+}
 
 .facebook-logo {
     padding: 8px !important;
@@ -201,8 +202,6 @@ p.bjqs-caption{
 	font-size: 18px;
     }
     ul {
-	list-style-type: none;
-	list-style-image: none;
 	padding-left: 20px;
     }
 }
@@ -222,9 +221,9 @@ p.bjqs-caption{
     }
     h1 {
 	font-size: 30px;
+	padding: 5px;
 	background: rgb(230, 230, 230); /* grey */
 	/* background: rgb(255, 255, 190); */ /* yellow */
-	padding: 5px;
     }
     h2 {
 	font-size: 24px;
@@ -233,6 +232,14 @@ p.bjqs-caption{
 	font-size: 18px;
     }
     .author {
+	padding-left: 30px;
 	font-style: italic;
+    }
+    /* Background heading colors by year */
+    &[year="2013"] h1 {
+	background: rgba(0, 152, 116, 0.2); /* emerald green */
+    }
+    &[year="2014"] h1 {
+	background: rgba(12, 70, 207, 0.2); /* dazzling blue */
     }
 }

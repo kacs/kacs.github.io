@@ -37,7 +37,7 @@
 	    - {{ newsletter.date | date: "%b %Y" }}
 	  </strong>
 	  {% elsif newsletter.format == 'pdf' %}
-	  <a href="{{ site.url }}/newsletter/{{ newsletter.date | date: "%Y-%m-%d-minutes.pdf" }}">
+	  <a href="{{ site.url }}/newsletters/{{ newsletter.date | date: "kacs-newsletter-%Y-%m-%d.pdf" }}">
 	    <em>vol. {{ newsletter.vol }} issue {{ newsletter.issue }}</em>
 	    - {{ newsletter.date | date: "%b %Y" }} [PDF]
 	  </a>
@@ -55,10 +55,13 @@
 
     <div class="col-xs-9">
       <h1>{{ current.date | date: "%B %Y" }} Newsletter</h1>
-      <div class="newsletter-content">
+      <div class="newsletter-content" year="{{ current.date | date: "%Y" }}">
 	<h1>Highlights</h1>
 	{{ content }}
       </div>
+
+      <hr />
+
       <p>
 	Do you have
 	<strong>questions, comments, or a desire to contribute</strong>
