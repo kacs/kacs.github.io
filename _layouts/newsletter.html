@@ -54,7 +54,9 @@
 
     <div class="col-xs-9">
       <h1>{{ current.date | date: "%B %Y" }} Newsletter</h1>
-      <p>Prefer to view this newsletter as a printable PDF? Click
+      <p>
+	<span class="glyphicon glyphicon-print"></span>
+	Prefer to view this newsletter as a printable PDF? Click
 	<a href="{{ site.url }}/newsletters/{{ current.date | date: "kacs-newsletter-%Y-%m-%d.pdf" }}">
 	  here
 	</a>
