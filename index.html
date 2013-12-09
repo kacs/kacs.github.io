@@ -3,92 +3,61 @@ title: Kalamazoo Section of the American Chemical Society
 layout: page
 ---
 
-<h3 class="DarkRed">Elements of Dance Update</h3>
+
+<h3 class="DarkRed">Year-End Review</h3>
+
 <p>
   The <strong>Local Sections Activity Committee (LSAC) </strong>gave
   KACS a glowing review. Read more
   <a href="images/KACS Review by LSAC 2012.doc">here.</a>
 </p>
 
-<p>
-  Pictures by
-  <a href="http://www.familyphotodj.com/">DB Photography</a>
-</p>
-
+<!-- Year-end review pictures -->
 <div class="row">
   <div class="col-{{ site.device }}-8">
-    <div id="dance-photos">
-      <ul class="bjqs">
-	<li>
-	  <a href="elements-of-dance/photos.html"
-	     title="click for more photos">
-	    <img src="images/eod02-mdpi.jpg"
-		 class="img-responsive"/>
-	  </a>
-	</li>
-	<li>
-	  <a href="elements-of-dance/photos.html"
-	     title="click for more photos">
-	    <img src="images/eod09-mdpi.jpg" />
-	  </a>
-	</li>
-	<li>
-	  <a href="elements-of-dance/photos.html"
-	     title="click for more photos">
-	    <img src="images/eod18-mdpi.jpg" />
-	  </a>
-	</li>
-	<li>
-	  <a href="elements-of-dance/photos.html"
-	     title="click for more photos">
-	    <img src="images/eod20-mdpi.jpg" />
-	  </a>
-	</li>
-	<li>
-	  <a href="elements-of-dance/photos.html"
-	     title="click for more photos">
-	    <img src="images/eod01-mdpi.jpg"
-		 class="img-responsive" />
-	  </a>
-	</li>
-	<li>
-	  <a href="elements-of-dance/photos.html"
-	     title="click for more photos">
-	    <img src="images/eod08-mdpi.jpg" />
-	  </a>
-	</li>
-	<li>
-	  <a href="elements-of-dance/photos.html"
-	     title="click for more photos">
-	    <img src="images/eod12-mdpi.jpg" />
-	  </a>
-	</li>
-	<li>
-	  <a href="elements-of-dance/photos.html"
-	     title="click for more photos">
-	    <img src="images/eod19-mdpi.jpg" />
-	  </a>
-	</li>
-      </ul>
-      <p id="more-button">
-	<a href="elements-of-dance/photos.html">More pictures</a>
-      </p>
+    <div id="main-carousel" class="carousel slide" data-ride="carousel">
+
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+	<li data-target="#main-carousel" data-slide-to="0" class="active"></li>
+	<li data-target="#main-carousel" data-slide-to="1"></li>
+	<!-- <li data-target="#main-carousel" data-slide-to="2"></li> -->
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+	<div class="item active">
+	  <img src="images/eod02-mdpi.jpg" />
+	</div>
+	<div class="item">
+	  <img src="images/eod03-mdpi.jpg" />
+	</div>
+      </div>
+      <!-- Controls -->
+      <a class="left carousel-control" href="#main-carousel" data-slide="prev">
+	<span class="glyphicon glyphicon-chevron-left"></span>
+      </a>
+      <a class="right carousel-control" href="#main-carousel" data-slide="next">
+	<span class="glyphicon glyphicon-chevron-right"></span>
+      </a>
+
     </div>
   </div>
 
-  <div class="col-{{ site.device }}-4">
-    <h4 class="text-center">Thanks to our donors!</h4>
-    <div id="slideshow">
-      <img src="images/donor-kalsec.png" alt="Kalsec logo" />
-      <img src="images/donor-vwr.png" alt="VWR logo" />
-      <img src="images/donor-wmu.png" alt="WMU BTR logo" />
-      <img src="images/donor-aas.png" alt="AAS logo" />
-      <img src="images/donor-aldrich.png" alt="Aldrich logo" />
-    </div>
-    <img src="images/chemluminary.png"
-	 style="margin-left: 70px; margin-top: 40px" />
-  </div>
+  <!-- Current newsletter -->
+  {% assign newsletter = site.categories.newsletter.first %}
+  <div class="col-{{ site.device }}-4 sidebox">
+    <h2>
+      <a href="{{ site.url }}{{ newsletter.url }}">
+	{{ newsletter.date | date: "%B %Y" }} Newsletter
+      </a>
+    </h2>
 
+    <p>
+      In it, you will learn about:
+    </p>
+    {{ newsletter.excerpt }}
+  </div>
 </div>
 
 <hr />
@@ -127,6 +96,16 @@ layout: page
 	</a>
       </li>
     </ul>
+    <h4>Thanks to our donors!</h4>
+    <div id="slideshow">
+      <img src="images/donor-kalsec.png" alt="Kalsec logo" />
+      <img src="images/donor-vwr.png" alt="VWR logo" />
+      <img src="images/donor-wmu.png" alt="WMU BTR logo" />
+      <img src="images/donor-aas.png" alt="AAS logo" />
+      <img src="images/donor-aldrich.png" alt="Aldrich logo" />
+    </div>
+    <img id="chemluminary-logo" src="images/chemluminary.png"
+	 class="pull-right" />
   </div>
   <div class="col-{{ site.device }}-3 col-{{ site.device }}-offset-1">
     <img class="img-responsive" alt="Action Shot"

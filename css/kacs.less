@@ -91,8 +91,9 @@ hr {
 /* Shows logos of donors on main page */
 .slideshow {
     position: relative;
-    height: 91px;
+    /* height: 91px; */
     margin-bottom: 20px;
+    display: inline-block;
 }
 
 .slideshow img {
@@ -110,6 +111,19 @@ hr {
 
 .slideshow img.last-active {
     z-index: 9;
+}
+
+.sidebox {
+    h2 {
+	font-size: 20px;
+    }
+    li {
+	margin-left: -20px;
+    }
+}
+
+#chemluminary-logo {
+    margin-top: -70px;
 }
 
 #dance-photos {
@@ -240,7 +254,8 @@ p.bjqs-caption{
 	background: rgba(0, 152, 116, 0.2); /* emerald green */
     }
     &[year="2014"] h1 {
-	background: rgba(12, 70, 207, 0.2); /* dazzling blue */
+	/* background: rgba(12, 70, 207, 0.2); /\* dazzling blue *\/ */
+	background: rgba(177, 99, 163, 0.4) /* Radiant Orchid */
     }
 }
 
