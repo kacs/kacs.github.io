@@ -29,7 +29,8 @@ RewriteRule kalchemnews(/.*)?$ newsletters$1 [PT]
 
 # Redirect About Us pages
 RewriteRule executive-committee/message-from-the-chair/.* about/
-RewriteRule /minutes/ executive-committee/minutes/
+# This rules for minutes breaks apache with infinite redirects
+# RewriteRule /minutes/ executive-committee/minutes/
 
 # Headers and caching
 Header unset ETag

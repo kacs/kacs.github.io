@@ -268,14 +268,15 @@ p.bjqs-caption {
   font-style: italic;
 }
 .newsletter-content[year="2013"] h1 {
-  /* color: white; */
-
-  background: rgba(0, 152, 116, 0.3);
+  background: rgba(0, 152, 116, 0.2);
   /* emerald green */
 
 }
 .newsletter-content[year="2014"] h1 {
-  background: #0c46cf;
+  background: rgba(12, 70, 207, 0.2);
   /* dazzling blue */
 
+}
+.student-chapters h2 {
+  font-size: 20px;
 }
