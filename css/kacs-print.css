@@ -1,0 +1,9 @@
+.sidebar-nav,.nav,.pdf-link {
+    display: none;
+}
+
+.row.header {
+    margin-bottom: 15px;
+    border-bottom-style: solid;
+    border-width: 1px;
+}

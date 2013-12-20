@@ -45,8 +45,22 @@
       {% endif %}
 	<a href="{{ site.url }}{{ newsletter.url }}">Newsletters</a>
       </li>
-      <li><a href="{{ site.url }}/about/">About Us</a></li>
-      <li><a href="{{ site.url }}/student-chapters/">Student Chapters</a></li>
+      <!-- About us -->
+      {% if url_parts[1] == 'about' %}
+      <li class="active">
+      {% else %}
+      <li>
+      {% endif %}
+	<a href="{{ site.url }}/about/message-from-the-chair.html">About Us</a>
+      </li>
+      <!-- Student chapters -->
+      {% if url_parts[1] == 'student-chapters' %}
+      <li class="active">
+      {% else %}
+      <li>
+      {% endif %}
+	<a href="{{ site.url }}/student-chapters/">Student Chapters</a>
+      </li>
       <li><a href="{{ site.url }}/contact/">Contact Us</a></li>
       <!-- Small screen facebook icon -->
       <li class="visible-xs">

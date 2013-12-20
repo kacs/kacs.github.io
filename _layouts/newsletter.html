@@ -13,14 +13,14 @@
 
   <!-- Newsletter navigation -->
   <div class="row">
-    <div class="col-xs-3 sidebar-nav">
+    <div class="col-xs-3 sidebar-nav hidden-print">
       {% assign current = site.categories.newsletter.first %}
 
       {% for newsletter in site.categories.newsletter %}
       {% capture post_year %}{{ newsletter.date | date: "%Y"}}{% endcapture %}
       {% if post_year != curr_year %}
       {% if false %}
-      {# For automatica alignment with closing </ul> #}
+      {# For automatic alignment with closing </ul> #}
       <ul>
 	{% endif %}
         {% if forloop.index != 1 %}
@@ -54,7 +54,7 @@
 
     <div class="col-xs-9">
       <h1>{{ current.date | date: "%B %Y" }} Newsletter</h1>
-      <p>
+      <p class="pdf-link">
 	<span class="glyphicon glyphicon-print"></span>
 	Prefer to view this newsletter as a printable PDF? Click
 	<a href="{{ site.url }}/newsletters/{{ current.date | date: "kacs-newsletter-%Y-%m-%d.pdf" }}">

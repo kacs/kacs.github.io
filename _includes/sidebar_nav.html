@@ -1,44 +1,88 @@
 <div class="col-{{ site.device }}-3 sidebar-nav">
   <h1>About Us</h1>
   <ul>
+    {% if page.url == '/about/message-from-the-chair.html' %}
+    <li class="active">
+    {% else %}
     <li>
-      <a href="{{ site.url }}/about/">Message from the Chair</a>
+    {% endif %}
+      <a href="{{ site.url }}/about/message-from-the-chair.html">Message from the Chair</a>
     </li>
+
+    {% if page.url == '/about/volunteer.html' %}
+    <li class="active">
+    {% else %}
     <li>
-      <a href="{{ site.url }}/volunteer/">Volunteer Opportunities</a>
+    {% endif %}
+      <a href="{{ site.url }}/about/volunteer.html">Volunteer Opportunities</a>
     </li>
+
+    {% if page.url == '/about/officers.html' %}
+    <li class="active">
+    {% else %}
     <li>
-      <a href="{{ site.url }}/executive-committee/officers/">
+    {% endif %}
+      <a href="{{ site.url }}/about/officers.html">
 	Executive Committee Officers
       </a>
     </li>
+
+    {% if page.url == '/about/elections.html' %}
+    <li class="active">
+    {% else %}
     <li>
-      <a href="{{ site.url }}/executive-committee/elections/">
+    {% endif %}
+      <a href="{{ site.url }}/about/elections.html">
 	Officer Elections
       </a>
     </li>
+
+    {% if page.url contains '/minutes'  %}
+    <li class="active">
+    {% else %}
     <li>
-      <a href="{{ site.url }}/executive-committee/minutes/">
+    {% endif %}
+      <a href="{{ site.url }}/about/minutes.html">
 	Committee Meeting Minutes
       </a>
     </li>
+
+    {% if page.url == '/about/annual-reports.html' %}
+    <li class="active">
+    {% else %}
     <li>
-      <a href="{{ site.url }}/reports/annual/">
+    {% endif %}
+      <a href="{{ site.url }}/about/annual-reports.html">
 	Annual Reports
       </a>
     </li>
+
+    {% if page.url contains 'councilor-report' %}
+    <li class="active">
+    {% else %}
     <li>
-      <a href="{{ site.url }}/reports/councilor">
+    {% endif %}
+      <a href="{{ site.url }}/about/councilor-reports.html">
 	Councilor Reports
       </a>
     </li>
+
+    {% if page.url == '/about/operations-manual.html' %}
+    <li class="active">
+    {% else %}
     <li>
-      <a href="{{ site.url }}/executive-committee/operations-manual/">
+    {% endif %}
+      <a href="{{ site.url }}/about/operations-manual.html">
 	Operations Manual
       </a>
     </li>
+
+    {% if page.url == '/about/bylaws.html' %}
+    <li class="active">
+    {% else %}
     <li>
-      <a href="{{ site.url }}/executive-committee/bylaws/">
+    {% endif %}
+      <a href="{{ site.url }}/about/bylaws.html">
 	Bylaws
       </a>
     </li>
@@ -46,19 +90,34 @@
 
   <h1>History</h1>
   <ul>
+    {% if page.url == '/about/past-chairs.html' %}
+    <li class="active">
+    {% else %}
     <li>
-      <a href="{{ site.url }}/history/past-chairs/">List of Local Section Chiars</a>
+    {% endif %}
+      <a href="{{ site.url }}/about/past-chairs.html">List of Local Section Chairs</a>
     </li>
+
+    {% if page.url == '/about/regional-meetings.html' %}
+    <li class="active">
+    {% else %}
     <li>
-      <a href="{{ site.url }}/history/regional-meetings/">Great Lakes Regional Meetings</a>
+    {% endif %}
+      <a href="{{ site.url }}/about/regional-meetings.html">Great Lakes Regional Meetings</a>
     </li>
+
     <li>
-      <a href="{{ site.url }}/history/kacs1981.pdf">
+      <a href="{{ site.url }}/about/kacs1981.pdf">
 	Historical Narrative [PDF]
       </a>
     </li>
+
+    {% if page.url contains '/about/memorials' %}
+    <li class="active">
+    {% else %}
     <li>
-      <a href="{{ site.url }}/history/memorial/">Memorials</a>
+    {% endif %}
+      <a href="{{ site.url }}/about/memorials.html">Memorials</a>
     </li>
   </ul>
 </div><!-- </div class="sidebar-nav"> -->

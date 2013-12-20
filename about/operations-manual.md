@@ -9,8 +9,6 @@ Operations Manual
 
 Last updated 2012-03-14
 
-[Download the PDF](kacs-operations-manual.pdf "Download manual as PDF")
-
 Chair
 ---
 
