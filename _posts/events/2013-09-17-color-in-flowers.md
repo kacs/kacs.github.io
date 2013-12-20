@@ -11,7 +11,7 @@ category: event
 <strong>Public event -- refreshments served</strong>
 
 <p>
-  <a href="{{ site.url }}/assets/colors-in-flowers-flyer.pdf"
+  <a href="{{ site.url }}/events/2013-09-17-color-in-flowers.pdf"
      title="PDF of event flyer">
     Click here for the event flyer [PDF]
   </a>
