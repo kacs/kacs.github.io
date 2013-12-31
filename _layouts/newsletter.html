@@ -14,7 +14,6 @@
   <!-- Newsletter navigation -->
   <div class="row">
     <div class="col-xs-3 sidebar-nav hidden-print">
-      {% assign current = site.categories.newsletter.first %}
 
       {% for newsletter in site.categories.newsletter %}
       {% capture post_year %}{{ newsletter.date | date: "%Y"}}{% endcapture %}
@@ -31,7 +30,7 @@
       <ul>
 	{% endif %}
 	<li>
-	  {% if newsletter.date == current.date %}
+	  {% if newsletter.url == page.url %}
 	  <strong>
 	    <em>vol. {{ newsletter.vol }} issue {{ newsletter.issue }}</em>
 	    - {{ newsletter.date | date: "%b %Y" }}
@@ -53,15 +52,15 @@
     </div>
 
     <div class="col-xs-9">
-      <h1>{{ current.date | date: "%B %Y" }} Newsletter</h1>
+      <h1>{{ page.date | date: "%B %Y" }} Newsletter</h1>
       <p class="pdf-link">
 	<span class="glyphicon glyphicon-print"></span>
 	Prefer to view this newsletter as a printable PDF? Click
-	<a href="{{ site.url }}/newsletters/{{ current.date | date: "kacs-newsletter-%Y-%m-%d.pdf" }}">
+	<a href="{{ site.url }}/newsletters/{{ page.date | date: "kacs-newsletter-%Y-%m-%d.pdf" }}">
 	  here
 	</a>
       </p>
-      <div class="newsletter-content" year="{{ current.date | date: "%Y" }}">
+      <div class="newsletter-content" year="{{ page.date | date: "%Y" }}">
 	<h1>Highlights</h1>
 	{{ content }}
       </div>
