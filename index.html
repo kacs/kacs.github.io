@@ -4,6 +4,9 @@ layout: page
 ---
 
 
+<!-- Year-end review pictures -->
+<div class="row">
+  <div class="col-{{ site.device }}-8">
 <h3 class="DarkRed">2013 Highlights</h3>
 
 <p>
@@ -11,10 +14,6 @@ layout: page
   KACS a glowing review. Read more
   <a href="images/KACS Review by LSAC 2012.doc">here.</a>
 </p>
-
-<!-- Year-end review pictures -->
-<div class="row">
-  <div class="col-{{ site.device }}-8">
     <div id="main-carousel" class="carousel slide" data-ride="carousel">
 
       <!-- Indicators -->
@@ -62,9 +61,23 @@ layout: page
     </div>
   </div>
 
-  <!-- Current newsletter -->
   {% assign newsletter = site.categories.newsletter.first %}
   <div class="col-{{ site.device }}-4 sidebox">
+    <h2>
+      <a href="{{ site.url }}/event/2014/01/29/molecules-in-nutrition.html"
+	 title="Event page for 'Chemistry & Culture: Food'">
+	Chemistry &amp; Culture: Food
+      </a>
+    </h2>
+    <p><em>Wednesday 29 January 2014<br />
+    Bell's Eccentric Café</em></p>
+	<ul>
+	  <li>Free admission</li>
+	  <li>Free snacks</li>
+	  <li>Free refreshments</li>
+	  <li>Hands-on activities</li>
+	</ul>
+    <!-- Current newsletter -->
     <h2>
       <a href="{{ site.url }}{{ newsletter.url }}">
 	{{ newsletter.date | date: "%B %Y" }} Newsletter
