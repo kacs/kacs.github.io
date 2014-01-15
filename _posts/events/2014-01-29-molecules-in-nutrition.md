@@ -10,6 +10,22 @@ category: event
 
 <div class="row">
   <div class="col-{{ site.device }}-6">
+    <!-- Donors -->
+    <div class="row">
+      <div class="col-{{ site.device }}-6">
+	<a href="//www.kalsec.com" title="Kalsec homepage">
+	  <img src="{{ site.url }}/images/donor-kalsec.png" alt="Kalsec logo"
+	       class="img-responsive"/>
+	</a>
+      </div>
+      <div class="col-{{ site.device }}-6">
+	<a href="//www.waters.com" title="Waters homepage">
+	  <img src="{{ site.url }}/images/donor-waters.png" alt="Waters Logo"
+	     class="img-responsive" />
+	</a>
+      </div>
+    </div>
+
     <h2>Sense-ational Molecules in Nutrition</h2>
     <p>
       <span class="glyphicon glyphicon-print"></span>
