@@ -3,13 +3,25 @@ ul {
 }
 
 .facebook-logo {
-    padding: 8px !important;
-    img {
-	height: 34px;
+    /* Horizontal desktop menu */
+    @media (min-width: 768px) {
+	float: right;
+	a {
+	    padding: 8px !important;
+	}
+	img {
+	    height: 34px;
+	}
+	.facebook-label {
+	    display: none;
+	}
     }
-}
-.facebook-logo-tablet img {
-    height: 20px;
+    /* Condensed mobile menu */
+    @media (max-width: 768px) {
+	img {
+	    height: 20px;
+	}
+    }
 }
 
 .header {
