@@ -156,10 +156,10 @@ layout: page
 
 <!-- Current newsletter -->
 {% assign newsletter = site.categories.newsletter.first %}
-<h2>Current KACS Newsletter:</h2>
 
 <div class="row">
   <div class="col-{{ site.device }}-4 col-{{ site.device }}-offset-1">
+    <h2>Current KACS Newsletter:</h2>
     <p>
       <strong>
 	<a href="{{ site.url }}{{ newsletter.url }}">
@@ -180,9 +180,9 @@ layout: page
     </p>
   </div>
   <div class="col-{{ site.device }}-2">
-    <p align="center">Best wishes from your <br>
-      KACS Chair<br>
-      <img src="images/chair.jpg"><br>
+    <p align="center">Best wishes from your <br />
+      KACS Chair<br />
+      <img src="images/chair.jpg" class="img-responsive"><br />
       {{ site.chair }}
     </p>
   </div>
