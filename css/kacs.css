@@ -2,13 +2,29 @@ ul {
   list-style-type: circle;
 }
 .facebook-logo {
-  padding: 8px !important;
+  /* Horizontal desktop menu */
+
+  /* Condensed mobile menu */
+
 }
-.facebook-logo img {
-  height: 34px;
+@media (min-width: 768px) {
+  .facebook-logo {
+    float: right;
+  }
+  .facebook-logo a {
+    padding: 8px !important;
+  }
+  .facebook-logo img {
+    height: 34px;
+  }
+  .facebook-logo .facebook-label {
+    display: none;
+  }
 }
-.facebook-logo-tablet img {
-  height: 20px;
+@media (max-width: 768px) {
+  .facebook-logo img {
+    height: 20px;
+  }
 }
 .header {
   color: #004b9a;

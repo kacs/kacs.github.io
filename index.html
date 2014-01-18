@@ -79,10 +79,20 @@ layout: page
       <li>Hands-on activities</li>
     </ul>
     <p>Sponsored by:</p>
-      <ul>
-	<li><a href="//www.kalsec.com" title="Kalsec homepage">Kalsec, Inc.</a></li>
-	<li><a href="//www.waters.com" title="Waters homepage">Waters</a></li>
-      </ul>
+    <div class="row">
+      <div class="col-xs-6">
+	<a href="//www.kalsec.com" title="Kalsec homepage">
+	  <img src="{{ site.url }}/images/donor-kalsec.png" alt="Kalsec Logo"
+	       class="img-responsive" />
+	</a>
+      </div>
+      <div class="col-xs-6">
+	<a href="//www.waters.com" title="Waters homepage">
+	  <img src="{{ site.url }}/images/donor-waters.png" alt="Waters Logo"
+	       class="img-responsive" />
+	</a>
+      </div>
+    </div>
 
     <!-- Current newsletter -->
     <h2>
@@ -97,6 +107,41 @@ layout: page
     {{ newsletter.excerpt }}
   </div>
 </div>
+
+<hr />
+
+<h2>
+  <a href="{{ site.url }}/event/2014/01/25/climate-change-workshop.html"
+     title="Event page for climate change workshop">
+    Climate Change Workshop
+  </a>
+</h2>
+<p><em>Saturday 25 January 2014</em><p>
+<p>The event is free but
+  <strong>
+    <a href="mailto:steven.bertman@wmich.edu"
+       title="E-mail Steven Bertman">registration</a>
+    is required
+  </strong>.
+</p>
+<p>
+  In collaboration with the KACS, several faculty experts from the WMU
+  Climate Change Working Group will provide training on global climate
+  change in a free half-day workshop on January 25th. They will lead
+  hands-on computer-based exercises on four major aspects of climate
+  change:
+</p>
+<ul>
+  <li>The Scientific Basis of Climate Change</li>
+  <li>Effects of Climate Change on Ecosystem and Human Health</li>
+  <li>
+    Climate Change Mitigation: The Roles of Personal Behaviors and
+    Alternate Energy Technologies
+  </li>
+  <li>
+    Social Responses to Climate Change: Economic and Political Considerations
+  </li>
+</ul>
 
 <hr />
 
@@ -136,14 +181,24 @@ layout: page
       </li>
     </ul>
     <h4>Thanks to our donors!</h4>
-    <div id="slideshow">
-      <img src="images/donor-kalsec.png" alt="Kalsec logo" />
-      <img src="images/donor-wmu.png" alt="WMU BTR logo" />
-      <img src="images/donor-aas.png" alt="AAS logo" />
-      <img src="images/donor-aldrich.png" alt="Aldrich logo" />
+    <div class="row">
+      <div class="col-md-6">
+	<div id="slideshow">
+	  <img src="images/donor-kalsec.png" alt="Kalsec logo"
+	       class="img-responsive" />
+	  <img src="images/donor-wmu.png" alt="WMU BTR logo"
+	       class="img-responsive" />
+	  <img src="images/donor-aas.png" alt="AAS logo"
+	       class="img-responsive" />
+	  <img src="images/donor-aldrich.png" alt="Aldrich logo"
+	       class="img-responsive" />
+	</div>
+      </div>
+      <div class="col-md-6 visible-lg">
+	<img id="chemluminary-logo" src="images/chemluminary.png"
+	     class="img-responsive pull-right" />
+      </div>
     </div>
-    <img id="chemluminary-logo" src="images/chemluminary.png"
-	 class="pull-right" />
   </div>
   <div class="col-{{ site.device }}-3 col-{{ site.device }}-offset-1">
     <img class="img-responsive" alt="Action Shot"

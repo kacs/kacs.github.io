@@ -78,8 +78,15 @@ hr {
 /* Shows logos of donors on main page */
 .slideshow {
     position: relative;
-    margin-bottom: 20px;
     display: inline-block;
+    @media (min-width: 1200px) {
+	margin-top: 45px;
+	margin-bottom: 20px;
+    }
+    @media (max-width: 1200px) {
+	margin-top: 25px;
+	margin-bottom: 100px;
+    }
 }
 
 .slideshow img {
@@ -108,9 +115,9 @@ hr {
     }
 }
 
-#chemluminary-logo {
-    margin-top: -70px;
-}
+/* #chemluminary-logo { */
+/*     margin-top: -70px; */
+/* } */
 
 #dance-photos {
     margin-bottom: 50px;
