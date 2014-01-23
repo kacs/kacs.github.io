@@ -133,7 +133,7 @@ category: event
       Thanks to our donors!
     </h4>
     <div id="slideshow">
-      <img src="{{ site.url }}/images/donor-kalsec.png" alt="Kalsec logo" />
+      <img src="{{ site.url }}/images/logos/kalsec.png" alt="Kalsec logo" />
       <img src="{{ site.url }}/images/donor-vwr.png" alt="VWR logo" />
       <img src="{{ site.url }}/images/donor-wmu.png" alt="WMU BTR logo" />
       <img src="{{ site.url }}/images/donor-aas.png" alt="AAS logo" />

@@ -27,5 +27,5 @@ authors.
 
 Download the event flyer [here]({{ site.url }}/events/2013-10-08-scimix-poster-flyer.pdf)
 
-![Bell's Logo]({{ site.url }}/images/bells-logo.png)
+![Bell's Logo]({{ site.url }}/images/logos/bells.png)
 ![Zoetis Logo]({{ site.url }}/images/zoetis-logo.png)
