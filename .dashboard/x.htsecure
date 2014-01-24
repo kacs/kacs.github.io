@@ -1,8 +1,0 @@
-##
-## basic auth
-##
-AuthType Basic
-AuthName "/ dashboard access"
-AuthBasicProvider external
-AuthExternal auth-system
-Require user acs webadmin
