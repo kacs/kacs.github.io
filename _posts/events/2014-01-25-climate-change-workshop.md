@@ -3,6 +3,7 @@ title: "Climate Change Workshop"
 heading: "Climate Change Workshop"
 location: ["Rood Hall computer lab", "Western Michigan University"]
 cost: "Free (Registration required)"
+schedule: "8:00-12:00"
 layout: event
 category: event
 ---
