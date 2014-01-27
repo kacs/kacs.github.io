@@ -14,7 +14,7 @@ category: event
 
 <div class="row">
   <div class="col-{{ site.device }}-3">
-    <img src="{{ site.url }}/images/eod-logo.png"
+    <img src="{{ site.baseurl }}/images/eod-logo.png"
 	 class="img-responsive"
 	 title="Elements of Dance Logo"
 	 />
@@ -25,7 +25,7 @@ category: event
       chemists and ballroom dancers to another Gala on Friday,
       November 1, 7-10 PM at the Kalamazoo Institute of Arts. KACS
       wants you to join the
-      <a href="{{ site.url }}/event/2013/11/01/elements-of-dance.html" title="2013 Elements of Dance event page">
+      <a href="{{ site.baseurl }}/event/2013/11/01/elements-of-dance.html" title="2013 Elements of Dance event page">
 	2013 Chemistry & Culture: Elements of Dance
       </a>
       which includes an exhibit on Molecular Foundation of
@@ -34,7 +34,7 @@ category: event
     </p>
   </div>
   <div class="col-{{ site.device }}-3">
-    <img src="{{ site.url }}/images/chemluminary.png"
+    <img src="{{ site.baseurl }}/images/chemluminary.png"
 	 class="img-responsive hidden-sm hidden-xs"
 	 title="ChemLuminary Logo"
 	 style="margin-top: -60px;"/>
@@ -57,13 +57,13 @@ category: event
   (179 attendees).
 </p>
 <p>
-  <a href="{{ site.url }}/images/elements_of_dance_report.pdf"
+  <a href="{{ site.baseurl }}/images/elements_of_dance_report.pdf"
      title="Press Release of Elements of Dance and ChemLuminary Awards">
     Elements of Dance Report - ChemLuminary Press Release [PDF]
   </a>
 </p>
 <p>
-  <a href="{{ site.url }}/elements-of-dance/photos.html">
+  <a href="{{ site.baseurl }}/elements-of-dance/photos.html">
     Click here for more photos
   </a>
 </p>
@@ -75,54 +75,54 @@ category: event
 	<li>
 	  <a href="photos.html"
 	     title="click for more photos">
-	    <img src="{{ site.url }}/images/eod02-mdpi.jpg" />
+	    <img src="{{ site.baseurl }}/images/eod02-mdpi.jpg" />
 	  </a>
 	</li>
 	<li>
 	  <a href="photos.html"
 	     title="click for more photos">
-	    <img src="{{ site.url }}/images/eod09-mdpi.jpg" />
+	    <img src="{{ site.baseurl }}/images/eod09-mdpi.jpg" />
 	  </a>
 	</li>
 	<li>
 	  <a href="photos.html"
 	     title="click for more photos">
-	    <img src="{{ site.url }}/images/eod18-mdpi.jpg" />
+	    <img src="{{ site.baseurl }}/images/eod18-mdpi.jpg" />
 	  </a>
 	</li>
 	<li>
 	  <a href="photos.html"
 	     title="click for more photos">
-	    <img src="{{ site.url }}/images/eod20-mdpi.jpg" />
+	    <img src="{{ site.baseurl }}/images/eod20-mdpi.jpg" />
 	  </a>
 	</li>
 	<li>
 	  <a href="photos.html"
 	     title="click for more photos">
-	    <img src="{{ site.url }}/images/eod01-mdpi.jpg" />
+	    <img src="{{ site.baseurl }}/images/eod01-mdpi.jpg" />
 	  </a>
 	</li>
 	<li>
 	  <a href="photos.html"
 	     title="click for more photos">
-	    <img src="{{ site.url }}/images/eod08-mdpi.jpg" />
+	    <img src="{{ site.baseurl }}/images/eod08-mdpi.jpg" />
 	  </a>
 	</li>
 	<li>
 	  <a href="photos.html"
 	     title="click for more photos">
-	    <img src="{{ site.url }}/images/eod12-mdpi.jpg" />
+	    <img src="{{ site.baseurl }}/images/eod12-mdpi.jpg" />
 	  </a>
 	</li>
 	<li>
 	  <a href="photos.html"
 	     title="click for more photos">
-	    <img src="{{ site.url }}/images/eod19-mdpi.jpg" />
+	    <img src="{{ site.baseurl }}/images/eod19-mdpi.jpg" />
 	  </a>
 	</li>
       </ul>
       <p id="more-button">
-	<a href="{{ site.url }}/elements-of-dance/photos.html">
+	<a href="{{ site.baseurl }}/elements-of-dance/photos.html">
 	  More pictures
 	</a>
       </p>
@@ -133,13 +133,13 @@ category: event
       Thanks to our donors!
     </h4>
     <div id="slideshow">
-      <img src="{{ site.url }}/images/logos/kalsec.png" alt="Kalsec logo" />
-      <img src="{{ site.url }}/images/donor-vwr.png" alt="VWR logo" />
-      <img src="{{ site.url }}/images/donor-wmu.png" alt="WMU BTR logo" />
-      <img src="{{ site.url }}/images/donor-aas.png" alt="AAS logo" />
-      <img src="{{ site.url }}/images/donor-aldrich.png" alt="Aldrich logo" />
+      <img src="{{ site.baseurl }}/images/logos/kalsec.png" alt="Kalsec logo" />
+      <img src="{{ site.baseurl }}/images/donor-vwr.png" alt="VWR logo" />
+      <img src="{{ site.baseurl }}/images/donor-wmu.png" alt="WMU BTR logo" />
+      <img src="{{ site.baseurl }}/images/donor-aas.png" alt="AAS logo" />
+      <img src="{{ site.baseurl }}/images/donor-aldrich.png" alt="Aldrich logo" />
     </div>
-    <img src="{{ site.url }}/images/chemluminary.png"
+    <img src="{{ site.baseurl }}/images/chemluminary.png"
 	 style="margin-left: 70px; margin-top: 40px"/>
   </div>
 </div>
@@ -157,7 +157,7 @@ category: event
   a cash prize after submitting the winning T-shirt graphic.
 </p>
 
-<img src="{{ site.url }}/images/eod03-mdpi.jpg"
+<img src="{{ site.baseurl }}/images/eod03-mdpi.jpg"
      width="350" height="222px" />
 <p>
   <em>
@@ -185,11 +185,11 @@ history, cooking, baking, brewing, sports and dancing, among others.
 It is hoped that *Elements of Dance* will be the first event in a new series
 <div class="row">
   <div class="col-{{ site.device }}-1">
-    <img src="{{ site.url }}/images/Dance_clip_image004.png"
+    <img src="{{ site.baseurl }}/images/Dance_clip_image004.png"
 	 alt="clipart shoes" />
   </div>
   <div class="col-{{ site.device }}-3">
-    <img src="{{ site.url }}/images/DancePhoto_2_small.jpg" width="170" height="114">
+    <img src="{{ site.baseurl }}/images/DancePhoto_2_small.jpg" width="170" height="114">
   </div>
   <div class="col-{{ site.device }}-8">
     <p>
@@ -235,12 +235,12 @@ The goals of "Chemistry and Culture are..."
 
 <ul>
   <li>
-    <a href="{{ site.url }}/elements-of-dance/FinalDancePressRelease.jpg">
+    <a href="{{ site.baseurl }}/elements-of-dance/FinalDancePressRelease.jpg">
       Press Release
     </a>
   </li>
   <li>
-    <a href="{{ site.url }}/elements-of-dance/WMUChemistryInstructors_Salsa.jpg">
+    <a href="{{ site.baseurl }}/elements-of-dance/WMUChemistryInstructors_Salsa.jpg">
       WMU Chemistry Instructors Teach New Steps At The KIA
     </a>
   </li>
@@ -256,7 +256,7 @@ The goals of "Chemistry and Culture are..."
 	the Kalamazoo Spice and Extraction Company (Kalsec), Aldrich,
 	VWR and the WMU Business Technology and Research Park.
 </p>
-<img src="{{ site.url }}/images/DonorLogos.png" width="598">
+<img src="{{ site.baseurl }}/images/DonorLogos.png" width="598">
 
 <hr />
 
@@ -265,7 +265,7 @@ The goals of "Chemistry and Culture are..."
 <p><strong>Monday, Oct. 22 at 5 PM</strong><br> Deadline for chemistry
   students to register for the &ldquo;Cupid Shuffle&rdquo;
   with <a href="mailto:elke.schoffers@wmich.edu">Dr. Schoffers</a><br />
-  <a href="{{ site.url }}/elements-of-dance/ElementsOfDanceCupidShuffle.jpg">
+  <a href="{{ site.baseurl }}/elements-of-dance/ElementsOfDanceCupidShuffle.jpg">
     See flyer for more details.
   </a>
 </p>

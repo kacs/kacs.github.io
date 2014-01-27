@@ -15,18 +15,18 @@ Allegan. The first correct entry to our chemistry crossword puzzle
 wins the prize. One entry per person only.
 
 Download the event flyer
-[here [PDF]]({{ site.url }}/events/2012-06-22-allegan-meet-and-greet.pdf "PDF of the Allegan Meet 'N Greet Flyer").
+[here [PDF]]({{ site.baseurl }}/events/2012-06-22-allegan-meet-and-greet.pdf "PDF of the Allegan Meet 'N Greet Flyer").
 
 **This may be a good time to review those KACS newsletters – just in
 case!**
 
 <div class="row">
   <div class="col-{{ site.device }}-6">
-    <img src="{{ site.url }}/images/daileys-kitchen-photo.jpg"
+    <img src="{{ site.baseurl }}/images/daileys-kitchen-photo.jpg"
 	 class="img-responsive" />
   </div>
   <div class="col-{{ site.device }}-6">
-    <img src="{{ site.url }}/images/daileys-kitchen-map.jpg"
+    <img src="{{ site.baseurl }}/images/daileys-kitchen-map.jpg"
 	 class="img-responsive" />
   </div>
 </div>
@@ -38,7 +38,7 @@ if you have any questions.
 
 This event is co-sponsored by:
 
-![Perrigo Logo]({{ site.url }}/images/perrigo-logo.png "This event co-sponsored by Perrigo")
+![Perrigo Logo]({{ site.baseurl }}/images/perrigo-logo.png "This event co-sponsored by Perrigo")
 <hr />
 
 Report by Lydia Hines
@@ -68,7 +68,7 @@ An experiment that was well worth trying to test the “hypothesis” that
 having a meeting at a location other that Kalamazoo would show the
 Section’s interest in “retaining” all our Section members.
 
-![Photo of Crossword Winner]({{ site.url }}/images/allegan-crossword-winner.jpg "Mark Wolf and the winning crossword puzzle")
+![Photo of Crossword Winner]({{ site.baseurl }}/images/allegan-crossword-winner.jpg "Mark Wolf and the winning crossword puzzle")
 
 Do you know which element circulates in rumors of having been despised
 by Mahatma Gandhi?  Mark Wolf did! He won the puzzle prize at the KACS

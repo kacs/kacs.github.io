@@ -10,7 +10,7 @@ layout: page
 <ul>
   <li>
     {% if current.format == 'pdf' %}
-    <a href="{{ site.url }}/newsletters/{{ current.date | date: "kacs-newsletter-%Y-%m-%d.pdf" }}">
+    <a href="{{ site.baseurl }}/newsletters/{{ current.date | date: "kacs-newsletter-%Y-%m-%d.pdf" }}">
       {{ current.date | date: "%B %Y" }} [PDF]
     </a>
     {% else %}
@@ -33,7 +33,7 @@ layout: page
   {% endif %}
   <li>
     {% if newsletter.format == 'pdf' %}
-    <a href="{{ site.url }}/newsletters/{{ newsletter.date | date: "kacs-newsletter-%Y-%m-%d.pdf" }}">
+    <a href="{{ site.baseurl }}/newsletters/{{ newsletter.date | date: "kacs-newsletter-%Y-%m-%d.pdf" }}">
       {{ newsletter.date | date: "%B %Y" }} [PDF]
     </a>
     {% else %}

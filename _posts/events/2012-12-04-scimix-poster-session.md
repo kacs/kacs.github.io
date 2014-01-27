@@ -28,4 +28,4 @@ title(s) of the poster(s) and (b) a list of authors.
 
 More information can be found on the
 [event flyer]
-({{ site.url }}/events/2012-12-04-scimix-poster-flyer.pdf "SciMix Flyer [pdf]")
+({{ site.baseurl }}/events/2012-12-04-scimix-poster-flyer.pdf "SciMix Flyer [pdf]")

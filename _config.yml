@@ -11,8 +11,9 @@ excerpt_separator: <!-- more -->
 # url: http://kaylee.artiosonline.com/~mwolf/kacs
 # url: http://127.0.0.1/~mwolf/kacs
 # # Localhost
-path: ""
-url: http://127.0.0.1:4000
+# path: ""
+# url: http://127.0.0.1:4000
+baseurl: ""
 
 exclude: [makefile, README.md]
 

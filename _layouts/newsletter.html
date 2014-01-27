@@ -36,7 +36,7 @@
 	    - {{ newsletter.date | date: "%b %Y" }}
 	  </strong>
 	  {% elsif newsletter.format == 'pdf' %}
-	  <a href="{{ site.url }}/newsletters/{{ newsletter.date | date: "kacs-newsletter-%Y-%m-%d.pdf" }}">
+	  <a href="{{ site.baseurl }}/newsletters/{{ newsletter.date | date: "kacs-newsletter-%Y-%m-%d.pdf" }}">
 	    <em>vol. {{ newsletter.vol }} issue {{ newsletter.issue }}</em>
 	    - {{ newsletter.date | date: "%b %Y" }} [PDF]
 	  </a>
@@ -56,7 +56,7 @@
       <p class="pdf-link">
 	<span class="glyphicon glyphicon-print"></span>
 	Prefer to view this newsletter as a printable PDF? Click
-	<a href="{{ site.url }}/newsletters/{{ page.date | date: "kacs-newsletter-%Y-%m-%d.pdf" }}">
+	<a href="{{ site.baseurl }}/newsletters/{{ page.date | date: "kacs-newsletter-%Y-%m-%d.pdf" }}">
 	  here
 	</a>
       </p>

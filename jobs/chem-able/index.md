@@ -8,7 +8,7 @@ Chem-Able Matching Grant Program
 Sponsored by the Kalamazoo Section of the American Chemical Society
 
 Download the Chem-Able submission form
-[here]({{ site.url }}/jobs/chem-able/chem-able-application.pdf "Download the Chem-Able form").
+[here]({{ site.baseurl }}/jobs/chem-able/chem-able-application.pdf "Download the Chem-Able form").
 
 Purpose
 ---

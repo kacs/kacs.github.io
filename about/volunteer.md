@@ -5,7 +5,7 @@ title: Volunteer Opportunities
 
 {{ page.title }}
 ===
-Please consider giving of your time and talent for our local section. Feel free to contact any of the [current officers]({{ site.url }}/about/officers.html "List of our current officers and contact details") to indicate your interest.
+Please consider giving of your time and talent for our local section. Feel free to contact any of the [current officers]({{ site.baseurl }}/about/officers.html "List of our current officers and contact details") to indicate your interest.
 
 Some specific volunteer needs are listed below.
 

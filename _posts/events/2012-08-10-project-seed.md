@@ -22,7 +22,7 @@ display and presentation of the research to visitors.
 <div class="row">
   <div class="col-{{ site.device }}-6">
     <p>
-      <img src="{{ site.url }}/images/seed-2012-photo1.jpg"
+      <img src="{{ site.baseurl }}/images/seed-2012-photo1.jpg"
 	   class="img-responsive"
 	   alt="Mikayla Markus from Mattawan High School"
 	   title="Mikayla Markus - Novel Fluorescence Spectroscopic Technique to Study the Unfolding of Bovine Serum Albumin"
@@ -34,7 +34,7 @@ display and presentation of the research to visitors.
   </div>
   <div class="col-{{ site.device }}-6">
     <p>
-      <img src="{{ site.url }}/images/seed-2012-photo2.jpg"
+      <img src="{{ site.baseurl }}/images/seed-2012-photo2.jpg"
 	   class="img-responsive"
 	   alt="Takler Martin from Bllomingdale High School"
 	   title="Tayler Martin - Development of Optical Sensors for Organophosphorus Pesticides"

@@ -25,7 +25,7 @@ layout: about_page
       {% endif %}
       <li>
 	{% if meeting.format == 'pdf' %}
-	<a href="{{ site.url }}/about/minutes/{{ meeting.date | date: "%Y-%m-%d-minutes.pdf" }}">
+	<a href="{{ site.baseurl }}/about/minutes/{{ meeting.date | date: "%Y-%m-%d-minutes.pdf" }}">
 	  {{ meeting.date | date: "%B %Y" }} [PDF]
 	</a>
 	{% else %}

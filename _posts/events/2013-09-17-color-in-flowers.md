@@ -11,7 +11,7 @@ category: event
 <strong>Public event -- refreshments served</strong>
 
 <p>
-  <a href="{{ site.url }}/events/2013-09-17-color-in-flowers.pdf"
+  <a href="{{ site.baseurl }}/events/2013-09-17-color-in-flowers.pdf"
      title="PDF of event flyer">
     Click here for the event flyer [PDF]
   </a>
@@ -40,4 +40,4 @@ category: event
   </div>
 </div>
 
-<img src="{{ site.url }}/images/wedels-logo.png" alt="Wedel's Logo" />
+<img src="{{ site.baseurl }}/images/wedels-logo.png" alt="Wedel's Logo" />

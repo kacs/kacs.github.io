@@ -74,6 +74,6 @@ reach our younger constituents and the general public.
 
 Map of Meeting Regions:
 
-![Map of ACS Regions]({{ site.url }}/images/regions-map.png "Map of ACS Regions")
+![Map of ACS Regions]({{ site.baseurl }}/images/regions-map.png "Map of ACS Regions")
 
 Compiled by Lydia Hines - August 2011

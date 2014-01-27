@@ -25,7 +25,7 @@ Wendt](mailto:john.a.wendt@zoetis.com "john.a.wnedt@zoetis.com") by **Thursday, 
 an easel by sending: (a) the title of the poster and (b) a list of
 authors.
 
-Download the event flyer [here]({{ site.url }}/events/2013-10-08-scimix-poster-flyer.pdf)
+Download the event flyer [here]({{ site.baseurl }}/events/2013-10-08-scimix-poster-flyer.pdf)
 
-![Bell's Logo]({{ site.url }}/images/logos/bells.png)
-![Zoetis Logo]({{ site.url }}/images/zoetis-logo.png)
+![Bell's Logo]({{ site.baseurl }}/images/logos/bells.png)
+![Zoetis Logo]({{ site.baseurl }}/images/zoetis-logo.png)
