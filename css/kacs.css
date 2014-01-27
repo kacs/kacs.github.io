@@ -3,9 +3,7 @@ ul {
 }
 .facebook-logo {
   /* Horizontal desktop menu */
-
   /* Condensed mobile menu */
-
 }
 @media (min-width: 768px) {
   .facebook-logo {
@@ -63,6 +61,9 @@ hr {
 }
 .donor-logos {
   list-style-type: none;
+}
+.donor-logos li {
+  margin: 10px 0px 10px 0px;
 }
 /* Main index page news feed */
 .feed h3 {
@@ -126,7 +127,6 @@ hr {
   float: right;
   margin-top: 10px;
   /* margin-top: -38px; */
-
   margin-bottom: 20px;
   margin-right: 20px;
   z-index: 7;
@@ -177,7 +177,6 @@ hr {
 /* Newsletter */
 .newsletter-content {
   /* Background heading colors by year */
-
 }
 .newsletter-content p {
   text-align: justify;
@@ -193,7 +192,6 @@ hr {
   padding: 5px;
   background: #e6e6e6;
   /* grey */
-
 }
 .newsletter-content h2 {
   font-size: 24px;
@@ -208,13 +206,10 @@ hr {
 .newsletter-content[year="2013"] h1 {
   background: rgba(0, 152, 116, 0.2);
   /* emerald green */
-
 }
 .newsletter-content[year="2014"] h1 {
   /* background: rgba(12, 70, 207, 0.2); /\* dazzling blue *\/ */
-
-  background: rgba(177, 99, 163, 0.4) /* Radiant Orchid */
-;
+  background: rgba(177, 99, 163, 0.4) /* Radiant Orchid */;
 }
 .student-chapters h2 {
   font-size: 20px;
