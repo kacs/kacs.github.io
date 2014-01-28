@@ -1,3 +1,6 @@
+@import 'bootstrap/less/bootstrap.less';
+
+/* Global list style */
 ul {
     list-style-type: circle;
 }
@@ -23,24 +26,41 @@ ul {
 	}
     }
 }
-
+/* Logo and title header on every page */
 .header {
     color: rgb(0, 75, 154);
+    .make-row();
     p {
 	font-size: small;
     }
+    .logo {
+	.make-md-column(3);
+	img {
+	    .img-responsive();
+	}
+    }
+    .info {
+	.make-md-column(9);
+    }
+    .title,.mission {
+	text-align: justify;
+	.make-row();
+	> div {
+	    .make-md-column(12);
+	}
+    }
 }
+/* Copyright and webmaster link */
 .footer {
+    .text-center;
     margin-top: 20px;
 }
+
 hr {
     border-top-color: rgb(125, 125, 125);
 }
-.logo, .logo:hover {
-    text-decoration: none;
-    color: white;
-}
-.newsblock,.mission {
+
+.newsblock {
     text-align: justify;
 }
 .newsblock img {
@@ -51,6 +71,61 @@ hr {
     margin-left: 35px;
 }
 
+/* Landing page styles */
+#landing-page {
+    .features {
+	.make-row();
+	.highlights {
+    	    .make-md-column(8);
+	    .carousel-caption {
+		background: rgba(100, 100, 100, 0.75);
+		border-radius: 25px;
+	    }
+	}
+	.announcements {
+	    .make-md-column(4);
+	    h2 {
+		font-size: 20px;
+	    }
+	    li {
+		margin-left: -20px;
+	    }
+	}
+    }
+    .eod-description {
+	.make-md-column(6);
+	.make-md-column-offset(1);
+	.eod-donors {
+	    .make-md-column(6);
+	}
+	.chemluminary {
+	    .make-md-column(6);
+	    .visible-lg;
+	}
+    }
+    .eod-photo {
+	.make-md-column(3);
+	.make-md-column-offset(1);
+	img {
+	    .img-responsive();
+	}
+    }
+    .current-newsletter {
+	.make-row();
+	.summary {
+	    .make-md-column(4);
+	    .make-md-column-offset(1);
+	}
+	.chair-photo {
+	    .make-md-column(2);
+	    .text-center;
+	    img {
+		.img-responsive();
+	    }
+	}
+    }
+}
+
 /* Event page style */
 .event-date {
     font-style: italic;
@@ -58,6 +133,18 @@ hr {
 .event-details {
     margin-bottom: 15px;
 }
+/* Logos for sponsors of chem & culture: food event */
+.food-sponsors {
+    .make-row();
+    .sponsor-big {
+	.make-xs-column(6);
+    }
+    .sponsor-small {
+	.make-xs-column(4);
+	.make-sm-column-offset(4);
+    }
+}
+
 .donor-logos {
     list-style-type: none;
     li {
@@ -82,7 +169,7 @@ hr {
 }
 
 /* Shows logos of donors on main page */
-.slideshow {
+.eod-donors {
     position: relative;
     display: inline-block;
     @media (min-width: 1200px) {
@@ -93,37 +180,21 @@ hr {
 	margin-top: 25px;
 	margin-bottom: 100px;
     }
-}
-
-.slideshow img {
-    position: absolute;
-    display: none;
-    margin-left: 25px;
-    top: 0;
-    left: 0;
-    z-index: 8;
-}
-
-.slideshow img.active {
-    z-index: 10;
-}
-
-.slideshow img.last-active {
-    z-index: 9;
-}
-
-.sidebox {
-    h2 {
-	font-size: 20px;
+    img {
+	position: absolute;
+	display: none;
+	margin-left: 25px;
+	top: 0;
+	left: 0;
+	z-index: 8;
     }
-    li {
-	margin-left: -20px;
+    img.active {
+	z-index: 10;
+    }
+    img.last-active {
+	z-index: 9;
     }
 }
-
-/* #chemluminary-logo { */
-/*     margin-top: -70px; */
-/* } */
 
 #dance-photos {
     margin-bottom: 50px;
@@ -146,16 +217,23 @@ hr {
     font-size: large;
 }
 
-/* Grids get some extra space after each row */
-.row.grid {
-    margin: 10px;
-}
 
-/* Main page picture carousel */
-#main-carousel {
-    .carousel-caption {
-	background: rgba(100, 100, 100, 0.75);
-	border-radius: 25px;
+/* List of executive committee officers */
+.officers-row {
+    .make-row();
+    h2,h3 {
+	font-size: 100%;
+	margin-bottom: 0px;
+    }
+    h2 { /* Office title */
+	font-weight: bold;
+    }
+    h3 { /* officer name */
+	margin-top: 0px;
+	font-style: italic;
+    }
+    > div {
+	.make-md-column(4);
     }
 }
 
@@ -170,6 +248,7 @@ hr {
 
 /* Secondary sidebar navigation */
 .sidebar-nav {
+    .make-md-column(3);
     h1 {
 	font-size: 20px;
 	font-weight: bold;
@@ -191,8 +270,28 @@ hr {
 .minutes h1 {
     font-size: 20px;
 }
+/* EC Minutes lists */
+.minutes-row {
+    .make-row();
+    margin: 10px;
+    > div {
+	.make-md-column(4);
+    }
+}
+
+/* Annual reports list */
+.reports-row {
+    .make-row();
+    margin: 10px;
+    > div {
+	.make-md-column(3);
+    }
+}
 
 /* Newsletter */
+.newsletter-container,.about-container {
+    .make-md-column(9);
+}
 .newsletter-content {
     p {
 	text-align: justify;
@@ -201,6 +300,8 @@ hr {
 	text-align: left;
     }
     img {
+	.img-responsive();
+	.img-thumbnail;
 	border-style: solid
     }
     h1 {
@@ -228,8 +329,26 @@ hr {
     }
 }
 
+.chair-comments {
+    .make-row();
+    .comments-content {
+	.make-md-column(8);
+    }
+    .comments-photo {
+	.make-md-column(4);
+	img {
+	    .img-responsive();
+	    .img-thumbnail
+	}
+    }
+}
+
 .student-chapters {
+    .make-row();
     h2 {
 	font-size: 20px;
+    }
+    > div {
+	.make-md-column(6);
     }
 }

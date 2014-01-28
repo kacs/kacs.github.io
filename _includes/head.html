@@ -25,29 +25,6 @@
   {% endif %}
   <link rel="stylesheet" type="text/css" media="print"
 	href="{{ site.baseurl }}/css/kacs-print.css" />
-  <style type="text/css">
-    .titletext {
-	color: #036;
-    }
-    .titletext {
-	color: #2A4370;
-    }
-    .titletext font .titletext {
-	color: #2D497D;
-    }
-    .titletext font {
-	color: #344D91;
-    }
-    .titletext {
-	color: #FFF;
-    }
-    .titletext font {
-	color: #FFF;
-    }
-    .DarkRed {
-	color: #671819;
-    }
-  </style>
 
   <!-- Javascript -->
   <script type="text/javascript" src="{{ site.baseurl }}/js/respond.min.js"></script>
@@ -81,40 +58,34 @@
     var anim_dur = 1000; // in milliseconds
     var interval = 4000; // milliseconds between transitions
     function slideSwitch() {
-    var $active = $('.slideshow img.active');
+	var $active = $('.eod-donors img.active');
 
-    if ( $active.length == 0 ) $active = $('.slideshow img:last');
+	if ( $active.length == 0 ) $active = $('.eod-donors img:last');
 
-    var $next = $active.next().length ? $active.next()
-    : $('.slideshow img:first');
+	var $next = $active.next().length ? $active.next()
+	    : $('.eod-donors img:first');
 
-    $active.addClass('last-active');
+	$active.addClass('last-active');
 
-    // Fade in the new image
-    // $next.css({opacity: 0.0})
-    $next.addClass('active')
-    // .animate({opacity: 1.0}, anim_dur, function() {
-    .fadeIn(anim_dur, function() {
-    $active.removeClass('active last-active');
-    });
-    // Fade out the old image
-    $active.fadeOut(anim_dur);
-    // $active.animate({opacity: 0.0}, anim_dur);
+	// Fade in the new image
+	// $next.css({opacity: 0.0})
+	$next.addClass('active')
+	// .animate({opacity: 1.0}, anim_dur, function() {
+	    .fadeIn(anim_dur, function() {
+		$active.removeClass('active last-active');
+	    });
+	// Fade out the old image
+	$active.fadeOut(anim_dur);
+	// $active.animate({opacity: 0.0}, anim_dur);
 
     }
 
     $(document).ready( function() {
-    // Set up donor logo slideshow
-    $('#slideshow').addClass('slideshow');
-    slideSwitch();
-    setInterval( "slideSwitch()", interval );
+	// Set up donor logo slideshow
+	$('#slideshow').addClass('slideshow');
+	slideSwitch();
+	setInterval( "slideSwitch()", interval );
 
-    $('#dance-photos').bjqs({
-    'height' : 370,
-    'width' : 584,
-    'responsive' : true,
-    'animtype': 'slide',
-    });
     });
 
   </script>

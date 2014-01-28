@@ -13,7 +13,7 @@
 
   <!-- Newsletter navigation -->
   <div class="row">
-    <div class="col-xs-3 sidebar-nav hidden-print">
+    <div class="sidebar-nav hidden-print">
 
       {% for newsletter in site.categories.newsletter %}
       {% capture post_year %}{{ newsletter.date | date: "%Y"}}{% endcapture %}
@@ -51,7 +51,7 @@
       </ul>
     </div>
 
-    <div class="col-xs-9">
+    <div class="newsletter-container">
       <h1>{{ page.date | date: "%B %Y" }} Newsletter</h1>
       <p class="pdf-link">
 	<span class="glyphicon glyphicon-print"></span>
