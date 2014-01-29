@@ -6645,6 +6645,48 @@ td#landing-page .eod-description .chemluminary {
   max-width: 100%;
   height: auto;
 }
+.report dd {
+  margin-left: 15px;
+}
+.report .options {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.report .options:before,
+.report .options:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+.report .options:after {
+  clear: both;
+}
+.report .options:before,
+.report .options:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+.report .options:after {
+  clear: both;
+}
+.report .options > div {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 992px) {
+  .report .options > div {
+    float: left;
+    width: 50%;
+  }
+}
+.report .options ul {
+  list-style-type: none;
+}
 .student-chapters {
   margin-left: -15px;
   margin-right: -15px;

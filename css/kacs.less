@@ -133,6 +133,7 @@ hr {
 .event-details {
     margin-bottom: 15px;
 }
+
 /* Logos for sponsors of chem & culture: food event */
 .food-sponsors {
     .make-row();
@@ -144,11 +145,13 @@ hr {
 	.make-sm-column-offset(4);
     }
 }
-
-.donor-logos {
-    list-style-type: none;
-    li {
-	margin: 10px 0px 10px 0px;
+.food-sponsors-secondary {
+    .make-row();
+    > div {
+	.make-md-column(2);
+    }
+    img {
+	.img-responsive();
     }
 }
 
