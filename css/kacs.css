@@ -6286,11 +6286,46 @@ td#landing-page .eod-description .chemluminary {
     margin-left: 33.33333333333333%;
   }
 }
-.donor-logos {
-  list-style-type: none;
+.food-sponsors-secondary {
+  margin-left: -15px;
+  margin-right: -15px;
 }
-.donor-logos li {
-  margin: 10px 0px 10px 0px;
+.food-sponsors-secondary:before,
+.food-sponsors-secondary:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+.food-sponsors-secondary:after {
+  clear: both;
+}
+.food-sponsors-secondary:before,
+.food-sponsors-secondary:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+.food-sponsors-secondary:after {
+  clear: both;
+}
+.food-sponsors-secondary > div {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 992px) {
+  .food-sponsors-secondary > div {
+    float: left;
+    width: 16.666666666666664%;
+  }
+}
+.food-sponsors-secondary img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 /* Main index page news feed */
 .feed h3 {
