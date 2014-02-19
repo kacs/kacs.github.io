@@ -172,7 +172,7 @@ activities:
 
 <h2>Another Successful Chemistry Day at the Museum</h2>
 <h3>What a whirl of activity this year, whose chosen theme was “Energy – Now and Forever”</h3>
-<p class="author">By Lydia Bines</p>
+<p class="author">By Lydia Hines</p>
 
 <p>
   Students in grades K-12 were invited to submit illustrated poems on
