@@ -51,7 +51,7 @@ for NCW 2013 is “Energy: Now and Forever”]
 <div class="row">
   <div class="col-{{ site.device }}-8">
     <p>
-      <img src="{{ site.baseurl }}/images/2012-10-26-ncw-dry-ice.jpg"
+      <img src="{{ site.baseurl }}/images/ncw-2012/ncw-dry-ice.jpg"
 	   class="img-responsive"
 	   alt="Fun with dry ice"
 	   title="Guest playing with dry ice"
@@ -61,7 +61,7 @@ for NCW 2013 is “Energy: Now and Forever”]
   </div>
   <div class="col-{{ site.device }}-4">
     <p>
-      <img src="{{ site.baseurl }}/images/2012-10-26-ncw-gummy-capsules.jpg"
+      <img src="{{ site.baseurl }}/images/ncw-2012/ncw-gummy-capsules.jpg"
 	   class="img-responsive"
 	   alt="Exploring Fabrication"
 	   title="Guests creating gummy candy using chemistry"
@@ -85,7 +85,7 @@ health, materials, energy, technology, and the environment.
 <div class="row">
   <div class="col-{{ site.device }}-8 col-{{ site.device }}-offset-2">
     <p>
-      <img src="{{ site.baseurl }}/images/2012-10-26-ncw-placemat.jpg"
+      <img src="{{ site.baseurl }}/images/ncw-2012/ncw-placemat.jpg"
 	   class="img-responsive"
 	   alt="Pacemat"
 	   title="This year's National Chemistry Week placemat"
@@ -100,7 +100,7 @@ health, materials, energy, technology, and the environment.
     <p>
       Cassie Kiewiet, Grade 11, Heritage Christian Academy, Rebecca
       Suman, teacher; Donald and Rhonda Kiewiet parents
-      <img src="{{ site.baseurl }}/images/2012-10-26-ncw-poem-1.jpg"
+      <img src="{{ site.baseurl }}/images/ncw-2012/ncw-poem-1.jpg"
 	   class="img-responsive"
 	   alt="Illustrated Poem"
 	   title="Cassie Kiewiet, Grade 11, Heritage Christian Academy"
@@ -111,7 +111,7 @@ health, materials, energy, technology, and the environment.
     <p>
       Kalli Banks, Grade 8, Kazoo School, Janice Russo, teacher; Fred
       Banks, parent
-      <img src="{{ site.baseurl }}/images/2012-10-26-ncw-poem-2.jpg"
+      <img src="{{ site.baseurl }}/images/ncw-2012/ncw-poem-2.jpg"
 	   class="img-responsive"
 	   alt="Illustrated Poem"
 	   title="Kalli Banks, Grade 8, Kazoo School"

@@ -38,7 +38,7 @@ if you have any questions.
 
 This event is co-sponsored by:
 
-![Perrigo Logo]({{ site.baseurl }}/images/perrigo-logo.png "This event co-sponsored by Perrigo")
+![Perrigo Logo]({{ site.baseurl }}/images/logos/perrigo.png "This event co-sponsored by Perrigo")
 <hr />
 
 Report by Lydia Hines

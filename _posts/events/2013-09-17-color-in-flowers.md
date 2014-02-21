@@ -40,4 +40,4 @@ category: event
   </div>
 </div>
 
-<img src="{{ site.baseurl }}/images/wedels-logo.png" alt="Wedel's Logo" />
+<img src="{{ site.baseurl }}/images/logos/wedels.png" alt="Wedel's Logo" />

@@ -27,7 +27,7 @@ affiliated chemists will attend in subsequent years.
 <div class="row">
   <div class="col-{{ site.device }}-4">
     <p>
-      <img src="{{ site.baseurl }}/images/cgsa-barbeque-2012-photo1.jpg"
+      <img src="{{ site.baseurl }}/images/cgsa/cgsa-barbeque-2012-1.jpg"
 	   class="img-responsive"
 	   alt="Photo under the pavillion"
 	   />
@@ -35,7 +35,7 @@ affiliated chemists will attend in subsequent years.
   </div>
   <div class="col-{{ site.device }}-4">
     <p>
-      <img src="{{ site.baseurl }}/images/cgsa-barbeque-2012-photo3.jpg"
+      <img src="{{ site.baseurl }}/images/cgsa/cgsa-barbeque-2012-3.jpg"
 	   class="img-responsive"
 	   alt="Photo under the pavillion"
 	   title="Fun for all ages"
@@ -44,7 +44,7 @@ affiliated chemists will attend in subsequent years.
   </div>
   <div class="col-{{ site.device }}-4">
     <p>
-      <img src="{{ site.baseurl }}/images/cgsa-barbeque-2012-photo2.jpg"
+      <img src="{{ site.baseurl }}/images/cgsa/cgsa-barbeque-2012-2.jpg"
 	   class="img-responsive"
 	   alt="Playing some football"
 	   title="'Go long!'"

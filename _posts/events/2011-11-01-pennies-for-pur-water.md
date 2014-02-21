@@ -1,5 +1,5 @@
 ---
-layout: report
+layout: event
 category: event
 title: Pennies for PUR® Water
 heading: Pennies for PUR<sup>®</sup> Water
@@ -22,7 +22,7 @@ Gamble’s Children’s Safe Drinking Water (CSDW) Coalition.
 <div class="row">
 <div class="col-{{ site.device }}-4">
 <p>
-<img src="{{ site.baseurl }}/images/pur-pennies-1.jpg"
+<img src="{{ site.baseurl }}/images/pur-pennies/pur-pennies-1.jpg"
      class="img-responsive"
      alt=""
      title="" />
@@ -32,7 +32,7 @@ Dr. Lydia Hines collected Pennies for PUR<sup>&reg;</sup> Water at various KACS 
 
 <div class="col-{{ site.device }}-4">
 <p>
-<img src="{{ site.baseurl }}/images/pur-pennies-2.jpg"
+<img src="{{ site.baseurl }}/images/pur-pennies/pur-pennies-2.jpg"
      class="img-responsive"
      alt=""
      title="" />
@@ -45,7 +45,7 @@ chocolate.
 
 <div class="col-{{ site.device }}-4">
 <p>
-<img src="{{ site.baseurl }}/images/pur-pennies-3.jpg"
+<img src="{{ site.baseurl }}/images/pur-pennies/pur-pennies-3.jpg"
      class="img-responsive"
      alt=""
      title="" />

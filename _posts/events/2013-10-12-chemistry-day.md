@@ -8,7 +8,7 @@ layout: event
 category: event
 ---
 
-<img src="{{ site.baseurl }}/images/ncw-header-2013.jpg"
+<img src="{{ site.baseurl }}/images/ncw-2013/ncw-header.jpg"
      class="img-responsive"
      alt="NCW 2013 Logo"
      title="National Chemistry Week, Now and Forever Logo"/>
@@ -146,7 +146,7 @@ activities:
 <div class="row">
   <div class="col-{{ site.device }}-4">
     <p>
-      <img src="{{ site.baseurl }}/images/ncw-photo-1.jpg"
+      <img src="{{ site.baseurl }}/images/ncw-2013/ncw-2013-1.jpg"
 	   class="img-responsive"
 	   alt="Silly putty"
 	   title="Silly putty experiment during NCW" />
@@ -154,7 +154,7 @@ activities:
   </div>
   <div class="col-{{ site.device }}-4">
     <p>
-      <img src="{{ site.baseurl }}/images/ncw-photo-2.jpg"
+      <img src="{{ site.baseurl }}/images/ncw-2013/ncw-2013-2.jpg"
 	   class="img-responsive"
 	   alt="glowing flasks"
 	   title="Colorful chemistry" />
@@ -162,7 +162,7 @@ activities:
   </div>
   <div class="col-{{ site.device }}-4">
     <p>
-      <img src="{{ site.baseurl }}/images/ncw-photo-3.jpg"
+      <img src="{{ site.baseurl }}/images/ncw-2013/ncw-2013-3.jpg"
 	   class="img-responsive"
 	   alt="Iron in cereal"
 	   title="Can you see the iron in your cereal?" />

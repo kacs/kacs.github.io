@@ -23,7 +23,7 @@ public. Please RSVP to
 269-599-2603, Chair, Kalamazoo Local Section American Chemical
 Society (KACS).
 
-<img src="{{ site.baseurl }}/images/martinis-logo.png"
+<img src="{{ site.baseurl }}/images/logos/martinis.png"
      class="img-responsive"
      alt="Martini's Logo"
      title="832 South Westnedge, Kalamazoo MI"
