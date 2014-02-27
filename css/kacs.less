@@ -270,8 +270,23 @@ hr {
 }
 
 /* Executive committee minutes */
-.minutes h1 {
-    font-size: 20px;
+.minutes {
+    h1 {
+	font-size: 20px;
+    }
+    .minutes-metadata {
+	.make-row();
+	> dl {
+	    .make-md-column(6);
+	    dd {
+		margin-left: 15px;
+	    }
+	    ul {
+		list-style-position: inside;
+		padding: 0px;
+	    }
+	}
+    }
 }
 /* EC Minutes lists */
 .minutes-row {

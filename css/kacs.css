@@ -6481,6 +6481,49 @@ td#landing-page .eod-description .chemluminary {
 .minutes h1 {
   font-size: 20px;
 }
+.minutes .minutes-metadata {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.minutes .minutes-metadata:before,
+.minutes .minutes-metadata:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+.minutes .minutes-metadata:after {
+  clear: both;
+}
+.minutes .minutes-metadata:before,
+.minutes .minutes-metadata:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+.minutes .minutes-metadata:after {
+  clear: both;
+}
+.minutes .minutes-metadata > dl {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 992px) {
+  .minutes .minutes-metadata > dl {
+    float: left;
+    width: 50%;
+  }
+}
+.minutes .minutes-metadata > dl dd {
+  margin-left: 15px;
+}
+.minutes .minutes-metadata > dl ul {
+  list-style-position: inside;
+  padding: 0px;
+}
 /* EC Minutes lists */
 .minutes-row {
   margin-left: -15px;
