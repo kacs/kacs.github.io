@@ -135,6 +135,11 @@ hr {
 }
 
 /* Logos for sponsors of chem & culture: food event */
+.no-border {
+    img {
+	border-width: 0px !important;
+    }
+}
 .food-sponsors {
     .make-row();
     .sponsor-big {
@@ -240,13 +245,13 @@ hr {
     }
 }
 
-/* Elements of dance photos grid */
-.eod-grid .col-md-4 {
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-.eod-grid td {
-    padding: 5px;
+/* Photo grid */
+.photo-row {
+    .make-row();
+    img {
+	margin-top: 10px;
+	margin-bottom: 10px;
+    }
 }
 
 /* Secondary sidebar navigation */
