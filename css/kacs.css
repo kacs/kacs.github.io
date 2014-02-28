@@ -6241,6 +6241,9 @@ td#landing-page .eod-description .chemluminary {
   margin-bottom: 15px;
 }
 /* Logos for sponsors of chem & culture: food event */
+.no-border img {
+  border-width: 0px !important;
+}
 .food-sponsors {
   margin-left: -15px;
   margin-right: -15px;
@@ -6442,13 +6445,34 @@ td#landing-page .eod-description .chemluminary {
     width: 33.33333333%;
   }
 }
-/* Elements of dance photos grid */
-.eod-grid .col-md-4 {
-  padding-top: 15px;
-  padding-bottom: 15px;
+/* Photo grid */
+.photo-row {
+  margin-left: -15px;
+  margin-right: -15px;
 }
-.eod-grid td {
-  padding: 5px;
+.photo-row:before,
+.photo-row:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+.photo-row:after {
+  clear: both;
+}
+.photo-row:before,
+.photo-row:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+.photo-row:after {
+  clear: both;
+}
+.photo-row > div {
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 /* Secondary sidebar navigation */
 .sidebar-nav {
@@ -6623,6 +6647,7 @@ td#landing-page .eod-description .chemluminary {
 }
 .newsletter-content p.caption {
   text-align: left;
+  font-size: 90%;
 }
 .newsletter-content img {
   display: block;
@@ -6662,67 +6687,55 @@ td#landing-page .eod-description .chemluminary {
   /* background: rgba(12, 70, 207, 0.2); /\* dazzling blue *\/ */
   background: rgba(177, 99, 163, 0.4) /* Radiant Orchid */;
 }
-.chair-comments,
-#chair-comments {
+.chair-comments {
   margin-left: -15px;
   margin-right: -15px;
 }
 .chair-comments:before,
-#chair-comments:before,
-.chair-comments:after,
-#chair-comments:after {
+.chair-comments:after {
   content: " ";
   /* 1 */
   display: table;
   /* 2 */
 }
-.chair-comments:after,
-#chair-comments:after {
+.chair-comments:after {
   clear: both;
 }
 .chair-comments:before,
-#chair-comments:before,
-.chair-comments:after,
-#chair-comments:after {
+.chair-comments:after {
   content: " ";
   /* 1 */
   display: table;
   /* 2 */
 }
-.chair-comments:after,
-#chair-comments:after {
+.chair-comments:after {
   clear: both;
 }
-.chair-comments .comments-content,
-#chair-comments .comments-content {
+.chair-comments .comments-content {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
 }
 @media (min-width: 992px) {
-  .chair-comments .comments-content,
-  #chair-comments .comments-content {
+  .chair-comments .comments-content {
     float: left;
     width: 66.66666667%;
   }
 }
-.chair-comments .comments-photo,
-#chair-comments .comments-photo {
+.chair-comments .comments-photo {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
 }
 @media (min-width: 992px) {
-  .chair-comments .comments-photo,
-  #chair-comments .comments-photo {
+  .chair-comments .comments-photo {
     float: left;
     width: 33.33333333%;
   }
 }
-.chair-comments .comments-photo img,
-#chair-comments .comments-photo img {
+.chair-comments .comments-photo img {
   display: block;
   padding: 4px;
   line-height: 1.42857143;
