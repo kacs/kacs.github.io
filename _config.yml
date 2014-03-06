@@ -21,7 +21,7 @@ exclude: [makefile, README.md]
 device: md
 
 # Serve dynamic or pre-compiled content
-debug: 'false'
+debug: 'true'
 
 # Name of current KACS chair
 chair: John Engelmann
