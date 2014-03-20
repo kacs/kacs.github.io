@@ -7,7 +7,7 @@ all: css/kacs.css
 	$(BUILD)
 
 css/kacs.css: css/kacs.less
-	lessc css/kacs.less css/kacs.css
+	lessc --clean-css css/kacs.less css/kacs.css
 
 deploy: all
 	rsync -alvz --del _site/ $(REMOTE)

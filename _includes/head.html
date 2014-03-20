@@ -14,28 +14,19 @@
 
   <!-- Stylesheets -->
 
-  <link rel="stylesheet" type="text/css"
-	href="{{ site.baseurl }}/css/bootstrap/dist/css/bootstrap.min.css" />
   {% if site.debug == 'true' %}
+  <link rel="stylesheet" type="text/css"
+	href="{{ site.baseurl }}/bower_components/bootstrap/dist/css/bootstrap.css" />
   <link rel="stylesheet/less" type="text/css" href="{{ site.baseurl }}/css/kacs.less" />
-  <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/1.4.1/less.min.js"
-	  type="text/javascript"></script>
+  <script src="{{ site.baseurl }}/bower_components/less/dist/less-1.7.0.js"></script>
   {% else %}
+  <link rel="stylesheet" type="text/css"
+	href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/css/bootstrap.min.css" />
   <link rel="stylesheet" type="text/css"
 	href="{{ site.baseurl }}/css/kacs.css" />
   {% endif %}
   <link rel="stylesheet" type="text/css" media="print"
 	href="{{ site.baseurl }}/css/kacs-print.css" />
-
-  <!-- Javascript -->
-  <script type="text/javascript" src="{{ site.baseurl }}/js/respond.min.js"></script>
-  <script type="text/javascript"
-	  src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"
-	  >
-  </script>
-  <script type="text/javascript"
-  	  src="{{ site.baseurl }}/css/bootstrap/dist/js/bootstrap.min.js">
-  </script>
 
   <!-- Google analytics -->
   <script type="text/javascript">
@@ -53,41 +44,4 @@
 
   </script>
 
-  <script type="text/javascript">
-
-    // Slideshow animation
-    var anim_dur = 1000; // in milliseconds
-    var interval = 4000; // milliseconds between transitions
-    function slideSwitch() {
-	var $active = $('.eod-donors img.active');
-
-	if ( $active.length == 0 ) $active = $('.eod-donors img:last');
-
-	var $next = $active.next().length ? $active.next()
-	    : $('.eod-donors img:first');
-
-	$active.addClass('last-active');
-
-	// Fade in the new image
-	// $next.css({opacity: 0.0})
-	$next.addClass('active')
-	// .animate({opacity: 1.0}, anim_dur, function() {
-	    .fadeIn(anim_dur, function() {
-		$active.removeClass('active last-active');
-	    });
-	// Fade out the old image
-	$active.fadeOut(anim_dur);
-	// $active.animate({opacity: 0.0}, anim_dur);
-
-    }
-
-    $(document).ready( function() {
-	// Set up donor logo slideshow
-	$('#slideshow').addClass('slideshow');
-	slideSwitch();
-	setInterval( "slideSwitch()", interval );
-
-    });
-
-  </script>
 </head>
