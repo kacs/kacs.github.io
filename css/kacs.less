@@ -94,6 +94,12 @@ hr {
 	    h2 {
 		font-size: 20px;
 	    }
+	    h3 {
+		font-size: 18px;
+	    }
+	    img {
+		.img-responsive();
+	    }
 	    li {
 		margin-left: -20px;
 	    }
@@ -115,6 +121,12 @@ hr {
 	.make-md-column-offset(1);
 	img {
 	    .img-responsive();
+	}
+    }
+    @media (min-width: @screen-md-min) {
+	.wide-margins {
+	margin-left: 100px;
+	margin-right: 100px;
 	}
     }
     .current-newsletter {
@@ -389,6 +401,19 @@ hr {
 	ul {
 	    list-style-type: none;
 	}
+    }
+}
+
+#white-lecture-donors {
+    .make-md-column(4);
+    ul {
+	list-style-type: none;
+    }
+    li {
+	margin-bottom: 15px;
+    }
+    img {
+	width: 181px;
     }
 }
 
