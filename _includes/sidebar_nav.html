@@ -98,6 +98,14 @@
       <a href="{{ site.baseurl }}/about/past-chairs.html">List of Local Section Chairs</a>
     </li>
 
+    {% if page.url == '/about/section-award-recipients.html' %}
+    <li class="active">
+    {% else %}
+    <li>
+    {% endif %}
+      <a href="{{ site.baseurl }}/about/section-award-recipients.html">Section Award Recipients</a>
+    </li>
+
     {% if page.url == '/about/regional-meetings.html' %}
     <li class="active">
     {% else %}

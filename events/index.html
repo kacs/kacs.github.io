@@ -11,11 +11,12 @@ layout: page
 </ul>
 {% endif %}
 <h2>{{ post_year }}</h2>
-<ul>
+<ul class="event-list">
   {% capture curr_year %}{{ post_year }}{% endcapture %}
   {% endif %}
-  <li>
-    <a href="{{ site.baseurl }}{{ event.url }}">{{ event.heading }}</a>
+  <li{% if event.date > site.time %} class="future-event"{% endif %}>
+    <a href="{{ site.baseurl }}{{ event.url }}">
+      {{ event.heading }}</a>
     {{ event.date | date_to_long_string }}
   </li>
   {% endfor %}
