@@ -55,6 +55,9 @@ ul {
 	    .make-md-column(12);
 	}
     }
+    @media (max-width: @screen-xs-max) {
+	.mission { display: none; }
+    }
 }
 /* Copyright and webmaster link */
 .footer {
@@ -67,11 +70,13 @@ hr {
 }
 
 .newsblock {
-    text-align: justify;
-}
-.newsblock img {
-    float: right;
-    margin: 12px;
+    p {
+	text-align: justify;
+    }
+    img {
+	float: right;
+	margin: 12px;
+    }
 }
 #events address {
     margin-left: 35px;
@@ -124,7 +129,7 @@ hr {
 	}
     }
     @media (min-width: @screen-md-min) {
-	.wide-margins {
+	.newsblock {
 	margin-left: 100px;
 	margin-right: 100px;
 	}
