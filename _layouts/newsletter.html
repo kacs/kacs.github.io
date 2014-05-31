@@ -7,76 +7,76 @@
 
   <div class="container">
 
-  {% include header.html %}
+    {% include header.html %}
 
-  {% include menu.html %}
+    {% include menu.html %}
 
-  <!-- Newsletter navigation -->
-  <div class="row">
+    <div class="row">
 
-    <div class="newsletter-container">
-      <h1>{{ page.date | date: "%B %Y" }} Newsletter</h1>
-      <p class="pdf-link">
-	<span class="glyphicon glyphicon-print"></span>
-	Prefer to view this newsletter as a printable PDF? Download it
-	<a href="{{ site.baseurl }}/newsletters/{{ page.date | date: "kacs-newsletter-%Y-%m-%d.pdf" }}">
-	  here</a>
-	{% if page.pdf-size %}({{ page.pdf-size }}){% endif %}
-      </p>
-      <div class="newsletter-content" year="{{ page.date | date: "%Y" }}">
-	<h1>Highlights</h1>
-	{{ content }}
+      <div class="newsletter-container">
+	<h1>{{ page.date | date: "%B %Y" }} Newsletter</h1>
+	<p class="pdf-link">
+	  <span class="glyphicon glyphicon-print"></span>
+	  Prefer to view this newsletter as a printable PDF? Download it
+	  <a href="{{ site.baseurl }}/newsletters/{{ page.date | date: "kacs-newsletter-%Y-%m-%d.pdf" }}">
+	    here</a>
+	  {% if page.pdf-size %}({{ page.pdf-size }}){% endif %}
+	</p>
+	<div class="newsletter-content" year="{{ page.date | date: "%Y" }}">
+	  <h1>Highlights</h1>
+	  {{ content }}
+	</div>
+
+	<hr />
+
+	<p>
+	  Do you have
+	  <strong>questions, comments, or a desire to contribute</strong>
+	  to the newsletter? Send an e-mail to
+	  <a href="mailto:{{ site.email }}?subject=Newsletter">
+	    {{ site.email }}
+	  </a>.
+	</p>
       </div>
 
-      <hr />
+      <!-- Newsletter navigation -->
+      <div class="sidebar-nav hidden-print">
 
-      <p>
-	Do you have
-	<strong>questions, comments, or a desire to contribute</strong>
-	to the newsletter? Send an e-mail to
-	<a href="mailto:{{ site.email }}?subject=Newsletter">
-	  {{ site.email }}
-	</a>.
-      </p>
-    </div>
-
-    <div class="sidebar-nav hidden-print">
-
-      {% for newsletter in site.categories.newsletter %}
-      {% capture post_year %}{{ newsletter.date | date: "%Y"}}{% endcapture %}
-      {% if post_year != curr_year %}
-      {% if false %}
-      {# For automatic alignment with closing </ul> #}
-      <ul>
-	{% endif %}
-        {% if forloop.index != 1 %}
-      </ul>
-      {% endif %}
-      <h1>{{ post_year }}</h1>
-      {% capture curr_year %}{{ post_year }}{% endcapture %}
-      <ul>
-	{% endif %}
-	<li>
-	  {% if newsletter.url == page.url %}
-	  <strong>
-	    <em>vol. {{ newsletter.vol }} issue {{ newsletter.issue }}</em>
-	    - {{ newsletter.date | date: "%b %Y" }}
-	  </strong>
-	  {% elsif newsletter.format == 'pdf' %}
-	  <a href="{{ site.baseurl }}/newsletters/{{ newsletter.date | date: "kacs-newsletter-%Y-%m-%d.pdf" }}">
-	    <em>vol. {{ newsletter.vol }} issue {{ newsletter.issue }}</em>
-	    - {{ newsletter.date | date: "%b %Y" }} [PDF]
-	  </a>
-	  {% else %}
-	  <a href="{{ newsletter.url }}">
-	    <em>vol. {{ newsletter.vol }} issue {{ newsletter.issue }}</em>
-	    - {{ newsletter.date | date: "%b %Y" }}
-	  </a>
+	{% for newsletter in site.categories.newsletter %}
+	{% capture post_year %}{{ newsletter.date | date: "%Y"}}{% endcapture %}
+	{% if post_year != curr_year %}
+	{% if false %}
+	{# For automatic alignment with closing </ul> #}
+	<ul>
 	  {% endif %}
-	</li>
-	{% endfor %}
-      </ul>
-    </div>
+          {% if forloop.index != 1 %}
+	</ul>
+	{% endif %}
+	<h1>{{ post_year }}</h1>
+	{% capture curr_year %}{{ post_year }}{% endcapture %}
+	<ul>
+	  {% endif %}
+	  <li>
+	    {% if newsletter.url == page.url %}
+	    <strong>
+	      <em>vol. {{ newsletter.vol }} issue {{ newsletter.issue }}</em>
+	      - {{ newsletter.date | date: "%b %Y" }}
+	    </strong>
+	    {% elsif newsletter.format == 'pdf' %}
+	    <a href="{{ site.baseurl }}/newsletters/{{ newsletter.date | date: "kacs-newsletter-%Y-%m-%d.pdf" }}">
+	      <em>vol. {{ newsletter.vol }} issue {{ newsletter.issue }}</em>
+	      - {{ newsletter.date | date: "%b %Y" }} [PDF]
+	    </a>
+	    {% else %}
+	    <a href="{{ newsletter.url }}">
+	      <em>vol. {{ newsletter.vol }} issue {{ newsletter.issue }}</em>
+	      - {{ newsletter.date | date: "%b %Y" }}
+	    </a>
+	    {% endif %}
+	  </li>
+	  {% endfor %}
+	</ul>
+</div>
 
   </div>
 

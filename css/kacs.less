@@ -358,7 +358,9 @@ hr {
 /* Newsletter */
 .newsletter-container,.about-container {
     .make-md-column(9);
-    .pull-right;
+    @media (min-width: @screen-md-min) {
+	.pull-right;
+    }
 }
 .newsletter-content {
     p {
