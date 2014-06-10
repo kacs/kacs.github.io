@@ -17,6 +17,16 @@
       <a href="{{ site.baseurl }}/about/volunteer.html">Volunteer Opportunities</a>
     </li>
 
+    {% if page.url contains '/jobs/' %}
+    <li class="active">
+    {% else %}
+    <li>
+    {% endif %}
+      <a href="{{ site.baseurl }}/jobs/">
+	Jobs/ChemAble
+      </a>
+    </li>
+
     {% if page.url == '/about/officers.html' %}
     <li class="active">
     {% else %}
