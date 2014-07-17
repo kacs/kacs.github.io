@@ -1,6 +1,6 @@
 name: Kalamazoo ACS
 markdown: redcarpet
-pygments: true
+highlight: pygments
 excerpt_separator: <!-- more -->
 
 # # URL and path data for various links and redirects
