@@ -18,10 +18,10 @@ event depends upon excellent help from the KVM staff and dozens of our
 dedicated ACS members, local teachers and students, who teach and
 guide participants through the activities on Chemistry Day. The NCW
 committee gets things started each year and keeps it
-organized. Contact [Lydia Hines](mailto:lemhwgh@gmail.com "Email Lydia")
+organized. Contact [Lydia Hines](/people/hines.html)
 for a more detailed list of duties.
 
 **Section Archivist:** If you are interested in history and like to
 organize and write, we would love to talk to you about updating our
 Local Section History (which now goes only through 1981). Contact
-[Lydia Hines](mailto:lemhwgh@gmail.com "Email Lydia") to discuss.
+[Lydia Hines](/people/hines.html) to discuss.

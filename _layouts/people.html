@@ -1,0 +1,31 @@
+---
+layout: page
+---
+
+<h1>{{ page.title }}</h1>
+<h2>{{ page.position }}</h2>
+
+<div class="row">
+  <div class="col-sm-3">
+    <img src="/{{ page.headshot }}" />
+  </div>
+  <div class="col-sm-9">
+    <dl>
+      <dt>Email:</dt>
+      <dd>
+	<a href="mailto:{{ page.email }}" title="E-mail {{ page.title }}">
+	  {{ page.email }}</a>
+      </dd>
+      <dt>Address:</dt>
+      <dd>
+	{% for line in page.address %}
+	{{ line }}<br />
+	{% endfor %}
+      </dd>
+      <dt>Phone:</dt>
+      <dd>{{ page.phone }}</dd>
+    </dl>
+  </div>
+</div>
+
+{{ page.content }}
