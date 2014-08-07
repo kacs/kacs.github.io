@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: about_page
 title: Chem-Able Matching Grant Program
 ---
 
