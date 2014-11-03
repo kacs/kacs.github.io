@@ -2,7 +2,10 @@
 title: Sustainable Science Poster Session
 heading: Sustainable Science Poster Session &ndash; &ldquo;Recycle a Poster&rdquo;
 location: [Bells Eccentric Café, 355 E. Kalamazoo Ave]
-schedule: "5:00-9:00 pm"
+schedule: ["5:00pm &ndash; Poster setup, registration, reception",
+	  "6:00pm &ndash; Keynote speaker: Prof Tim Jamison (<em>MIT</em>)",
+	  "7:00 - 9:00pm &ndash; Poster session, networking with scientists and speaker",
+	  "8:00pm &ndash; Announcement of poster prizes"]
 layout: event
 category: event
 ---
@@ -57,3 +60,23 @@ Kalamazoo Chemistry
   easel by sending: (a) the title of the poster, (b) a list of
   authors, and (c) institution information.
 </p>
+
+Continuous Flow Multistep Synthesis
+---
+#### by Keynote Speaker Prof. Tim Jamison (6 pm)
+**Abstract:** Flow chemistry has the potential to revolutionize the
+synthesis of organic molecules. Flow systems can reduce reaction
+times, increase efficiency, and obviate problems often encountered in
+scaling up. In addition to these important practical advantages, flow
+chemistry expands the “toolbox” of organic reactions available to
+scientists engaged in the synthesis of molecules – from small-scale
+experiments to large-scale production. These benefits are a direct
+result of several features of flow synthesis that batch synthesis
+typically cannot achieve, for example, the ability to control fluid
+flow precisely, the access to temperature and pressure regimes not
+usually considered to be practical, and the enhanced safety
+characteristics of flow chemical systems. In this lecture we will
+discuss some of our investigations in this area in the form of case
+studies, wherein a specific target or family of organic molecules has
+served as an inspiration for the development of new methods of organic
+synthesis in flow.
