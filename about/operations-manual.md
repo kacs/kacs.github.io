@@ -19,8 +19,8 @@ Chair
 - The chair keeps a record of the year’s activities and prepares the Annual Report for his or her year of service.
 - The chair appoints Tellers to verify annual election results. See Bylaw VII for details.
 
-Chair-Elect
----
+<h2 id="chair-elect">Chair-Elect</h2>
+
 - Attends all Local Section Executive Committee meetings as a voting member.
 - The chair-elect is responsible for drawing up the program for the calendar year during which he or she is chair (or the year after serving as chair-elect). He or she may convene an ad hoc committee of representatives from the local membership to help with program development. Services that can be used to develop a program are the National ACS Speakers Directory or other sources as directed by the Executive Committee.
 - Serves as acting chair at meetings in chair’s absence and in other capacities as assigned by the Local Section chair and executive committee.
@@ -104,8 +104,7 @@ approaches to improve the efficiency and impact of local section
 announcements. The committee will initiate and recruit help to collect
 written summaries and photos of local section activities.
 
-Education Committee
----
+<h2 id="education-committee">Education Committee</h2>
 
 Calls and conducts any necessary meetings for planning and implementation of:
 
