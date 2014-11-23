@@ -1,7 +1,10 @@
 KACS
 ====
 
-Image Guidelines --- Image resolution is a trade-off between quality
+Image Guidelines
+---
+
+Image resolution is a trade-off between quality
 and file size. Here are the recommendations used for this site.
 
 Portraits are generally stored at 350x475. Landscape photos are best

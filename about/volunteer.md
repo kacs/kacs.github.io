@@ -9,6 +9,12 @@ Please consider giving of your time and talent for our local section. Feel free 
 
 Some specific volunteer needs are listed below.
 
+**Education Chair:** We have a vacancy on our executive committee for
+an education chair. If you have a passion for learning and want to
+engage with the community to help advance chemistry education in our
+area, why not **nominate yourself by contacting
+[Lydia Hines](/people/hines.html).**
+
 **National Chemistry Week (NCW) Committee:** This team coordinates our
 public outreach programs in celebration of National Chemistry Week
 (October of each year). We usually support a community access TV
