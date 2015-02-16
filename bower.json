@@ -17,7 +17,7 @@
     ],
     "dependencies": {
 	"bootstrap": ">=3.1",
-	"less": ">=1.7",
+	"less": "~=1.7",
 	"respond": ">=1.4.2"
     }
 }
