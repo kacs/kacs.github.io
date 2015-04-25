@@ -1,9 +1,17 @@
 ---
-title: Past Events
+title: Events
 layout: page
 ---
 
 <h1>KACS Events</h1>
+
+<p>
+  <img src="http://jglcrm2015.com/images/favicon.png" />
+  Join us at the 2015 <a href="http://jglcrm2015.com" title="JGLCRM Homepage">
+    Joint Great Lakes/Central Regional Meeting</a>
+  in Grand Rapids MI from 27-30 May 2015.
+</p>
+
 {% for event in site.categories.event %}
 {% capture post_year %}{{ event.date | date: "%Y"}}{% endcapture %}
 {% if post_year != curr_year %}
