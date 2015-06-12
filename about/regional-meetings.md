@@ -47,20 +47,22 @@ Our Kalamazoo Section hosted its first Great Lakes Regional meeting
 Chairman; our second meeting was also on the WMU campus under the
 General Chairmanship of Lydia Hines in 1984 – it was a Joint Meeting
 with the Western Michigan Section (Central Region); we have since
-co-hosted two more Joint Meetings, in 1994 with the Huron Valley
+co-hosted three more Joint Meetings: in 1994 with the Huron Valley
 Section (Central Region) in Ann Arbor (Jed Fisher was our
-representative program co-chair) and in 2001 with the Western Michigan
+representative program co-chair); in 2001 with the Western Michigan
 Section (Central Region) in Grand Rapids (Brian Stockman was our
-representative general co-chair).
+representative general co-chair); and in 2015 with the Western
+Michigan Section (Central Region) in Grand Rapids (Lydia E. M. Hines
+was our representative General co-chair).
 
 The GLR was the last to become incorporated, in 2009 at the GLR
 Meeting in Chicago. In an effort to maintain a schedule of annual
 Regional Meetings, our Region’s Board of Directors (one representative
-from each Local Section in the GLR – KACS’s representative for the
-last 27 years has been Lydia Hines) is considering assigning Sections,
-based on size and location so as to distribute the responsibility
-equitably, to act as hosts or co-hosts for a Regional Meeting. [KACS
-has been tentatively assigned to act as host (or co-host) in 2017].
+from each Local Section in the GLR &ndash; KACS's representative for
+the last 30 years has been Lydia Hines, who was elected chair of the
+region in 2015) is considering assigning Sections, based on size and
+location so as to distribute the responsibility equitably, to act as
+hosts or co-hosts for a Regional Meeting.
 
 Support of Regional Meetings by our attendance and/or hosting or
 co-hosting is very important if this more intimate venue of networking
