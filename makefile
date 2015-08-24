@@ -1,4 +1,4 @@
-REMOTE=kalamba7@kalamazooacs.org:/home1/kalamba7/public_html/
+REMOTE=mwolf@simon.artiosonline.com:/srv/kacs/
 CONFIG=_config.yml,_config-deploy.yml
 BUILD=jekyll build --config $(CONFIG)
 

@@ -3,7 +3,7 @@
 /* Global body styles */
 body {
     /* Trigger Unicode support to IE */
-    font-family: "Arial Unicode MS", "Lucida Sans Unicode", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Arial Unicode MS", "Lucida Sans Unicode", Arial, sans-serif;
 }
 
 /* Global list style */
@@ -39,14 +39,18 @@ ul {
     p {
 	font-size: small;
     }
-    .logo {
+    .section-logo,
+    .acs-logo {
+	img {.img-responsive();}
+    }
+    .section-logo {
+	.make-md-column(2);
+    }
+    .acs-logo {
 	.make-md-column(3);
-	img {
-	    .img-responsive();
-	}
     }
     .info {
-	.make-md-column(9);
+	.make-md-column(7);
     }
     .title,.mission {
 	text-align: justify;

@@ -1,7 +1,7 @@
 ---
 layout: about_page
 category: councilor-report
-name: Fall ACS National Meeting
+name: Spring ACS National Meeting
 location: Denver, Colorado
 dates: 2015-03-22 to 2015-03-26
 ---
