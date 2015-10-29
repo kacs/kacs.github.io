@@ -411,6 +411,9 @@ blockquote {
 	text-align: left;
 	font-size: 90%;
     }
+    img.img-default {
+	background: red;
+    }
     img:not(.img-default) {
 	.img-responsive();
 	.img-thumbnail;
@@ -452,10 +455,6 @@ blockquote {
     }
     .comments-photo {
 	.make-md-column(4);
-	img {
-	    .img-responsive();
-	    .img-thumbnail
-	}
      }
 }
 .report {
@@ -471,6 +470,14 @@ blockquote {
 	    list-style-type: none;
 	}
     }
+}
+
+.rainbow {
+    font-weight: bold;
+    /* Color gradient (webkit only) */
+    background: -webkit-linear-gradient(rgb(255, 0, 0), rgb(0, 255, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 #white-lecture-donors {
