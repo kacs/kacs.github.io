@@ -16,10 +16,9 @@
       <div class="newsletter-container">
 	<h1>{{ page.date | date: "%B %Y" }} Newsletter</h1>
 	<p class="pdf-link">
-	  <span class="glyphicon glyphicon-print"></span>
-	  Prefer to view this newsletter as a printable PDF? Download it
 	  <a href="{{ site.baseurl }}/newsletters/{{ page.date | date: "kacs-newsletter-%Y-%m-%d.pdf" }}">
-	    here</a>
+	    <span class="glyphicon glyphicon-file"></span>
+	    Download PDF</a>
 	  {% if page.pdf-size %}({{ page.pdf-size }}){% endif %}
 	</p>
 	<div class="newsletter-content" year="{{ page.date | date: "%Y" }}">
