@@ -16,12 +16,14 @@ layout: about_page
 	<a href="mailto:{{ page.email }}" title="E-mail {{ page.title }}">
 	  {{ page.email }}</a>
       </dd>
+      {% for line in page.address %}
+      {% if forloop.first %}
       <dt>Address:</dt>
+      {% endif %}
       <dd>
-	{% for line in page.address %}
-	{{ line }}<br />
-	{% endfor %}
+	{{ line }}
       </dd>
+      {% endfor %}
       <dt>Phone:</dt>
       <dd>{{ page.phone }}</dd>
     </dl>
