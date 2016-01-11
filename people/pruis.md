@@ -1,5 +1,5 @@
 ---
-title: "Chris Pruis"
+title: "Dr. Chris Pruis"
 position: "Communications Chair"
 email: "chrispruis@icloud.com"
 address: []
