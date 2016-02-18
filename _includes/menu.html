@@ -18,7 +18,7 @@
   <!-- Actual menu items -->
   <div class="collapse navbar-collapse navbar-ex1-collapse">
     <ul class="nav navbar-nav">
-      {% if num_parts == 2 %}
+      {% if num_parts == 0 %}
       <li class="active">
       {% else %}
       <li>
@@ -46,7 +46,7 @@
 	<a href="{{ site.baseurl }}{{ newsletter.url }}">Newsletters</a>
       </li>
       <!-- About us -->
-      {% if url_parts[1] == 'about' or url_parts[1] == 'minutes' or url_parts[1] == 'people' %}
+      {% if url_parts[1] == 'about' or url_parts[1] == 'minutes' or url_parts[1] == 'people'  or url_parts[1] == 'jobs' %}
       <li class="active">
       {% else %}
       <li>
