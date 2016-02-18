@@ -1,10 +1,10 @@
 ---
-title: "Chris Pruis"
+title: "Dr. Chris Pruis"
 position: "Communications Chair"
 email: "chrispruis@icloud.com"
 address: []
-phone: ""
-headshot: "/images/logos/acs.png"
+phone: "269 352-8267"
+headshot: "/images/people/pruis.jpg"
 layout: people
 ---
 
