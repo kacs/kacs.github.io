@@ -1,3 +1,5 @@
+{% assign url_parts = page.url | split: '/' %}
+
 <div class="sidebar-nav">
   <h1>About Us</h1>
   <ul>
@@ -26,8 +28,7 @@
 	Jobs/ChemAble
       </a>
     </li>
-
-    {% if page.url == '/about/officers.html' %}
+    {% if page.url == '/about/officers.html' or url_parts[1] == 'people' %}
     <li class="active">
     {% else %}
     <li>

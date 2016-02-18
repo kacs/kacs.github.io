@@ -13,14 +13,6 @@ contact details") to indicate your interest.
 
 Some specific volunteer needs are listed below.
 
-**Communications Chair:** Our communications chair will be vacant as
-  of January 2016.  After five years, our current chair is stepping
-  down, and now would be the perfect time to step in and learn the
-  ropes!  Time commitment is small, but the impact can be great. If
-  you have a passion for chemistry and want to engage with the
-  community to help advance chemistry education in our area, why not
-  nominate yourself by contacting [Brian Eklov](/people/eklov.html).
-
 **National Chemistry Week (NCW) Committee:** This team coordinates our
 public outreach programs in celebration of National Chemistry Week
 (October of each year). We usually support a community access TV

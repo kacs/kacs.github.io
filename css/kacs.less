@@ -411,9 +411,6 @@ blockquote {
 	text-align: left;
 	font-size: 90%;
     }
-    img.img-default {
-	background: red;
-    }
     img:not(.img-default) {
 	.img-responsive();
 	.img-thumbnail;
@@ -423,7 +420,7 @@ blockquote {
 	font-size: 30px;
 	padding: 5px;
     }
-    .h1-color(@primary-color: rgb(200, 200, 200); @secondary-color: rgba(230, 230, 230)) {
+    .h1-color(@primary-color: rgb(200, 200, 200); @secondary-color: rgb(230, 230, 230)) {
     	background: @secondary-color; /* default: grey */
 	border-color: @primary-color; /* grey */
 	border-image: linear-gradient(@primary-color, @secondary-color);
@@ -445,6 +442,11 @@ blockquote {
     }
     &[year="2015"] h1 {
 	.h1-color(rgb(150, 79, 76); rgba(150, 79, 76, 0.2)); /* Marsala */
+    }
+    &[year="2016"] h1 {
+	/* Rose Quartz and Serenity */
+	background-image: linear-gradient(rgba(255, 182, 190, 0.3),
+					  rgba(142, 166, 208, 0.3));
     }
 }
 
