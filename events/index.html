@@ -12,6 +12,7 @@ layout: page
 <!--   in Grand Rapids MI from 27-30 May 2015. -->
 <!-- </p> -->
 
+
 {% for event in site.categories.event %}
 {% capture post_year %}{{ event.date | date: "%Y"}}{% endcapture %}
 {% if post_year != curr_year %}

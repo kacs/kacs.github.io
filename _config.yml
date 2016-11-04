@@ -23,6 +23,9 @@ device: md
 # Serve dynamic or pre-compiled content
 debug: 'true'
 
+# Make sure future posts and events are presented
+future: true
+
 # Name of current KACS chair
 chair: Brian Eklov
 
