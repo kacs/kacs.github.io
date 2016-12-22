@@ -16,68 +16,50 @@ layout: page
 	  <li data-target="#main-carousel" data-slide-to="1"></li>
 	  <li data-target="#main-carousel" data-slide-to="2"></li>
 	  <li data-target="#main-carousel" data-slide-to="3"></li>
-	  <li data-target="#main-carousel" data-slide-to="4"></li>
-	  <li data-target="#main-carousel" data-slide-to="5"></li>
 	</ol>
 
 	<!-- Wrapper for slides -->
 	<div class="carousel-inner">
 	  <div class="item active">
-	    <a href="/event/2015/10/17/chemistry-day-at-the-museum.html"
-	       title="NCW report">
-	      <img src="/images/ncw-2015/green-slime-horizontal.jpg" />
+	    <a href="/event/2017/02/23/anniversary-celebration.html"
+	       title="75th Anniversary Celebration">
+	      <img src="/images/events/air-zoo-2017/SR-71.jpg" />
 	    </a>
 	    <div class="carousel-caption">
-	      29<sup>th</sup><em>Chemistry Day at the Museum</em>
+	      Join us on <strong>Thursday 23 Febraury</strong> for our
+	      Section's <strong>75<sup>th</sup> Anniversary
+	      Celebration</strong> at the Air Zoo!
 	    </div>
 	  </div>
 	  <div class="item">
-	    <a href="http://jglcrm2015.com">
-	      <img src="/images/events/jglcrm-marquee.jpg" />
+	    <a href="/event/2016/11/15/scimix-poster-session.html">
+	      <img src="/images/events/scimix-2016/posters-7.jpg" />
 	    </a>
 	    <div class="carousel-caption">
-	      The Joint Great-Lakes/Central Regional Meeting has come
-	      to a successful close.
+	      Local chemists mingled and learned about drug
+	      discovery and development during the
+	      <strong>Sci-Mix Sustainable Science Poster Session </strong> at
+	      Bell's Eccentric Caf&eacute;.
 	    </div>
 	  </div>
 	  <div class="item">
-	    <a href="/event/2014/11/05/scimix-poster-session.html">
-	      <img src="/images/scimix/scimix-2014-4.jpg" />
+	    <a href="/event/2016/10/08/chemistry-day-at-the-museum.html">
+	      <img src="/images/ncw-2016/ncw-4.jpg" />
 	    </a>
 	    <div class="carousel-caption">
-	      Local chemists mingling and learning at the
-	      <strong>Sustainable Science Poster Session </strong> at
-	      Bell's Eccentric Caf&eacute;
+	      60 volunteers hosted <strong>over 700 science
+	      lovers</strong> for <em>Science Day at the Kalamazoo
+	      Valley Museum</em>.
 	    </div>
 	  </div>
 	  <div class="item">
-	    <a href="/awards/chemluminary-2014.html">
-	      <img src="/images/awards/chemluminary-2014-1.jpg" />
+	    <a href="/event/2016/05/14/journeyman-distillery.html">
+	      <img src="/images/events/journeyman-distillery/journeyman1.jpg" />
 	    </a>
 	    <div class="carousel-caption">
-	      <span class="chemluminary-icon"></span>
-	      Our section won not one but <strong>two ChemLuminary
-	      awards</strong>: <em>Outstanding Local Section Industry
-	      Event</em> and <em>Best New Public Relations Program of
-	      a Local Section</em>.
-	    </div>
-	  </div>
-	  <div class="item">
-	    <a href="/event/2014/05/12/awards-gathering.html">
-	      <img src="/images/events/awards-ceremony-2014/scholarship-winners.jpg" />
-	    </a>
-	    <div class="carousel-caption">
-	      The 2014 Awards Gathering honors the best in Kalamazoo
-	      chemistry, both past and future.
-	    </div>
-	  </div>
-	  <div class="item">
-	    <a href="{{ site.baseurl }}/event/2014/01/29/molecules-in-nutrition.html">
-	      <img src="{{ site.baseurl }}/images/food-event-2014/audience.jpg" />
-	    </a>
-	    <div class="carousel-caption">
-	      &ldquo;Sense-ational Molecules in Nutrition&rdquo;
-	      brought the best of the chemistry and culinary worlds together.
+	      KACS members and guests <strong>tour Journeyman
+	      Distillery</strong> as part of our Science Caf&eacute;
+	      Field Trip.
 	    </div>
 	  </div>
 	</div>
@@ -107,6 +89,33 @@ layout: page
       </p>
       {{ newsletter.excerpt }}
 
+      <!-- Upcoming events -->
+      <!-- Check if there are any events -->
+      {% assign events = false %}
+      {% for event in site.categories.event %}
+      {% if event.date > site.time %}
+      {% assign events = true %}
+      {% endif %}
+      {% endfor %}
+      <!-- Post the events if they exist -->
+      {% if events %}
+      <hr />
+      <h2>
+	<a href="/events/" title="KACS events listing">Upcoming Events</a>
+      </h2>
+      <ul>
+	{% for event in site.categories.event %}
+	{% if event.date > site.time %}
+	<li>
+	  <a href="{{ event.url }}">
+	    {{ event.heading }} ({{ event.date | date: "%Y-%m-%d" }})
+	  </a>
+	</li>
+	{% endif %}
+	{% endfor %}
+      </ul>
+      {% endif %}
+
     </div><!-- /.announcements -->
 
   </div>
@@ -114,49 +123,66 @@ layout: page
   <hr />
 
   <div class="newsblock">
+    <h1>Join us for our Section's 75<sup>th</sup> Anniversary Celebration!</h1>
     <div class="row">
+      <div class="col-md-3">
+	<img src="/images/events/air-zoo-2017/SR-71.jpg" alt="SR-71 Blackbird"
+	     class="img-responsive img-thumbnail">
+      </div>
       <div class="col-md-9">
-	<h1><a href="/event/2016/11/15/scimix-poster-session.html">
-	Upcoming Event: Sci-Mix Poster Session</a></h1>
-	<p>Tuesday 15 November</p>
 	<p>
-	  Undergraduate and graduate students are encouraged to
-	  participate. Your poster can either be newly prepared or a
-	  recycled poster. Also featuring <strong>keynote speaker Tom
-	  L. McTier</strong> who will discuss
-	  the <em><strong>Discovery and Development of
-	  Simparica<sup>&reg;</sup></strong></em>, a novel companion
-	  animal isoxazoline parasiticide. For more information, see
-	  our
-	  <a href="/event/2016/11/15/scimix-poster-session.html">event
-	    page</a>.
+	  Our Kalamazoo Section of the American Chemical Society
+	  (KACS) will be celebrating its 75th anniversary with a
+	  dinner event on the main floor of the Air Zoo on the evening
+	  of <strong>Thursday 23 February</strong> 2017, from 6-9:30
+	  pm.
+	</p>
+	<p>
+	  We will have time to socialize, reminisce, celebrate our
+	  accomplishments, enjoy dinner, and be treated to a
+	  presentation on the SR-71. The Executive Director of the ACS
+	  will join our celebration, and we will have access to four
+	  of the Air Zoo's event experiences (including the simulators
+	  and the 4-D theater) for those who would like to take
+	  advantage of them!
+	</p>
+	<p>
+	  <a href="/event/2017/02/23/anniversary-celebration.html"
+	     title="Event page for the anniversary celebration">
+	    Read more
+	  </a>
 	</p>
       </div>
-      <div class="col-md-3">
-	<img src="/images/people/mctier.jpg" class="img-responsive"
-	     alt="Tom McTier headshot" />
-      </div>
-    </div>
-  </div>
+    </div><!-- /.row -->
+  </div><!-- /.newsblock -->
 
   <hr />
 
   <div class="newsblock">
-    <h1>Job Openings at Albemarle</h1>
-    <p>
-      For more information, see <a href="/jobs/#albemarle" title="KACS Jobs listing">our "Jobs" page</a>.
-    </p>
-
-    <p>
-      Albemarle is seeking a program manager and an R&amp;T Chemist
-      for their South Haven site that specializes in the manufacture
-      of active pharmaceutical ingredients.
-    </p>
-
-    <a href="https://albemarle.wd5.myworkdayjobs.com/en-US/External/job/South-Haven-Plant-MI-USA/Program-Manager_REQ-000640-1"
-       title="Kalsec employement portal" class="btn btn-primary">
-      Apply now
-    </a>
+    <div class="row">
+      <div class="col-md-9">
+	<h1><a href="/event/2016/11/15/scimix-poster-session.html">
+	    Recent Event: Sci-Mix Poster Session</a></h1>
+	<p>Tuesday 15 November</p>
+	<p>
+	  KACS hosted its annual poster session titled <em>Sustainable
+	    Science – Recycle a Poster</em> at Bell's Eccentric
+	    Caf&eacute; in downtown Kalamazoo on Nov. 15, 2016. For
+	    the 6th year in a row, KACS organized this public event,
+	    which was made possible through a generous grant from
+	    Zoetis. As before, there were many research posters in
+	    addition to a keynote speaker. <strong>Over 110 people
+	    attended</strong> this social gathering; 49% of the
+	    attendees were ACS members.
+	</p>
+	<p>
+	  <a href="/event/2016/11/15/scimix-poster-session.html">Read more</a>
+      </div>
+      <div class="col-md-3">
+	<img src="/images/people/mctier.jpg" class="img-responsive img-thumbnail"
+	     alt="Tom McTier headshot" />
+      </div>
+    </div>
   </div>
 
   <hr />
@@ -171,89 +197,6 @@ layout: page
 	Chris Pruis</a> as our new communcations chair.
     </p>
   </div>
-
-  <hr />
-
-  <!-- <h2>Upcoming KACS Events</h2> -->
-  <!-- <ul> -->
-
-  <!-- </ul> -->
-
-  <!-- <hr /> -->
-  <div class="newsblock">
-
-    <h2>Recent KACS Events</h2>
-
-    <ul>
-      <li>
-        <h4>
-	  <a href="/event/2015/11/03/frontiers-lecture.html"
-	     title="Event page for this lecture">
-	    Frontiers in Chemistry Lectureship
-	  </a>
-	</h4>
-      <p>
-	Tuesday 3 November 2015 at 4:00pm
-      </p>
-      <p>
-	C&ndash;H Borylations: Green Chemistry that Inspired Green Ambitions
-      </p>
-
-      </li>
-      <li>
-	<h4>
-	  <a href="/event/2015/11/10/scimix-poster-session.html"
-	     title="Sci-mix event page">
-	    Sci-Mix Poster Session
-	  </a>
-	</h4>
-	<p>10 November 2015</p>
-      </li>
-
-      <li>
-	<h4>
-	  <a href="/event/2015/11/03/frontiers-lecture.html"
-	     title="Lecture event page">
-	    Frontiers in Chemistry Lectureship
-	  </a>
-	</h4>
-	<p>3 November 2015</p>
-      </li>
-
-      <li>
-	<h4>
-	  <a href="http://jglcrm2015.com"
-	     title="JGLCRM website">
-	    Joint Great-Lakes/Central Regional Meeting
-	  </a>
-	</h4>
-	<p>27-30 May 2015</p>
-      </li>
-
-      <li>
-	<h4>
-	  <a href="/event/2015/05/11/awards-gathering.html"
-	     title="List of award recipients">
-	    Annual Awards Gathering
-	  </a>
-	</h4>
-	<p>11 May 2015</p>
-      </li>
-
-    </ul>
-  </div>
-
-  <hr />
-
-  <!-- <h2>Special Announcements:</h2> -->
-
-  <!-- <hr /> -->
-
-  <p>
-    Want to learn more about the new ACS CEO and Executive Director
-    Thomas M. Connelly? Read his
-    <a href="http://cen.acs.org/articles/93/i15/Greetings-ACSs-New-CEO-s.html" title="ACS CEO Welcome letter">welcome letter</a>.
-  </p>
 
   <hr />
 

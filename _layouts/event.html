@@ -15,6 +15,14 @@
     <div class="col-{{ site.device }}-12">
       <h1>{{ page.heading }}</h1>
       <h4 class="event-date">{{ page.date | date: "%A %d %B %Y" }}</h4>
+      {% if page.date < site.time %}
+      <!-- Notify the user that this event has already happened -->
+      <div class="alert alert-warning">
+	<strong>This event has already taken place</strong>. For a
+	list of upcoming events, see our
+	<a href="/events/" title="KACS events listing">events page</a>.
+      </div>
+      {% endif %} 
       {% include share-buttons.html %}
       {% if page.author.size == 1 %}
       <h4>By <em>{{ page.author }}</em></h4>

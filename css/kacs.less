@@ -417,6 +417,13 @@ blockquote {
 	.pull-right;
     }
 }
+.thumbnail-images {
+    img:not(.img-default) {
+	.img-responsive();
+	.img-thumbnail;
+	border-style: solid
+    }
+}
 .newsletter-content {
     p {
 	text-align: justify;
@@ -425,11 +432,7 @@ blockquote {
 	text-align: left;
 	font-size: 90%;
     }
-    img:not(.img-default) {
-	.img-responsive();
-	.img-thumbnail;
-	border-style: solid
-    }
+    .thumbnail-images;
     h1 {
 	font-size: 30px;
 	padding: 5px;
