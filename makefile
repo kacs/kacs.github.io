@@ -1,6 +1,7 @@
 REMOTE=mwolf@simon.artiosonline.com:/srv/kacs/
 CONFIG=_config.yml,_config-deploy.yml
-BUILD=jekyll build --config $(CONFIG)
+# BUILD=jekyll build --config $(CONFIG)
+BUILD=bundle exec jekyll build --config $(CONFIG)
 
 all: css/kacs.css
 	$(BUILD)
