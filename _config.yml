@@ -1,5 +1,4 @@
 name: Kalamazoo ACS
-# markdown: redcarpet
 highlight: pygments
 excerpt_separator: <!-- more -->
 
@@ -27,9 +26,9 @@ debug: 'true'
 future: true
 
 # Name of current KACS chair
-chair: Brian Eklov
+chair: Steve Secreast
 
 # General inquiries e-mail address
-email: ACSkzoo@gmail.com
+email: chair@kalamazooacs.org
 # webmaster e-mail address
 webmaster: webmaster@kalamazooacs.org

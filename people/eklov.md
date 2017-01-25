@@ -1,6 +1,6 @@
 ---
 title: "Dr. Brian Eklov"
-position: "Chairperson"
+position: "Past Chairperson"
 email: "brian@eklov.org"
 address: ["Kalexsyn, Inc.", "4502 Campus Dr", "Kalamazoo MI 49008"]
 phone: "269-488-8469"
