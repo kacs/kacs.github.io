@@ -1,7 +1,7 @@
 ---
 layout: about_page
 category: councilor-report
-name: Spring ACS National Meeting
+name: Fall ACS National Meeting
 location: Philadelphia, Pennsylvania
 dates: 2016-08-21 to 2016-08-25
 ---
