@@ -11,7 +11,7 @@ css/kacs.css: css/kacs.less
 	lessc --verbose --clean-css css/kacs.less css/kacs.css
 
 deploy: all
-	rsync -alvz --del _site/ $(REMOTE)
+	rsync -rlvz --del _site/ $(REMOTE)
 
 serve: css/kacs.css
 	$(JEKYLL) serve --watch
