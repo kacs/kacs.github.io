@@ -1,4 +1,5 @@
 name: Kalamazoo ACS
+markdown: kramdown
 highlight: pygments
 excerpt_separator: <!-- more -->
 
