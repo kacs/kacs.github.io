@@ -243,7 +243,7 @@ plaque; and **Doug Williams** received the 2016 Volunteer award from
 the Committee on Community Activities for his major role in our 30th
 annual Museum Event.
 
-t was very heartening also to recognize **3 60-year members of ACS -
+It was very heartening also to recognize **3 60-year members of ACS -
 D. C. Wendt, Ray Judy, and Chuck C. Coverdale** - and *6 50-year
 members - John Engelmann, John Greenfield, Mike McCarville, Alan
 Sarapu, Lydia Hines, and Doug Morton** (in absentia); each of them
