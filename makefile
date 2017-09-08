@@ -1,4 +1,4 @@
-REMOTE=mwolf@simon.artiosonline.com:/srv/kacs/
+REMOTE=mwolf@kalamazooacs.org:/srv/kacs/
 CONFIG=_config.yml,_config-deploy.yml
 # BUILD=jekyll build --config $(CONFIG)
 JEKYLL=bundle exec jekyll
