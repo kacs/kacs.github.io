@@ -200,7 +200,6 @@ At the new website you will find:
 
 <h1 id="anniversary">Report KACS' 75th Anniversary Celebration</h1>
 
-
 Our Michigan winter held off for several days in the last week of February so our
 celebration on the 23<sup>rd</sup> of that month was a less harrowing experience than it
 could have been; it was a fantastic one!
