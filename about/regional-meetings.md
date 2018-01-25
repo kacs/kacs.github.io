@@ -1,12 +1,17 @@
 ---
-title: Regional Meetings History – their historical development and importance
+title: Great Lakes Region
 layout: about_page
 ---
 
-Regional Meetings History
-===
-Their Historical Development and Importance
----
+# The Great Lakes Region
+
+The Kalamazoo Section belongs to the Great Lades Region of the ACS;
+for more information and to learn about Regional Meetings please
+**[visit their website](http://greatlakesregionacs.sites.acs.org)**.
+
+## Regional Meetings History
+
+### Their Historical Development and Importance
 
 In the mid-1940s, when travel was a bit more cumbersome than it seems
 to be today, and The War (WWII) interrupted a National Meeting,

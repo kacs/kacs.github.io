@@ -97,7 +97,17 @@
 	Bylaws
       </a>
     </li>
+
+    {% if page.url == '/about/regional-meetings.html' %}
+    <li class="active">
+      {% else %}
+    <li>
+      {% endif %}
+      <a href="{{ site.baseurl }}/about/regional-meetings.html">Great Lakes Region</a>
+    </li>
+
   </ul>
+
 
   <h1>History</h1>
   <ul>
@@ -115,14 +125,6 @@
     <li>
     {% endif %}
       <a href="{{ site.baseurl }}/about/section-award-recipients.html">Section Award Recipients</a>
-    </li>
-
-    {% if page.url == '/about/regional-meetings.html' %}
-    <li class="active">
-    {% else %}
-    <li>
-    {% endif %}
-      <a href="{{ site.baseurl }}/about/regional-meetings.html">Great Lakes Regional Meetings</a>
     </li>
 
     <li>
