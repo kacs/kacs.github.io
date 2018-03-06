@@ -9,7 +9,7 @@ all: css/kacs.css
 
 css/kacs.css: css/kacs.less
 # lessc --verbose --clean-css css/kacs.less css/kacs.css
-	lessc --verbose css/kacs.less css/kacs.css	
+	lessc --verbose --clean-css css/kacs.less css/kacs.css	
 
 deploy: all
 	rsync -rlvz --del _site/ $(REMOTE)
