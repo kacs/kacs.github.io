@@ -87,10 +87,8 @@ year.  This was attributable to strong performance from the Society’s
 Information Service units (CAS and ACS Publications) and a continued
 emphasis on expense management across the ACS.
 
-<!-- Additional information -->
-<!-- can be found at www.acs.org.  At bottom, click ‘About ACS’, then ‘ACS -->
-<!-- Financial Information’.  There you will find several years of the -->
-<!-- Society’s audited financial statements and IRS 990 filings. -->
+Additional information can be found at
+[acs.org](https://www.acs.org/content/acs/en/about/aboutacs/financial.html).
 
 ### Membership
 
