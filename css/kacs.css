@@ -58,6 +58,13 @@
 .student-chapters:after {
   clear: both;
 }
+/* Procedural amendments */
+.amendment .addition {
+  font-weight: bold;
+}
+.amendment .deletion {
+  text-decoration: line-through;
+}
 /* 2019 Historic Landmark Event */
 .landmark-event {
   padding-top: 15px;
