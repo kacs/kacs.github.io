@@ -4,7 +4,6 @@
 }@media (max-width: 767px) {
 }@media (min-width: 768px) {
 }@media (min-width: 768px) {
-}@media (min-width: 768px) {
 }@media (max-width: 767px) {
 }@media (max-width: 767px) {
 }.header:before,
@@ -58,6 +57,19 @@
 .report .options:after,
 .student-chapters:after {
   clear: both;
+}
+/* 2019 Historic Landmark Event */
+.landmark-event {
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-image: url('/images/events/historic-landmark-2019/background.jpg');
+}
+.landmark-event .row {
+  margin-bottom: 20px;
+}
+.landmark-event h2 {
+  margin-top: 5px;
 }
 /* Global body styles */
 body {
@@ -120,7 +132,6 @@ img.beer-logo {
 .header .section-logo img,
 .header .acs-logo img {
   display: block;
-  width: 100% \9;
   max-width: 100%;
   height: auto;
 }
@@ -270,7 +281,6 @@ img.diploma {
 }
 #landing-page .features .announcements img {
   display: block;
-  width: 100% \9;
   max-width: 100%;
   height: auto;
 }
@@ -324,7 +334,7 @@ img.diploma {
     display: block !important;
   }
   table#landing-page .eod-description .chemluminary {
-    display: table;
+    display: table !important;
   }
   tr#landing-page .eod-description .chemluminary {
     display: table-row !important;
@@ -353,7 +363,6 @@ img.diploma {
 }
 #landing-page .eod-photo img {
   display: block;
-  width: 100% \9;
   max-width: 100%;
   height: auto;
 }
@@ -399,7 +408,6 @@ img.diploma {
 }
 #landing-page .current-newsletter .chair-photo img {
   display: block;
-  width: 100% \9;
   max-width: 100%;
   height: auto;
 }
@@ -465,7 +473,6 @@ img.diploma {
 }
 .food-sponsors-secondary img {
   display: block;
-  width: 100% \9;
   max-width: 100%;
   height: auto;
 }
@@ -558,7 +565,6 @@ img.diploma {
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   display: inline-block;
-  width: 100% \9;
   max-width: 100%;
   height: auto;
 }
@@ -613,7 +619,6 @@ img.diploma {
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   display: inline-block;
-  width: 100% \9;
   max-width: 100%;
   height: auto;
 }
@@ -739,7 +744,6 @@ img.diploma {
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   display: inline-block;
-  width: 100% \9;
   max-width: 100%;
   height: auto;
   border-style: solid;
@@ -765,7 +769,6 @@ img.diploma {
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   display: inline-block;
-  width: 100% \9;
   max-width: 100%;
   height: auto;
   border-style: solid;
