@@ -13,6 +13,7 @@ css/kacs.css: css/kacs.less
 
 deploy: all
 	rsync -rlvz --del _site/ $(REMOTE)
+	s3_website push
 
 serve: css/kacs.css
 	$(JEKYLL) serve --watch
