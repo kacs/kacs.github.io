@@ -8,11 +8,9 @@ all: css/kacs.css
 	$(JEKYLL) build --config $(CONFIG)
 
 css/kacs.css: css/kacs.less
-# lessc --verbose --clean-css css/kacs.less css/kacs.css
 	lessc --verbose --clean-css css/kacs.less css/kacs.css	
 
 deploy: all
-	rsync -rlvz --del _site/ $(REMOTE)
 	s3_website push
 
 serve: css/kacs.css
