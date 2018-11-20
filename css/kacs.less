@@ -88,29 +88,44 @@ img.beer-logo {
     p {
 	font-size: small;
     }
-    .section-logo,
     .acs-logo {
+	.make-xs-column(8);
+	.make-sm-column(9);
+	.make-md-column(3);
 	img {.img-responsive();}
     }
     .section-logo {
 	.make-md-column(2);
+	.visible-md-block();
+	.visible-lg-block();
+	img {.img-responsive();}
     }
-    .acs-logo {
-	.make-md-column(3);
+    .section-logo-sm {
+	.hidden-md();
+	.hidden-lg();
+	.make-xs-column(4);
+	.make-sm-column(3);
+	img {
+	    .img-responsive();
+	}
     }
     .info {
 	.make-md-column(7);
-    }
-    .title,.mission {
-	text-align: justify;
-	.make-row();
-	> div {
-	    .make-md-column(12);
+	.title,.mission {
+	    text-align: justify;
+	    .make-row();
+	    > div {
+		.make-md-column(12);
+	    }
+	}
+	.mission {
+	    .hidden-xs();
 	}
     }
-    @media (max-width: @screen-xs-max) {
-	.mission { display: none; }
-    }
+    // @media (max-width: @screen-xs-max) {
+    // 	.mission { display: none; }
+    // 	.section-logo,.acs-logo img { height: 80px; }
+    // }
 }
 /* Copyright and webmaster link */
 .footer {
