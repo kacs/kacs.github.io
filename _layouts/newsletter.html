@@ -12,7 +12,6 @@
     {% include menu.html %}
 
     <div class="row">
-
       <div class="newsletter-container">
 	<h1>{{ page.date | date: "%B %Y" }} Newsletter</h1>
 	<!-- <p class="pdf-link"> -->
@@ -21,7 +20,8 @@
 	<!--     Download PDF</a> -->
 	<!--   (3MB) -->
 	<!-- </p> -->
-	<p class="pdf-link">
+
+	<p class="pdf-link{% if page.disable-pdf %} pdf-link-disabled{% endif %}">
 	  <a href="{{ site.baseurl }}/newsletters/{{ page.date | date: "kacs-newsletter-%Y-%m-%d.pdf" }}">
 	    <span class="glyphicon glyphicon-file"></span>
 	    Download PDF</a>
