@@ -31,13 +31,16 @@ s3_bucket: kalamazooacs.org
 
 # ignore_on_server: that_folder_of_stuff_i_dont_keep_locally
 
-# exclude_from_upload:
-#   - those_folders_of_stuff
-#   - i_wouldnt_want_to_upload
+exclude_from_upload:
+  - bower_components/
+  - Gemfile
+  - Gemfile.lock
+  - bower.json
+
 
 # s3_reduced_redundancy: true
 
-# cloudfront_distribution_id: your-dist-id
+cloudfront_distribution_id: E3ATY536UN7YK9
 
 # cloudfront_distribution_config:
 #   default_cache_behavior:
