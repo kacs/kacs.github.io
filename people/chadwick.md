@@ -1,6 +1,6 @@
 ---
 title: "Lucas R. Chadwick"
-position: "President"
+position: "Chair"
 email: "lchadwick@bellsbeer.com"
 address: ["8938 Krum Ave", "Galesburg, MI 49053"]
 phone: "269-250-8843"
