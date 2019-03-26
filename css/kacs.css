@@ -104,7 +104,6 @@ table .table {
   padding-top: 15px;
   padding-left: 10px;
   padding-right: 10px;
-  background-image: url('/images/events/historic-landmark-2019/background.jpg');
 }
 .landmark-event img {
   display: block;
@@ -133,6 +132,43 @@ table .table {
   .landmark-event .paypal-box {
     float: left;
     width: 41.66666667%;
+  }
+}
+.landmark-event .col-headshot {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 992px) {
+  .landmark-event .col-headshot {
+    float: left;
+    width: 25%;
+  }
+}
+.landmark-event .col-headshot img {
+  padding: 4px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+.landmark-event .col-bio {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 992px) {
+  .landmark-event .col-bio {
+    float: left;
+    width: 75%;
   }
 }
 /* Global body styles */
