@@ -1,7 +1,6 @@
 ---
 title: "Stephen Secreast"
 position: "Chairperson"
-email: "slsecrea1@gmail.com"
 address: ["2267 Benjamin Ave", "Kalamazoo, MI 49008"]
 phone: "269-584-0084"
 headshot: "/images/people/secreast.jpg"

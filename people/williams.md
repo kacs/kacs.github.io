@@ -1,10 +1,10 @@
 ---
 title: "Doug Williams"
 position: ""
-email: "dwilliams@kalsec.com"
+email: ""
 address: []
 phone: ""
-headshot: "/images/people/williams-headshot.jpg"
+headshot: "/images/people/williams-doug-headshot.jpg"
 layout: people
 ---
 
