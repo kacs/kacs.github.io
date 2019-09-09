@@ -6,7 +6,7 @@ location: Boston, Massachusetts
 dates: 2018-08-19 to 2018-08-23
 ---
 
-# 255th ACS National Meeting
+# 256th ACS National Meeting
 
 <p class="author">By Lydia Hines</p>
 
