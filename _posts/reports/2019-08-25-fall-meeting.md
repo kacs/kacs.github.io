@@ -102,3 +102,32 @@ The Board agreed to the appointment of a joint **ACS-SACNAS** task
 force charged with developing additional short-term goals,
 **evaluating continued partnership potential**, and developing
 long-term goals.
+
+FORMS will be used for the 2019 Annual Report due in
+February 2020 but LSAC is looking at changing the Report format
+for 2020 (due in 2021)??? FORMS opens for entering reports on
+November 1.
+
+CCA (Comm on Community Activities) has identified the **2020 CCEW**
+theme as *Protecting our Planet through Chemistry*, the **2020 NCW**
+theme as *Sticking with Chemistry* and the **2021 CCEW** Theme as
+*Reducing our Footprint through Chemistry*.
+
+The Leadership Institute will be from January 24-26, 2020, in Atlanta,
+GA; **$250 stipends will be offered to the first 27 Local Section
+representatives/participants who register to attend the LI**.
+
+*Salutes to Excellence* are to be used to recognize **external**
+outstanding contributions to the Section's programs (this is a change
+being instituted gradually and was **a surprise to most LS
+representatives in attendance** at the joint open meeting of LSAC and
+CCA; refer to the recommendation made in the evaluation of our 2018 AR
+to consider giving this award to our Exam coordinator)
+
+There is a great emphasis being placed on determining how members
+perceive ACS membership value; the Membership Affairs Committee is
+trying to make adjustments to categories of membership and the
+associated costs for said categories.
+
+21% of membership (International members and members in unassigned US
+territories) is not represented on council.
