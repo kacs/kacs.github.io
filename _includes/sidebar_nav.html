@@ -28,6 +28,17 @@
 	Jobs/ChemAble
       </a>
     </li>
+
+    {% if page.url contains '/about/projectseed.html' %}
+    <li class="active">
+    {% else %}
+    <li>
+    {% endif %}
+      <a href="{{ site.baseurl }}/about/projectseed.html/">
+	Project SEED
+      </a>
+    </li>
+    
     {% if page.url == '/about/officers.html' or url_parts[1] == 'people' %}
     <li class="active">
     {% else %}
