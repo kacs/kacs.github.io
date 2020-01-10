@@ -15,10 +15,13 @@
   <!-- Stylesheets -->
 
   {% if site.debug == 'true' %}
-  <link rel="stylesheet" type="text/css"
-	href="{{ site.baseurl }}/bower_components/bootstrap/dist/css/bootstrap.css" />
+  <!-- <link rel="stylesheet" type="text/css" -->
+  <!-- 	href="{{ site.baseurl }}/bower_components/bootstrap/dist/css/bootstrap.css" /> -->
   <link rel="stylesheet/less" type="text/css" href="{{ site.baseurl }}/css/kacs.less" />
-  <script src="{{ site.baseurl }}/bower_components/less/dist/less-1.7.0.js"></script>
+  <!-- <script src="{{ site.baseurl }}/bower_components/less/dist/less-1.7.0.js"></script> -->
+  <link rel="stylesheet" type="text/css"
+	href="{{ site.baseurl }}/node_modules/bootstrap/dist/css/bootstrap.css" />
+  <script src="{{ site.baseurl }}/node_modules/less/dist/less-1.7.0.js"></script>
   {% else %}
   <link rel="stylesheet" type="text/css"
 	href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/css/bootstrap.min.css" />

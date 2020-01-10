@@ -1,0 +1,25 @@
+{
+  "name": "kacs",
+  "version": "1.0.0",
+  "description": "Public website for the Kalamazoo section of the American Chemical Society",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kacs/kacs.github.io.git"
+  },
+  "author": "Mark Wolfman",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/kacs/kacs.github.io/issues"
+  },
+  "homepage": "https://github.com/kacs/kacs.github.io#readme",
+  "devDependencies": {
+    "bootstrap": "^3.4.1",
+    "jquery": "^2.1.0",
+    "less": "^1.7.0",
+    "respond.js": "^1.4.2"
+  }
+}

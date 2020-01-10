@@ -1,8 +1,9 @@
 <!-- Javascript to be loaded at end of body -->
 {% if site.debug == 'true' %}
-<script src="{{ site.baseurl }}/bower_components/respond/src/respond.js"></script>
-<script src="{{ site.baseurl }}/bower_components/jquery/dist/jquery.js"></script>
-<script src="{{ site.baseurl }}/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<!-- <script src="{{ site.baseurl }}/node_modules/respond/src/respond.js"></script> -->
+<script src="{{ site.baseurl }}/node_modules/respond.js/dest/respond.src.js"></script>
+<script src="{{ site.baseurl }}/node_modules/jquery/dist/jquery.js"></script>
+<script src="{{ site.baseurl }}/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 {% else %}
 <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
