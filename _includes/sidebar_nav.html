@@ -29,6 +29,16 @@
       </a>
     </li>
 
+    {% if page.url contains '/about/travel-award/' %}
+    <li class="active">
+    {% else %}
+    <li>
+    {% endif %}
+      <a href="{{ site.baseurl }}/about/travel-award/">
+	Student Travel Award
+      </a>
+    </li>
+
     {% if page.url contains '/about/projectseed.html' %}
     <li class="active">
     {% else %}
