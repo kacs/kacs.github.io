@@ -1,6 +1,6 @@
 ---
 title: "Lucas R. Chadwick"
-position: "Chair"
+position: "Past-chair"
 email: ""
 address: ["8938 Krum Ave", "Galesburg, MI 49053"]
 phone: "269-250-8843"

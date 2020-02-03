@@ -1,6 +1,6 @@
 ---
 title: "Hershel Jude"
-position: "Chair-Elect"
+position: "Chair"
 address: ["PO Box 50511", "Kalamazoo MI 49005-0511"]
 phone: "269-349-9711"
 headshot: "/images/people/jude.jpg"
