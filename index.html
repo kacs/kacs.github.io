@@ -80,10 +80,24 @@ layout: page
       </div><!-- /.carousel -->
     </div>
 
-    {% assign newsletter = site.categories.newsletter.first %}
     <div class="announcements">
 
+      <div class="alert alert-info">
+	<p>
+	  Looking for information on how ACS is responding to the
+	  COVID-19?
+	</p>
+	<p>
+	  Visit the ACS
+	  <a href="https://www.acs.org/content/acs/en/covid-19.html"
+	     title="ACS COVID-19 resources"><strong>efforts and resources page</strong></a>.
+	</p>
+      </div>
+
+      <hr />
+
       <!-- Current newsletter -->
+      {% assign newsletter = site.categories.newsletter.first %}
       <h2>
 	<a href="{{ site.baseurl }}{{ newsletter.url }}">
 	  {{ newsletter.date | date: "%B %Y" }} Newsletter
