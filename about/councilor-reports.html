@@ -5,17 +5,20 @@ layout: about_page
 
 <h1>Councilor Reports</h1>
 
-<ul>
+<table class="table table-striped">
+  <tr>
+    <th>Date</th>
+    <th>Description</th>
+    <th>Location</th>
+  </tr>
   {% for report in site.categories.councilor-report %}
-  <li>
-    <a href="{{ report.url }}">
-      {{ report.date | date: "%Y" }} Councilor Report
-      {% if report.name %}from the {{ report.name }}{% endif %}
-      {% if report.location %}in {{ report.location }}{% endif %}
-    </a>
-  </li>
+  <tr>
+    <td><a href="{{ report.url }}">{{ report.date | date: "%Y" }}</a></td>
+    <td><a href="{{ report.url }}">{% if report.name %}{{ report.name }}{% else %}Councilor report{% endif %}</a></td>
+    <td><a href="{{ report.url }}">{% if report.location %} {{ report.location }}{% endif %}</a></td>
+  </tr>
   {% endfor %}
-</ul>
+</table>
 
 <ul>
   <li>
