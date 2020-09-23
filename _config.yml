@@ -15,7 +15,8 @@ excerpt_separator: <!-- more -->
 # url: http://127.0.0.1:4000
 baseurl: ""
 
-exclude: [makefile, README.md, node_modules/bootstrap/docs]
+include: ["node_modules"]
+exclude: ["makefile", "README.md", "node_modules/bootstrap/docs", "Gemfile", "Gemfile.lock", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/"]
 
 # for bootstrap col-xs-8 style classes
 device: md

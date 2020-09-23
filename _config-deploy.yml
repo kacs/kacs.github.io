@@ -1,2 +1,4 @@
 analytics: true
 debug: 'false'
+
+exclude: ["makefile", "README.md", "node_modules", "Gemfile", "Gemfile.lock", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/"]
