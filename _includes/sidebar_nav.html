@@ -148,6 +148,15 @@
       <a href="{{ site.baseurl }}/about/section-award-recipients.html">Section Award Recipients</a>
     </li>
 
+    {% if page.url == '/about/local-sections.html' %}
+    <li class="active">
+    {% else %}
+    <li>
+    {% endif %}
+      <a href="{{ site.baseurl }}/about/local-sections.html">Local Sections</a>
+    </li>
+
+
     <li>
       <a href="{{ site.baseurl }}/about/kacs1981.pdf">
 	Historical Narrative [PDF]
@@ -168,7 +177,11 @@
       <a href="{{ site.baseurl }}/about/memorials.html">Memorials</a>
     </li>
 
+    {% if page.url contains '/about/archive_holdings.html' %}
+    <li class="active">
+    {% else %}
     <li>
+    {% endif %}
       <a href="{{ site.baseurl }}/about/archive_holdings.html"
 	 title="Historical documents in our archives">Archives
       </a>
